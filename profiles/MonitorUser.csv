@@ -1,0 +1,3 @@
+linkWith,vuProfileName,name,controlFlags,transferToInjector,rank,loadAtRuntime,_id_,metaKey,debugPath
+B,S,S,I,B,I,B,S,S,S
+True,'default','QualitestMonitoring.dll',0,True,0,True,'2e6a5378-d03a-4444-b7da-8ef4186b57bc','VUProfileFile','QualitestMonitoring.dll'

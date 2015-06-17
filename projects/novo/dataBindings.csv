@@ -1,0 +1,4 @@
+isTest,propertyDicts,name,testName,metaKey,_id_,dataDictionary,paramsPrecedence
+B,MMS,S,S,S,S,MS,LS
+False,{web:{-SSLrenegotiateTime:'120';-addDynatraceHeaders:'False';-connectRetries:'3';-cookieSupport:'true';-dataRate:'0';-deflate:'true';-includeQueryDataInRequest:'False';-networkErrors:'5';-subRequestThreadCount:'6';-timings:'False';-webConnTimeout:'30';-webIterationsToKeep:'2';-webLogDetails:'0';-webLogProportion:'100';-webRcvTimeout:'120';-winhttp:'true';-winhttpSSL:'true';-wininet:'false';-wininetSSL:'false'}},'scratch','scratch','DataBinding','5e6cda4f-e18c-49b2-b816-3897d92db2e6',{},[]
+True,{},'$$scratch$$','scratch','DataBinding','f6394455-c29a-4af8-a5ca-8c7716b9fc60',{},[]

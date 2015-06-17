@@ -1,0 +1,41 @@
+<!-- Playback trace created on 06/17/15 09:25:41-->
+<trace version="1.0" recorder="Playback">
+<startusertransaction id="one"/>
+<startusertransaction id="010_homepage"/>
+<call index=55 length="0">
+10:25:41.369: elapsed="195",channel="1",port="0"
+http://www.unilever.com 80
+GET http://www.unilever.com/ HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB
+Connection: Keep-Alive
+Dnt: 1
+Host: www.unilever.com
+Referer: http://www.unilever.com/
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Connection: keep-alive
+Date: Wed, 17 Jun 2015 08:25:41 GMT
+Pragma: no-cache
+Content-Length: 11743
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Expires: -1
+Server: Microsoft-IIS/7.0
+Vary: Accept-Encoding
+X-Server-Name: ce06pw21
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+
+
+</responseheaders>
+<data name="content\55_.txt" bytes=71606 size=71606/>
+</call>
+

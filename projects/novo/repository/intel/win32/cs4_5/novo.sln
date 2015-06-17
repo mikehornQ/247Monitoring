@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "novo", "C:\Workspaces\247 Monitoring\projects\novo\repository\intel\win32\cs4_5\novo.csproj", "{92DEDFFC-3CB3-4AF1-95EA-7286613125CC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6218EE93-33EF-4B2E-B95F-0CF6F3EAFA61} = {6218EE93-33EF-4B2E-B95F-0CF6F3EAFA61}
+	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "247 Monitoring", "C:\Workspaces\247 Monitoring\repository\intel\win32\cs4_5\247 Monitoring.csproj", "{6218EE93-33EF-4B2E-B95F-0CF6F3EAFA61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92DEDFFC-3CB3-4AF1-95EA-7286613125CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92DEDFFC-3CB3-4AF1-95EA-7286613125CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92DEDFFC-3CB3-4AF1-95EA-7286613125CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92DEDFFC-3CB3-4AF1-95EA-7286613125CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6218EE93-33EF-4B2E-B95F-0CF6F3EAFA61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6218EE93-33EF-4B2E-B95F-0CF6F3EAFA61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6218EE93-33EF-4B2E-B95F-0CF6F3EAFA61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6218EE93-33EF-4B2E-B95F-0CF6F3EAFA61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

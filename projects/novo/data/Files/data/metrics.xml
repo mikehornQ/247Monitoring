@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<groups>
+  <group>
+    <groupname>Windows 2008 Servers</groupname>
+	<category>
+	  <categoryname>Memory</categoryname>
+      <instance>
+	    <instancename></instancename>
+        <counters>
+          <counter>
+		    <countername>Available KBytes</countername>
+            <operator>GT</operator>
+            <threshold>75</threshold>
+          </counter>
+        </counters>
+      </instance>
+    </category>
+    <category>
+  	  <categoryname>Processor Information</categoryname>
+      <instance>
+	    <instancename>_Total</instancename>        
+        <counters>
+          <counter>
+  		    <countername>% Processor Time</countername>
+            <operator>GT</operator>
+            <threshold>60</threshold>
+          </counter>
+        </counters>
+      </instance>
+    </category>    
+  </group>
+  <group>
+    <groupname>ePP Metrics</groupname>
+    <category>
+	  <categoryname></categoryname>      
+      <instance>
+	    <instancename></instancename>
+        <counters>
+          <counter>
+		    <countername>Transaction Response Time</countername>            
+            <operator>GT</operator>
+            <threshold>7</threshold>
+          </counter>
+        </counters>
+      </instance>
+    </category>
+  </group>
+</groups>

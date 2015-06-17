@@ -1,0 +1,2027 @@
+﻿<!-- Proxy recorder trace created on 16/06/2015 12:12:39 -->
+<trace version="3.0" recorder="eggPlant Performance Proxy Recorder 6.0.0.169">
+<startusertransaction id="Start",snapshot="fc_snapshots\snapshot1.png"/>
+
+<call index=1 length="885">
+12:12:56.985: elapsed="688",channel="1",port="62548"
+https://by3301.storage.live.com 443
+POST https://by3301.storage.live.com/mydata/windows/settings?SyncToken=LM%3d63570039807107%3bID%3dEB10CCFCA857F043!108%3bLR%3d63570042848847%3bEP%3d4%3bTD%3dTrue%3bSO%3d0&View=WindowsSettings HTTP/1.1
+<requestheaders>
+Accept: application/web3s+xml
+Accept-Encoding: gzip
+Authorization: WLID1.1 t=EwAIAjP4AAAUioUFFjFuhEFWY+3MDKhBqAKDA9WAAKna9tP95cN+Q7y6QqLvZGXnsKkpix6lV7OzMXVY/V22qkBkR7sO876Vf/wBF75VBgcVPlmcZEI0sAwAxH0644Gw7MkQPWIWihBs3/0Euq5o41CqLh2U4V5f2PRR00AYsjwK7F99iugbaJeb1/ABrymhB7YG0qJcNydCQic25oy7A2YAAAi53X3VKfrx91gBgFvqPvPEWXlrPOcaUbm3sMSPy/W5wInXi2Z/LyJjhMttvz3vfsPeyvngI7H3S+nll2ACDVDHzdyd8P95nioJ4W6o1pL66kawajFtQBOf7RSIRt75Mkrah1GFgoaCqlDieAu0sD9EHBZ4noJukEB4JY2kTZib1MZPnORCLx8BSDCgOjUWt9oYMoe1U77InSpfFhAlCKq55AsMqoJ/KH4wRXSz/cxcnsdhCRxmFcW0m3gjUA5Ka9QXwrRLDiJ4uQ/C6HTuPuiNhVHu3iezRr+vnImAu4oZpgacLgwrC53PD9gcdO1nF81krsAX1nOBamPLG5G4WnkA434pOVt8qE+Y8yjpW0kvWZJ3Ok1elfUfRhNX72D1cAm9UQdhJQ/brk5Ul2eoATFl/mS3hStyZAeZS8bDZpDkjIpMV+aqqUFt9bOFzmdCfibXLhZp6m4UfXB86lJNU3vamjeYAQ==&p=
+X-Scenario: SettingsSync_Upload
+X-RequestStats: ClientThrottled=;LastSyncTime=30451725:3055570884
+Content-Type: multipart/related;boundary="{20B6F93C-8D1A-485C-AE72-3FCB8F502760}"
+X-SubscriptionIdToNotNotify: WLS_SubscriptionId_AB35B646-DA31-4A0F-AC4A-2BC054D4FDDA
+X-TransactionId: WindowsSettings.1F568EDB-D198-4C80-A47B-835572E846A0
+Application: SettingsSync Windows 6.3
+X-UserAgent: Microsoft SettingsSync (6.3.9600.17415) Windows NT 6.3 (0603) Mobile IsNotAoAc
+Content-Encoding: gzip
+User-Agent: Microsoft SettingsSync (6.3.9600.17415) Windows NT 6.3 (0603) Mobile IsNotAoAc
+Host: by3301.storage.live.com
+Content-Length: 885
+Cache-Control: no-cache
+</requestheaders>
+<postdata length=1350 data="\Responses\1dataFile_postData">
+</postdata>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Length: 360
+Content-Encoding: gzip
+Server: Microsoft-IIS/8.5
+P3P: CP="BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo"
+X-MSNSERVER: BY3301____PAP073
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-SyncToken: LM%3d63570049980773%3bID%3dEB10CCFCA857F043!108%3bLR%3d63570042848847%3bEP%3d4%3bTD%3dTrue%3bSO%3d0
+X-AsmVersion: UNKNOWN; 19.21.0.0
+X-MSEdge-Ref: Ref A: 94D4995BA99F451CA6CB797439A4E2BD Ref B: 7255451ADB9BD83127C0A2DE6BDDA005 Ref C: Tue Jun 16 04:13:00 2015 PST
+Date: Tue, 16 Jun 2015 11:12:59 GMT
+</responseheaders>
+<data name="\Responses\2dataFile.txt" bytes=360 size=740/>
+</call>
+
+<call index=2 length="1217">
+12:12:57.939: elapsed="400",channel="1",port="62548"
+https://by3301.storage.live.com 443
+POST https://by3301.storage.live.com/mydata/windows/settings?SyncToken=LM%3d63570049980773%3bID%3dEB10CCFCA857F043!108%3bLR%3d63570042848847%3bEP%3d4%3bTD%3dTrue%3bSO%3d0&View=WindowsSettings HTTP/1.1
+<requestheaders>
+Accept: application/web3s+xml
+Accept-Encoding: gzip
+Authorization: WLID1.1 t=EwAIAjP4AAAUioUFFjFuhEFWY+3MDKhBqAKDA9WAAKna9tP95cN+Q7y6QqLvZGXnsKkpix6lV7OzMXVY/V22qkBkR7sO876Vf/wBF75VBgcVPlmcZEI0sAwAxH0644Gw7MkQPWIWihBs3/0Euq5o41CqLh2U4V5f2PRR00AYsjwK7F99iugbaJeb1/ABrymhB7YG0qJcNydCQic25oy7A2YAAAi53X3VKfrx91gBgFvqPvPEWXlrPOcaUbm3sMSPy/W5wInXi2Z/LyJjhMttvz3vfsPeyvngI7H3S+nll2ACDVDHzdyd8P95nioJ4W6o1pL66kawajFtQBOf7RSIRt75Mkrah1GFgoaCqlDieAu0sD9EHBZ4noJukEB4JY2kTZib1MZPnORCLx8BSDCgOjUWt9oYMoe1U77InSpfFhAlCKq55AsMqoJ/KH4wRXSz/cxcnsdhCRxmFcW0m3gjUA5Ka9QXwrRLDiJ4uQ/C6HTuPuiNhVHu3iezRr+vnImAu4oZpgacLgwrC53PD9gcdO1nF81krsAX1nOBamPLG5G4WnkA434pOVt8qE+Y8yjpW0kvWZJ3Ok1elfUfRhNX72D1cAm9UQdhJQ/brk5Ul2eoATFl/mS3hStyZAeZS8bDZpDkjIpMV+aqqUFt9bOFzmdCfibXLhZp6m4UfXB86lJNU3vamjeYAQ==&p=
+X-Scenario: SettingsSync_Upload
+X-RequestStats: ClientThrottled=;LastSyncTime=30451749:1715890334
+Content-Type: multipart/related;boundary="{2BCD668B-1D9B-49B6-9F72-7E2B04513C20}"
+X-SubscriptionIdToNotNotify: WLS_SubscriptionId_AB35B646-DA31-4A0F-AC4A-2BC054D4FDDA
+X-TransactionId: WindowsSettings.7D3C9B4F-B42C-4378-ABE0-646747C73A6F
+Application: SettingsSync Windows 6.3
+X-UserAgent: Microsoft SettingsSync (6.3.9600.17415) Windows NT 6.3 (0603) Mobile IsNotAoAc
+Content-Encoding: gzip
+User-Agent: Microsoft SettingsSync (6.3.9600.17415) Windows NT 6.3 (0603) Mobile IsNotAoAc
+Host: by3301.storage.live.com
+Content-Length: 1217
+Cache-Control: no-cache
+</requestheaders>
+<postdata length=1602 data="\Responses\3dataFile_postData">
+</postdata>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Length: 317
+Content-Encoding: gzip
+Server: Microsoft-IIS/8.5
+P3P: CP="BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo"
+X-MSNSERVER: BY3301____PAP009
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-SyncToken: LM%3d63570049981487%3bID%3dEB10CCFCA857F043!108%3bLR%3d63570042848847%3bEP%3d4%3bTD%3dTrue%3bSO%3d0
+X-AsmVersion: UNKNOWN; 19.21.0.0
+X-MSEdge-Ref: Ref A: 2C9FF49D494946DB98F128C8731A9AD5 Ref B: 8C316F001AA54F6F515317714DA02C9C Ref C: Tue Jun 16 04:13:01 2015 PST
+Date: Tue, 16 Jun 2015 11:13:00 GMT
+</responseheaders>
+<data name="\Responses\4dataFile.txt" bytes=317 size=688/>
+</call>
+<endusertransaction id="Start"/>
+<startusertransaction id="010_homepage",snapshot="fc_snapshots\snapshot2.png"/>
+
+<call index=3 length="0">
+12:13:03.298: elapsed="109",channel="1",port="62552"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=w&src=IE-Address&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Set-Cookie: _SS=SID=7088A93234364F08870B6D204777E70F; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: 94653F448AE541259D4AD1D878FD833B Ref B: 35BDBDA21B2EC45B93B0983A5FA4D383 Ref C: Tue Jun 16 04:13:06 2015 PST
+Date: Tue, 16 Jun 2015 11:13:05 GMT
+</responseheaders>
+<data name="\Responses\6dataFile.html" bytes=1318 size=1299/>
+</call>
+
+<call index=4 length="0">
+12:13:03.298: elapsed="188",channel="2",port="62554"
+http://rapport.trusteer.com 80
+GET http://rapport.trusteer.com/rapport/ping?ak=19E1C498C8F2AEA579D84B57110915FB2E0F8D3D108B746350B91E219D8A435A&ubv=3.5.1412.173-standard-release&t=6bad2c9d&m=RapportKoan HTTP/1.1
+<requestheaders>
+Accept: */*
+X-Trusteer-Rapport: ver=3.5.1412.173; av=a3; rs=0.04374; i=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: rapport.trusteer.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: ak=19E1C498C8F2AEA579D84B57110915FB2E0F8D3D108B746350B91E219D8A435A
+</requestheaders>
+<responseheaders>
+HTTP/1.1 204 204 No Content
+Content-Length: 0
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 16 Jun 2015 11:13:06 GMT
+Server: haile
+Connection: keep-alive
+</responseheaders>
+</call>
+
+<call index=5 length="0">
+12:13:03.298: elapsed="109",channel="3",port="62553"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=www.&src=IE-Address&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Set-Cookie: _SS=SID=AF2D071577184EF3973DD6BDB9414097; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: 2D69059FDE904894A66D7DA7D55A2813 Ref B: 3BB0E108AE50017377CF8C96B480ECF7 Ref C: Tue Jun 16 04:13:06 2015 PST
+Date: Tue, 16 Jun 2015 11:13:06 GMT
+</responseheaders>
+<data name="\Responses\5dataFile.html" bytes=1347 size=1335/>
+</call>
+
+<call index=6 length="0">
+12:13:03.502: elapsed="188",channel="1",port="62554"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=www.u&src=IE-Address&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1; _FS=mkt=en-GB; _SS=SID=7088A93234364F08870B6D204777E70F
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: E94E03765B5E4ADEAC9098E8C74F2EC5 Ref B: C6B6915171C604A1993EBE16E94EF6F8 Ref C: Tue Jun 16 04:13:06 2015 PST
+Date: Tue, 16 Jun 2015 11:13:06 GMT
+</responseheaders>
+<data name="\Responses\7dataFile.html" bytes=1388 size=1376/>
+</call>
+
+<call index=7 length="0">
+12:13:03.768: elapsed="352",channel="1",port="62554"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=www.un&src=IE-Address&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1; _FS=mkt=en-GB; _SS=SID=7088A93234364F08870B6D204777E70F
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: E3B084B986F942C09A0E73ED5DB4ECE7 Ref B: 6A61DD5759FE51B62DF5775504E3712F Ref C: Tue Jun 16 04:13:07 2015 PST
+Date: Tue, 16 Jun 2015 11:13:06 GMT
+</responseheaders>
+<data name="\Responses\8dataFile.html" bytes=1431 size=1412/>
+</call>
+
+<call index=8 length="0">
+12:13:04.2: elapsed="165",channel="2",port="62552"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=www.uni&src=IE-Address&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1; _FS=mkt=en-GB; _SS=SID=7088A93234364F08870B6D204777E70F
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: 7380F38456FD49C4B83F9CF5F25837D6 Ref B: 59E93F673191D0502AA40AD9BBEB5775 Ref C: Tue Jun 16 04:13:07 2015 PST
+Date: Tue, 16 Jun 2015 11:13:06 GMT
+</responseheaders>
+<data name="\Responses\9dataFile.html" bytes=1432 size=1420/>
+</call>
+
+<call index=9 length="0">
+12:13:04.729: elapsed="94",channel="1",port="62552"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=www.unil&src=IE-Address&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1; _FS=mkt=en-GB; _SS=SID=7088A93234364F08870B6D204777E70F
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: 7518C7F8011A4762ADB35F9A7702EF5C Ref B: A8ECD9E2BF5D5335D39CA9F11F26AA37 Ref C: Tue Jun 16 04:13:07 2015 PST
+Date: Tue, 16 Jun 2015 11:13:07 GMT
+</responseheaders>
+<data name="\Responses\10dataFile.html" bytes=1436 size=1424/>
+</call>
+
+<call index=10 length="0">
+12:13:04.808: elapsed="266",channel="2",port="62558"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=www.unile&src=IE-Address&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1; _FS=mkt=en-GB; _SS=SID=7088A93234364F08870B6D204777E70F
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: 40190497E6FE4109841805CF2CCC8937 Ref B: 3FEFAE293F2AD135EE2FB44716541AA4 Ref C: Tue Jun 16 04:13:08 2015 PST
+Date: Tue, 16 Jun 2015 11:13:07 GMT
+</responseheaders>
+<data name="\Responses\12dataFile.html" bytes=1446 size=1434/>
+</call>
+
+<call index=11 length="0">
+12:13:04.964: elapsed="94",channel="2",port="62559"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=www.unilev&src=IE-Address&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1; _FS=mkt=en-GB; _SS=SID=7088A93234364F08870B6D204777E70F
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: 953ED503C47F4744ABB95196549DA34E Ref B: 9572C06112DB3FC4B1495FC7C5FD7D08 Ref C: Tue Jun 16 04:13:08 2015 PST
+Date: Tue, 16 Jun 2015 11:13:07 GMT
+</responseheaders>
+<data name="\Responses\11dataFile.html" bytes=1492 size=1474/>
+</call>
+
+<call index=12 length="0">
+12:13:05.104: elapsed="94",channel="1",port="62559"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=www.unileve&src=IE-Address&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1; _FS=mkt=en-GB; _SS=SID=7088A93234364F08870B6D204777E70F
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: A48F18FF4A31451385FB992D68004785 Ref B: 7B42215B051C0F3C4EFF803EBCE0B08F Ref C: Tue Jun 16 04:13:08 2015 PST
+Date: Tue, 16 Jun 2015 11:13:07 GMT
+</responseheaders>
+<data name="\Responses\13dataFile.html" bytes=1496 size=1484/>
+</call>
+
+<call index=13 length="0">
+12:13:05.198: elapsed="94",channel="2",port="62560"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=www.unilever&src=IE-Address&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1; _FS=mkt=en-GB; _SS=SID=7088A93234364F08870B6D204777E70F
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: E6540081D9AD47EBB4E155C80A0D2003 Ref B: B8DE4297F45130B285817BAB14DE8268 Ref C: Tue Jun 16 04:13:08 2015 PST
+Date: Tue, 16 Jun 2015 11:13:08 GMT
+</responseheaders>
+<data name="\Responses\14dataFile.html" bytes=1506 size=1494/>
+</call>
+
+<call index=14 length="0">
+12:13:05.307: elapsed="172",channel="1",port="62560"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=www.unilever.&src=IE-Address&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1; _FS=mkt=en-GB; _SS=SID=7088A93234364F08870B6D204777E70F
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: 2F8EF2FBE1D7474B87101D8C33459E78 Ref B: 11AF13C925DCC56FA94AAEF26FD1CCE9 Ref C: Tue Jun 16 04:13:08 2015 PST
+Date: Tue, 16 Jun 2015 11:13:07 GMT
+</responseheaders>
+<data name="\Responses\15dataFile.html" bytes=1493 size=1481/>
+</call>
+
+<call index=15 length="0">
+12:13:05.479: elapsed="94",channel="1",port="62563"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=www.unilever.c&src=IE-Address&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1; _FS=mkt=en-GB; _SS=SID=7088A93234364F08870B6D204777E70F
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: 5A04B3E4029D4556A4431580A6C571FB Ref B: 3BB0E108AE50017377CF8C96B480ECF7 Ref C: Tue Jun 16 04:13:08 2015 PST
+Date: Tue, 16 Jun 2015 11:13:08 GMT
+</responseheaders>
+<data name="\Responses\16dataFile.html" bytes=1061 size=1043/>
+</call>
+
+<call index=16 length="0">
+12:13:05.589: elapsed="94",channel="1",port="62564"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=www.unilever.co&src=IE-Address&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1; _FS=mkt=en-GB; _SS=SID=7088A93234364F08870B6D204777E70F
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: 1E4C7658CA1149FDB512F34477404320 Ref B: 4463B88350FD8A6E5545E465E999FDC4 Ref C: Tue Jun 16 04:13:08 2015 PST
+Date: Tue, 16 Jun 2015 11:13:08 GMT
+</responseheaders>
+<data name="\Responses\17dataFile.html" bytes=1062 size=1050/>
+</call>
+
+<call index=17 length="0">
+12:13:05.589: elapsed="141",channel="2",port="62565"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=www.unilever.col&src=IE-Address&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1; _FS=mkt=en-GB; _SS=SID=7088A93234364F08870B6D204777E70F
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: 60E2C8BA8C444315958403BEB5C50C36 Ref B: 71301F13B3BCE704889C1F8D1C7848B1 Ref C: Tue Jun 16 04:13:08 2015 PST
+Date: Tue, 16 Jun 2015 11:13:08 GMT
+</responseheaders>
+<data name="\Responses\19dataFile.html" bytes=324 size=312/>
+</call>
+
+<call index=18 length="0">
+12:13:05.636: elapsed="78",channel="3",port="62567"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=www.unilever.colm&src=IE-Address&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1; _FS=mkt=en-GB; _SS=SID=7088A93234364F08870B6D204777E70F
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: 2BBC1D259E1A4B249920EE4166548A6A Ref B: 9180F1A2DA1A83B9B7201BB09FA73A02 Ref C: Tue Jun 16 04:13:08 2015 PST
+Date: Tue, 16 Jun 2015 11:13:08 GMT
+</responseheaders>
+<data name="\Responses\18dataFile.html" bytes=326 size=314/>
+</call>
+
+<call index=19 length="0">
+12:13:06.162: elapsed="172",channel="1",port="62567"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=www.unilever.col&src=IE-Address&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1; _FS=mkt=en-GB; _SS=SID=7088A93234364F08870B6D204777E70F
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: 4313E6150E484727A2F8226BF35230CB Ref B: 7BCDF5B9D8832784FC2726014745B187 Ref C: Tue Jun 16 04:13:09 2015 PST
+Date: Tue, 16 Jun 2015 11:13:08 GMT
+</responseheaders>
+<data name="\Responses\20dataFile.html" bytes=324 size=312/>
+</call>
+
+<call index=20 length="0">
+12:13:06.319: elapsed="78",channel="2",port="62568"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=www.unilever.co&src=IE-Address&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1; _FS=mkt=en-GB; _SS=SID=7088A93234364F08870B6D204777E70F
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: FD5152C41D0B425A9C1512877736DFAA Ref B: AAD1A2CBF0AB97B6F6D7AD7B2B61D2DA Ref C: Tue Jun 16 04:13:09 2015 PST
+Date: Tue, 16 Jun 2015 11:13:09 GMT
+</responseheaders>
+<data name="\Responses\21dataFile.html" bytes=1062 size=1050/>
+</call>
+
+<call index=21 length="0">
+12:13:06.537: elapsed="422",channel="1",port="62568"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=www.unilever.com&src=IE-Address&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1; _FS=mkt=en-GB; _SS=SID=7088A93234364F08870B6D204777E70F
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: C5DF0E53DE1B48A887AC803A6B5C4AE1 Ref B: 321EE80B9631FC2A534BB60F7E8D0F5C Ref C: Tue Jun 16 04:13:10 2015 PST
+Date: Tue, 16 Jun 2015 11:13:09 GMT
+</responseheaders>
+<data name="\Responses\22dataFile.html" bytes=777 size=765/>
+</call>
+
+<call index=22 length="0">
+12:13:07.6: elapsed="344",channel="1",port="62569"
+http://www.unilever.com 80
+GET http://www.unilever.com/ HTTP/1.1
+<requestheaders>
+Accept: text/html, application/xhtml+xml, */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.unilever.com
+DNT: 1
+Connection: Keep-Alive
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Date: Tue, 16 Jun 2015 11:13:10 GMT
+Content-Length: 11734
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\23dataFile.html" bytes=11734 size=71610/>
+</call>
+
+<call index=23 length="0">
+12:13:07.553: elapsed="250",channel="1",port="62569"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/Styles/app.css HTTP/1.1
+<requestheaders>
+Accept: text/css, */*
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: text/css
+Last-Modified: Wed, 10 Jun 2015 13:59:03 GMT
+Accept-Ranges: bytes
+ETag: "9e1c289c85a3d01:0"
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Date: Tue, 16 Jun 2015 11:13:10 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+Connection: Transfer-Encoding
+</responseheaders>
+<data name="\Responses\30dataFile.txt" bytes=59673 size=400654/>
+</call>
+
+<call index=24 length="0">
+12:13:07.553: elapsed="31",channel="2",port="62571"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/Scripts/vendor/custom.modernizr.min.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: application/x-javascript
+Last-Modified: Wed, 10 Jun 2015 14:54:38 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+X-Server-Name: ce06pw21
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: max-age=38075
+Date: Tue, 16 Jun 2015 11:13:10 GMT
+Content-Length: 4226
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\24dataFile" bytes=4226 size=9643/>
+</call>
+
+<call index=25 length="0">
+12:13:07.553: elapsed="156",channel="3",port="62572"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/unilever_logo_tcm244-409314.svg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/svg+xml
+Last-Modified: Wed, 10 Jun 2015 14:06:46 GMT
+Accept-Ranges: bytes
+ETag: "7471f0af86a3d01:0"
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 35178
+Date: Tue, 16 Jun 2015 11:13:10 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\28dataFile" bytes=35178 size=35178/>
+</call>
+
+<call index=26 length="0">
+12:13:07.553: elapsed="31",channel="4",port="62574"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/Blue-Band-India-ad-1950s_tcm244-408296_w209.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 14:06:46 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 8192
+Cache-Control: max-age=474501
+Date: Tue, 16 Jun 2015 11:13:10 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\25dataFile" bytes=8192 size=8192/>
+</call>
+
+<call index=27 length="0">
+12:13:07.631: elapsed="31",channel="3",port="62576"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/Young-girl-brushing-teeth_tcm244-408615_w209.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 14:06:47 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 8192
+Cache-Control: max-age=474368
+Date: Tue, 16 Jun 2015 11:13:10 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\26dataFile" bytes=8192 size=8192/>
+</call>
+
+<call index=28 length="0">
+12:13:07.662: elapsed="16",channel="3",port="62578"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/Lady-carrying-water-on-her-head_tcm244-408614_w209.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 14:06:47 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 8192
+Cache-Control: max-age=474501
+Date: Tue, 16 Jun 2015 11:13:10 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\27dataFile" bytes=8192 size=8192/>
+</call>
+
+<call index=29 length="0">
+12:13:07.709: elapsed="31",channel="3",port="62579"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/IMG_6079_990x557_tcm244-414236_w209.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 14:06:47 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 16384
+Cache-Control: max-age=136956
+Date: Tue, 16 Jun 2015 11:13:10 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\29dataFile" bytes=16384 size=16384/>
+</call>
+
+<call index=30 length="0">
+12:13:07.881: elapsed="31",channel="1",port="62580"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/ar14_banner_main_novo_tcm244-419671_w209.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 14:06:47 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 16384
+Cache-Control: max-age=155385
+Date: Tue, 16 Jun 2015 11:13:11 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\31dataFile" bytes=16384 size=16384/>
+</call>
+
+<call index=31 length="0">
+12:13:07.912: elapsed="16",channel="2",port="62581"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/Two-Unilever-employees-having-a-meeting_tcm244-414276_w209.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 14:06:47 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 8192
+Cache-Control: max-age=474308
+Date: Tue, 16 Jun 2015 11:13:11 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\32dataFile" bytes=8192 size=8192/>
+</call>
+
+<call index=32 length="0">
+12:13:07.912: elapsed="16",channel="3",port="62582"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/Q1-2015-990x557_tcm244-423307_w209.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 14:06:48 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 16384
+Cache-Control: max-age=474267
+Date: Tue, 16 Jun 2015 11:13:11 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\33dataFile" bytes=16384 size=16384/>
+</call>
+
+<call index=33 length="0">
+12:13:07.959: elapsed="31",channel="1",port="62583"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/Ipad-pen-spreadsheet-990x557_tcm244-414264_w209.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 15:03:00 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+X-Server-Name: ce06pw21
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 8192
+Cache-Control: max-age=474286
+Date: Tue, 16 Jun 2015 11:13:11 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\34dataFile" bytes=8192 size=8192/>
+</call>
+
+<call index=34 length="0">
+12:13:07.975: elapsed="36",channel="2",port="62584"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/Unilever-saves-one-million-tonnes-688x387_tcm244-427258_w680.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 14:06:48 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 32768
+Cache-Control: max-age=266192
+Date: Tue, 16 Jun 2015 11:13:11 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\35dataFile" bytes=32768 size=32768/>
+</call>
+
+<call index=35 length="0">
+12:13:07.990: elapsed="87",channel="2",port="62574"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/ar14_banner_main_themeblue_990x557_tcm244-414263_w680.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 14:06:48 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 131072
+Cache-Control: max-age=474565
+Date: Tue, 16 Jun 2015 11:13:11 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\38dataFile" bytes=131072 size=131072/>
+</call>
+
+<call index=36 length="0">
+12:13:08.8: elapsed="117",channel="3",port="62576"
+http://s7.addthis.com 80
+GET http://s7.addthis.com/js/300/addthis_widget.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: s7.addthis.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Tue, 16 Jun 2015 11:13:11 GMT
+Content-Type: text/javascript
+Transfer-Encoding: chunked
+Connection: keep-alive
+Last-Modified: Fri, 12 Jun 2015 15:44:34 GMT
+ETag: "6907a5c-40e3a-51853fc12dc80"
+Vary: Accept-Encoding
+Content-Encoding: gzip
+CF-Cache-Status: HIT
+X-Host: s7.addthis.com
+X-Referer-Domain-MD5: 3aa1e21edc7e827f18cf0e21ab1ba4de
+X-Distribution: 99
+Server: cloudflare-nginx
+CF-RAY: 1f76157d6b8602ff-LHR
+</responseheaders>
+<data name="\Responses\39dataFile.txt" bytes=93511 size=265786/>
+</call>
+
+<call index=37 length="0">
+12:13:08.11: elapsed="67",channel="3",port="62578"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/Group-of-Unilever-employees-with-ice-cream_tcm244-414273_w680.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 15:46:02 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+X-Server-Name: ce06pw22
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 65536
+Cache-Control: max-age=483627
+Date: Tue, 16 Jun 2015 11:13:11 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\37dataFile" bytes=65536 size=65536/>
+</call>
+
+<call index=38 length="0">
+12:13:08.11: elapsed="67",channel="4",port="62572"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/unilever_leatherhead_990x557_tcm244-420699_w680.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 15:03:00 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+X-Server-Name: ce06pw21
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 65536
+Cache-Control: max-age=475689
+Date: Tue, 16 Jun 2015 11:13:11 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\36dataFile" bytes=65536 size=65536/>
+</call>
+
+<call index=39 length="0">
+12:13:08.562: elapsed="125",channel="1",port="62582"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/fonts/unilever-iconfont.eot? HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.unilever.com
+Accept-Encoding: gzip, deflate
+Host: www.unilever.com
+DNT: 1
+Connection: Keep-Alive
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: application/octet-stream
+Last-Modified: Wed, 10 Jun 2015 13:58:58 GMT
+Accept-Ranges: bytes
+ETag: "7cd4df9885a3d01:0"
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 16648
+Date: Tue, 16 Jun 2015 11:13:11 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\40dataFile" bytes=16648 size=16648/>
+</call>
+
+<call index=40 length="0">
+12:13:08.719: elapsed="94",channel="1",port="62571"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/Scripts/combined.min.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: application/x-javascript
+Last-Modified: Wed, 10 Jun 2015 14:54:38 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+X-Server-Name: ce06pw21
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: max-age=48381
+Date: Tue, 16 Jun 2015 11:13:11 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+Connection: Transfer-Encoding
+</responseheaders>
+<data name="\Responses\41dataFile" bytes=140217 size=470336/>
+</call>
+
+<call index=41 length="0">
+12:13:08.953: elapsed="156",channel="1",port="62581"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/fonts/unileverillustrativebeta-webfont.eot? HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.unilever.com
+Accept-Encoding: gzip, deflate
+Host: www.unilever.com
+DNT: 1
+Connection: Keep-Alive
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: application/octet-stream
+Last-Modified: Wed, 10 Jun 2015 14:54:23 GMT
+Accept-Ranges: bytes
+ETag: "1a92b3568da3d01:0"
+Server: Microsoft-IIS/7.0
+X-Server-Name: ce06pw22
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 18632
+Date: Tue, 16 Jun 2015 11:13:12 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\42dataFile" bytes=18632 size=18632/>
+</call>
+
+<call index=42 length="0">
+12:13:09.156: elapsed="188",channel="1",port="62583"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/fonts/DINWebPro-Light.woff HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.unilever.com
+Accept-Encoding: gzip, deflate
+Host: www.unilever.com
+DNT: 1
+Connection: Keep-Alive
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: application/font-woff
+Last-Modified: Wed, 10 Jun 2015 13:58:58 GMT
+Accept-Ranges: bytes
+ETag: "82e2c09885a3d01:0"
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 50772
+Date: Tue, 16 Jun 2015 11:13:12 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\43dataFile" bytes=50772 size=50772/>
+</call>
+
+<call index=43 length="0">
+12:13:09.359: elapsed="16",channel="1",port="62584"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/images/curve.png HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/png
+Last-Modified: Wed, 10 Jun 2015 13:58:58 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 3551
+Cache-Control: max-age=133126
+Date: Tue, 16 Jun 2015 11:13:12 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\44dataFile" bytes=3551 size=3551/>
+</call>
+
+<call index=44 length="0">
+12:13:09.390: elapsed="156",channel="1",port="62572"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/fonts/DINWebPro-Bold.woff HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.unilever.com
+Accept-Encoding: gzip, deflate
+Host: www.unilever.com
+DNT: 1
+Connection: Keep-Alive
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: application/font-woff
+Last-Modified: Wed, 10 Jun 2015 13:58:58 GMT
+Accept-Ranges: bytes
+ETag: "369ab29885a3d01:0"
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 53124
+Date: Tue, 16 Jun 2015 11:13:12 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\45dataFile" bytes=53124 size=53124/>
+</call>
+
+<call index=45 length="0">
+12:13:09.734: elapsed="16",channel="1",port="62574"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/images/hr.png HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/png
+Last-Modified: Wed, 10 Jun 2015 13:58:58 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 310
+Cache-Control: max-age=474329
+Date: Tue, 16 Jun 2015 11:13:12 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\46dataFile" bytes=310 size=310/>
+</call>
+
+<call index=46 length="0">
+12:13:10.289: elapsed="16",channel="1",port="62578"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/images/hr_down.png HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/png
+Last-Modified: Wed, 10 Jun 2015 13:58:58 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 308
+Cache-Control: max-age=129049
+Date: Tue, 16 Jun 2015 11:13:13 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\47dataFile" bytes=308 size=308/>
+</call>
+
+<call index=47 length="0">
+12:13:10.305: elapsed="47",channel="1",port="62576"
+http://www.googletagmanager.com 80
+GET http://www.googletagmanager.com/gtm.js?id=GTM-TP4WJ2 HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.googletagmanager.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: text/javascript; charset=UTF-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 16 Jun 2015 11:13:13 GMT
+Expires: Tue, 16 Jun 2015 11:13:13 GMT
+Cache-Control: private, max-age=902
+Server: HTTP server (unknown)
+Content-Length: 18602
+X-XSS-Protection: 1; mode=block
+Alternate-Protocol: 80:quic,p=0
+</responseheaders>
+<data name="\Responses\48dataFile.txt" bytes=18602 size=49561/>
+</call>
+
+<call index=48 length="0">
+12:13:10.383: elapsed="116",channel="1",port="62582"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/bg1_tcm244-409210.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 14:06:48 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 309405
+Cache-Control: max-age=130788
+Date: Tue, 16 Jun 2015 11:13:13 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\49dataFile" bytes=309405 size=309405/>
+</call>
+
+<call index=49 length="0">
+12:13:11.288: elapsed="156",channel="1",port="62581"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/Homepage-example-seven_tcm244-425273.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 14:06:48 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 585124
+Cache-Control: max-age=191385
+Date: Tue, 16 Jun 2015 11:13:14 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\50dataFile" bytes=585124 size=585124/>
+</call>
+
+<call index=50 length="0">
+12:13:11.460: elapsed="78",channel="1",port="62583"
+http://browser-update.org 80
+GET http://browser-update.org/update.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: browser-update.org
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Tue, 16 Jun 2015 11:13:16 GMT
+Server: Apache
+Last-Modified: Sun, 17 May 2015 08:16:45 GMT
+ETag: "22c93-4447-51642b2b73533"
+Accept-Ranges: bytes
+Cache-Control: public, max-age=1296000
+Expires: Wed, 01 Jul 2015 11:13:16 GMT
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 7831
+Connection: close
+Content-Type: application/x-javascript; charset=utf-8
+</responseheaders>
+<data name="\Responses\51dataFile" bytes=7831 size=17479/>
+</call>
+
+<call index=51 length="0">
+12:13:11.600: elapsed="31",channel="1",port="62584"
+http://s7.addthis.com 80
+GET http://s7.addthis.com/static/hi-res-css.0d3543bb44e244a26641.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: s7.addthis.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Tue, 16 Jun 2015 11:13:14 GMT
+Content-Type: text/javascript
+Content-Length: 27871
+Connection: keep-alive
+Last-Modified: Fri, 12 Jun 2015 15:44:32 GMT
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: public, no-check, max-age=86313600
+CF-Cache-Status: HIT
+Accept-Ranges: bytes
+X-Host: s7.addthis.com
+Server: cloudflare-nginx
+CF-RAY: 1f7615936c6602ff-LHR
+</responseheaders>
+<data name="\Responses\52dataFile.txt" bytes=27871 size=90561/>
+</call>
+
+<call index=52 length="0">
+12:13:11.944: elapsed="31",channel="1",port="62572"
+http://s7.addthis.com 80
+GET http://s7.addthis.com/static/menu.f3687e10ad695785bdbe.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: s7.addthis.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Tue, 16 Jun 2015 11:13:15 GMT
+Content-Type: text/javascript
+Content-Length: 20177
+Connection: keep-alive
+Last-Modified: Fri, 12 Jun 2015 15:44:34 GMT
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: public, no-check, max-age=86313600
+CF-Cache-Status: HIT
+Accept-Ranges: bytes
+X-Host: s7.addthis.com
+Server: cloudflare-nginx
+CF-RAY: 1f7615958c7602ff-LHR
+</responseheaders>
+<data name="\Responses\53dataFile.txt" bytes=20177 size=59856/>
+</call>
+
+<call index=53 length="0">
+12:13:12.42: elapsed="17",channel="1",port="62574"
+http://s7.addthis.com 80
+GET http://s7.addthis.com/static/sh.996b8e89.html HTTP/1.1
+<requestheaders>
+Accept: text/html, application/xhtml+xml, */*
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: s7.addthis.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Tue, 16 Jun 2015 11:13:15 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Last-Modified: Fri, 12 Jun 2015 15:44:32 GMT
+Vary: Accept-Encoding
+Cache-Control: public, no-check, max-age=86313600
+P3P: CP="NON ADM OUR DEV IND COM STA"
+CF-Cache-Status: HIT
+X-Host: s7.addthis.com
+Server: cloudflare-nginx
+CF-RAY: 1f7615961c7b02ff-LHR
+Content-Encoding: gzip
+</responseheaders>
+<data name="\Responses\54dataFile.html" bytes=11205 size=26992/>
+</call>
+
+<call index=54 length="0">
+12:13:13.790: elapsed="31",channel="1",port="62582"
+http://www.google-analytics.com 80
+GET http://www.google-analytics.com/analytics.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.google-analytics.com
+If-Modified-Since: Wed, 27 May 2015 21:02:55 GMT
+DNT: 1
+Connection: Keep-Alive
+</requestheaders>
+<responseheaders>
+HTTP/1.1 304 304 Not Modified
+Date: Tue, 16 Jun 2015 10:48:46 GMT
+Expires: Tue, 16 Jun 2015 12:48:46 GMT
+Age: 1470
+Server: GFE/2.0
+Alternate-Protocol: 80:quic,p=0
+</responseheaders>
+<data name="\Responses\55dataFile.txt" bytes=0 size=0/>
+</call>
+
+<call index=55 length="0">
+12:13:16.293: elapsed="203",channel="1",port="62574"
+http://m.addthis.com 80
+GET http://m.addthis.com/live/red_lojson/300lo.json?t4vldr&colc=1434453192598&si=558004c5e7344352&uid=558004c8198a9173&pub=ra-5231981c5d94e418&rev=v2.1.2-wp&jsl=1&ln=en&pc=men&vpc=&dp=www.unilever.com&aa=0&of=0&uf=1&pd=0&irt=0&ct=1&tct=0&abt=0&lt=2382&cdn=0&lnlc=GB&whcs=0&tl=c%3D118%2Cm%3D263%2Ci%3D341%2Cxm%3D2639%2Cxp%3D2708&pi=1&&rb=0&gen=1000&gen=100&callback=_ate.track.hsr&uvs=558004c53ac81955000&chr=utf-8&md=0&vcl=0 HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://s7.addthis.com/static/sh.996b8e89.html
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: m.addthis.com
+Cookie: uid=558004c8198a9173; uvc=1%7C24; uit=1
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Tue, 16 Jun 2015 11:13:19 GMT
+Content-Type: application/javascript;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Set-Cookie: dt=X;Path=/;Domain=.addthis.com;Expires=Thu, 16-Jul-2015 11:13:19 GMT
+Set-Cookie: bt2=558004cf001z70001009z70001001A70002003D70001001F70001001K70002;Path=/;Domain=.addthis.com;Expires=Sat, 27-Feb-2016 11:13:19 GMT
+Set-Cookie: di2=NQ1B67.6NI~VGU~UYM;Path=/;Domain=.addthis.com;Expires=Thu, 15-Jun-2017 11:13:19 GMT
+Set-Cookie: bt=1434453199|0000VR0100000VQ0100000QZ0100000SZ0100000RR0100000R60100000VX0100000R50100000R70100000WH0100000R90100000W40100000W20100000W10100000W00100000W30100000VZ0100000WO0100000TA0100000T60100000T80100000SK0100000SJ0100000R40100000XK0100000X00100000VI0100000V00100000YC010;Path=/;Domain=.addthis.com;Expires=Thu, 15-Jun-2017 11:13:19 GMT
+Set-Cookie: vc=2;Path=/;Domain=.addthis.com;Expires=Thu, 15-Jun-2017 11:13:19 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+P3P: policyref="/w3c/p3p.xml", CP="NON ADM OUR DEV IND COM STA"
+Content-Encoding: gzip
+Server: cloudflare-nginx
+CF-RAY: 1f7615b0d18c06d0-LHR
+</responseheaders>
+<data name="\Responses\56dataFile" bytes=317 size=371/>
+</call>
+
+<call index=56 length="0">
+12:13:16.512: elapsed="16",channel="1",port="62582"
+http://www.google-analytics.com 80
+GET http://www.google-analytics.com/r/collect?v=1&_v=j37&a=1330144510&t=pageview&_s=1&dl=http%3A%2F%2Fwww.unilever.com%2F&ul=en-gb&de=utf-8&dt=Unilever%20global%20company%20website%20%7C%20Unilever%20Global%20%7C%20Unilever%20global%20company%20website&sd=24-bit&sr=1366x768&vp=1639x733&je=1&fl=18.0%20r0&_u=QEAAAAQAI~&jid=589219709&cid=1881878620.1434453194&tid=UA-41903606-1&_r=1&gtm=GTM-TP4WJ2&z=652093985 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.google-analytics.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Access-Control-Allow-Origin: *
+Date: Tue, 16 Jun 2015 11:13:19 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, no-store, must-revalidate
+Last-Modified: Sun, 17 May 1998 03:00:00 GMT
+X-Content-Type-Options: nosniff
+Content-Type: image/gif
+Server: Golfe2
+Content-Length: 35
+Alternate-Protocol: 80:quic,p=0
+</responseheaders>
+<data name="\Responses\57dataFile" bytes=35 size=35/>
+</call>
+
+<call index=57 length="0">
+12:13:16.715: elapsed="104",channel="1",port="62593"
+http://rapport.trusteer.com 80
+GET http://rapport.trusteer.com/rapport/ping?ak=19E1C498C8F2AEA579D84B57110915FB2E0F8D3D108B746350B91E219D8A435A&ubv=3.5.1412.173-standard-release&t=e55f919e&m=RapportKoan_x64 HTTP/1.1
+<requestheaders>
+Accept: */*
+X-Trusteer-Rapport: ver=3.5.1412.173; av=a3; rs=0.04374; i=0
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+Host: rapport.trusteer.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: ak=19E1C498C8F2AEA579D84B57110915FB2E0F8D3D108B746350B91E219D8A435A
+</requestheaders>
+<responseheaders>
+HTTP/1.1 204 204 No Content
+Content-Length: 0
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 16 Jun 2015 11:13:19 GMT
+Server: haile
+Connection: keep-alive
+</responseheaders>
+</call>
+
+<call index=58 length="0">
+12:13:16.819: elapsed="66",channel="1",port="62574"
+http://cs.go.affec.tv 80
+GET http://cs.go.affec.tv/map/cs/558004c8198a9173?src=cs&ssp=0&redir=http%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D11123%26puid%3D%5BAFID%5D%26ssrc%3D1 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://s7.addthis.com/static/sh.996b8e89.html
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: cs.go.affec.tv
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Found
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 16 Jun 2015 11:13:20 GMT
+Location: http://x.bidswitch.net/sync?dsp_id=35&user_id=558004d0ce14a605b483eac1&expires=30&ssp=0
+P3p: CP="CAO DSP COR PSAo CONo HISo OTPo OUR IND NAV INT CNT OTC"
+Server: TornadoServer/3.2
+Set-Cookie: ck=558004d0ce14a605b483eac1; Domain=.go.affec.tv; expires=Fri, 15 Jun 2018 11:13:20 GMT; Path=/
+Set-Cookie: oo=1; Domain=.go.affec.tv; expires=Fri, 15 Jun 2018 11:13:20 GMT; Path=/
+Set-Cookie: pt=eyJjcyI6eyJkdCI6MTQzNDQ1MzIwMCwiaWQiOiI1NTgwMDRjODE5OGE5MTczIiwibHMiOjB9LCJ2IjoxLCJicyI6eyJkdCI6MTQzNDQ1MzIwMCwiaWQiOiJzeW5jZWQiLCJscyI6MTQzNDQ1MzIwMH19|1434453200|48bcbf733a7677a448e94ed401e9e5672f7001c3; Domain=.go.affec.tv; expires=Fri, 15 Jun 2018 11:13:20 GMT; Path=/
+Content-Length: 0
+Connection: keep-alive
+</responseheaders>
+</call>
+
+<call index=59 length="0">
+12:13:17.73: elapsed="31",channel="1",port="62591"
+https://iecvlist.microsoft.com 443
+GET https://iecvlist.microsoft.com/ie11blocklist/1401746408/versionlist.xml HTTP/1.1
+<requestheaders>
+Accept: text/xml
+Accept-Encoding: gzip
+If-Modified-Since: Wed, 10 Jun 2015 13:42:42 GMT
+Host: iecvlist.microsoft.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: MC1=GUID=05e2126afe96dc4e8b872f8b8135ec3c&HASH=6a12&LV=201505&V=4&LU=1431361313424; A=I&I=AxUFAAAAAAB2CQAARUheEJtK3UfLsIOe2a4NLg!!&V=4; MSFPC=ID=05e2126afe96dc4e8b872f8b8135ec3c&CS=3&LV=201505&V=1; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150611
+</requestheaders>
+<responseheaders>
+HTTP/1.1 304 304 Not Modified
+Accept-Ranges: bytes
+Date: Tue, 16 Jun 2015 11:13:20 GMT
+Etag: 0x8D270F92E53417B
+Last-Modified: Tue, 09 Jun 2015 18:28:13 GMT
+Server: ECAcc (lcy/1D6D)
+X-Cache: HIT
+x-ms-blob-type: BlockBlob
+x-ms-lease-status: unlocked
+x-ms-request-id: 2e4e517c-0001-0020-45e2-a25fdf000000
+x-ms-version: 2009-09-19
+</responseheaders>
+<data name="\Responses\58dataFile.txt" bytes=0 size=0/>
+</call>
+
+<call index=60 length="0">
+12:13:17.370: elapsed="16",channel="1",port="62592"
+https://r20swj13mr.microsoft.com 443
+GET https://r20swj13mr.microsoft.com/ieblocklist/v1/urlblockindex.bin HTTP/1.1
+<requestheaders>
+Accept: */*
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+Host: r20swj13mr.microsoft.com
+DNT: 1
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: MC1=GUID=05e2126afe96dc4e8b872f8b8135ec3c&HASH=6a12&LV=201505&V=4&LU=1431361313424; A=I&I=AxUFAAAAAAB2CQAARUheEJtK3UfLsIOe2a4NLg!!&V=4; MSFPC=ID=05e2126afe96dc4e8b872f8b8135ec3c&CS=3&LV=201505&V=1; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150611
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Accept-Ranges: bytes
+Content-MD5: +lGOPfroyjoOSVRg/WDHkQ==
+Content-Type: application/octet-stream
+Date: Tue, 16 Jun 2015 11:13:20 GMT
+Etag: 0x8D196A9E9DF432F
+Last-Modified: Thu, 04 Sep 2014 22:51:35 GMT
+Server: ECAcc (lcy/1D65)
+X-Cache: HIT
+x-ms-blob-type: BlockBlob
+x-ms-lease-status: unlocked
+x-ms-request-id: 2fbb493c-0001-0020-6f57-a35fdf000000
+x-ms-version: 2009-09-19
+Content-Length: 16
+</responseheaders>
+<data name="\Responses\59dataFile" bytes=16 size=16/>
+</call>
+
+<call index=61 length="0">
+12:13:18.787: elapsed="47",channel="1",port="62574"
+http://x.bidswitch.net 80
+GET http://x.bidswitch.net/sync?dsp_id=35&user_id=558004d0ce14a605b483eac1&expires=30&ssp=0 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://s7.addthis.com/static/sh.996b8e89.html
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+Host: x.bidswitch.net
+DNT: 1
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Server: nginx/1.7.10
+Date: Tue, 16 Jun 2015 11:13:21 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 0
+Connection: keep-alive
+Set-Cookie: tuuid=67bc1348-50b5-4c2c-8fcd-19162bb24d39; path=/; expires=Thu, 15-Jun-2017 11:13:21 GMT; domain=.bidswitch.net
+P3P: CP="NOI DSP COR NID CURa ADMa DEVa PSAa PSDa OUR BUS COM INT OTC PUR STA"
+Location: http://x.bidswitch.net/ul_cb/sync?dsp_id=35&user_id=558004d0ce14a605b483eac1&expires=30&ssp=0
+Cache-Control: no-cache, no-store, must-revalidate
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+Pragma: no-cache
+</responseheaders>
+</call>
+
+<call index=62 length="0">
+12:13:18.834: elapsed="16",channel="1",port="62591"
+https://iecvlist.microsoft.com 443
+GET https://iecvlist.microsoft.com/IE11/1387494476607/iecompatviewlist.xml HTTP/1.1
+<requestheaders>
+Accept: */*
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+Host: iecvlist.microsoft.com
+If-Modified-Since: Thu, 23 Apr 2015 16:21:58 GMT
+If-None-Match: 0x8D24BF8C1A546A6
+DNT: 1
+Connection: Keep-Alive
+Cookie: MC1=GUID=05e2126afe96dc4e8b872f8b8135ec3c&HASH=6a12&LV=201505&V=4&LU=1431361313424; A=I&I=AxUFAAAAAAB2CQAARUheEJtK3UfLsIOe2a4NLg!!&V=4; MSFPC=ID=05e2126afe96dc4e8b872f8b8135ec3c&CS=3&LV=201505&V=1; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150611
+</requestheaders>
+<responseheaders>
+HTTP/1.1 304 304 Not Modified
+Cache-Control: max-age=21600
+Date: Tue, 16 Jun 2015 11:13:22 GMT
+Etag: 0x8D24BF8C1A546A6
+Last-Modified: Thu, 23 Apr 2015 16:21:58 GMT
+Server: ECAcc (lcy/1D91)
+Vary: Accept-Encoding
+X-Cache: HIT
+x-ms-blob-type: BlockBlob
+x-ms-lease-status: unlocked
+x-ms-request-id: 8f8c432b-0001-0011-101f-a80408000000
+x-ms-version: 2009-09-19
+</responseheaders>
+<data name="\Responses\60dataFile.txt" bytes=0 size=0/>
+</call>
+
+<call index=63 length="0">
+12:13:19.787: elapsed="16",channel="1",port="62574"
+http://x.bidswitch.net 80
+GET http://x.bidswitch.net/ul_cb/sync?dsp_id=35&user_id=558004d0ce14a605b483eac1&expires=30&ssp=0 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://s7.addthis.com/static/sh.996b8e89.html
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+Cookie: tuuid=67bc1348-50b5-4c2c-8fcd-19162bb24d39
+Host: x.bidswitch.net
+DNT: 1
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Server: nginx/1.7.10
+Date: Tue, 16 Jun 2015 11:13:22 GMT
+Content-Type: image/gif
+Content-Length: 43
+Connection: keep-alive
+Set-Cookie: tuuid=67bc1348-50b5-4c2c-8fcd-19162bb24d39; path=/; expires=Thu, 15-Jun-2017 11:13:22 GMT; domain=.bidswitch.net
+Set-Cookie: c=1434453202; path=/; expires=Thu, 15-Jun-2017 11:13:22 GMT; domain=.bidswitch.net
+P3P: CP="NOI DSP COR NID CURa ADMa DEVa PSAa PSDa OUR BUS COM INT OTC PUR STA"
+Cache-Control: no-cache, no-store, must-revalidate
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+Pragma: no-cache
+</responseheaders>
+<data name="\Responses\61dataFile" bytes=43 size=43/>
+</call>
+<endusertransaction id="010_homepage"/>

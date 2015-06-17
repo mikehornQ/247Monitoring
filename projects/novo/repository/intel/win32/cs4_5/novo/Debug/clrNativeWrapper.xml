@@ -1,0 +1,912 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>clrNativeWrapper</name>
+    </assembly>
+    <members>
+        <member name="T:Facilita.Native.ExtractionCursor">
+            <summary>
+            Stores details of an extraction from a Response.
+            </summary>
+            
+            <remarks>
+            The current position in the page is stored, so an ExtractionCursor object
+            can be re-used to find successive matches in a Response.
+            </remarks>
+            
+            <example>
+            The following example demonstrates extracting multiple tokens from an XML response.
+            <code language="none">
+            <![CDATA[<setup>]]><br/>
+            <![CDATA[    <token>477BF7E1EA0</token>]]><br/>
+            <![CDATA[    <token>68189CA718B</token>]]><br/>
+            <![CDATA[    <token>44D4C768874</token>]]><br/>
+            <![CDATA[    <token>AC59664BBEF</token>]]><br/>
+            <![CDATA[</setup>]]>
+            </code>
+            <para>
+            If it is necessary to extract the tokens from this response and store them in a
+            List&lt;string&gt;, the following method could be written which makes use of 
+            the ExtractionCursor class.
+            </para>
+            <code language="cs">
+            public List&lt;string&gt; FindTokens(Response response)
+            {
+                // Create a List to store the tokens
+                List&lt;string&gt; tokens = new List&lt;string&gt;();
+            
+                // Use an ExtractionCursor to remember our current position within the Response
+                ExtractionCursor cursor = new ExtractionCursor();
+            
+                // Loop until we can't find any more tokens     
+                do
+                {
+                    // Extract the next token
+                    string token = response.Extract(cursor, "&lt;token&gt;", "&lt;/token&gt;", ActionType.ACT_NONE);
+                    if (cursor.Succeeded)
+                    {
+                        WriteMessage(String.Format("Found token {0} at position {1}", token, cursor.Index));
+                        tokens.Add(token);
+                    }
+                }
+                while (cursor.Succeeded);
+                return tokens;
+            }
+            </code>
+            </example>
+        </member>
+        <member name="M:Facilita.Native.ExtractionCursor.#ctor(System.IntPtr,System.Boolean)">
+             <summary>
+             For internal use only. Of no interest to the user.
+             </summary>
+            
+             <param name="cPtr">Pointer to the CPP wrapped object.</param>
+             <param name="cMemoryOwn">Indicates if this object is responsible for memory management of the CPP object.</param>
+        </member>
+        <member name="M:Facilita.Native.ExtractionCursor.getCPtr(Facilita.Native.ExtractionCursor)">
+             <summary>
+             For internal use only. Of no interest to the user.
+             </summary>
+            
+             <param name="obj">A reference to an object of this class.</param>
+             
+             <returns>A long containing the address of the CPP wrapped object.</returns>
+        </member>
+        <member name="M:Facilita.Native.ExtractionCursor.Dispose">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Facilita.Native.ExtractionCursor.#ctor">
+            <summary>
+            Initialises a new instance of the ExtractionCursor class.
+            </summary>
+        </member>
+        <member name="M:Facilita.Native.ExtractionCursor.Reset">
+            <summary>
+            Resets this object for re-use.
+            </summary>
+        </member>
+        <member name="M:Facilita.Native.ExtractionCursor.ClearErrorMessage">
+            <summary>
+            Clears the current error message.
+            </summary>
+        </member>
+        <member name="P:Facilita.Native.ExtractionCursor.Index">
+             <summary>
+             Gets or sets the offset into the Response at which the extracted text was found.
+             </summary>
+            
+             <value>The offset into the Response at which the extracted text was found.</value>
+        </member>
+        <member name="P:Facilita.Native.ExtractionCursor.Succeeded">
+             <summary>
+             Gets or sets a value that indicates whether the extract was successful.
+             </summary>
+            
+             <value><b>true</b> if the extract was successful; otherwise, <b>false</b>.</value>
+        </member>
+        <member name="P:Facilita.Native.ExtractionCursor.ErrorMessage">
+             <summary>
+             Gets or sets the error message that was set for an unsuccessful extract. 
+             </summary>
+            
+             <value>The error message that was set for an unsuccessful extract.</value>
+        </member>
+        <member name="T:Facilita.Native.IpEndPoint">
+            <summary>
+            This class encapsulates IP address and port.
+            Static methods are provided to create objects with commonly used patterns and address families.
+            </summary>
+        </member>
+        <member name="M:Facilita.Native.IpEndPoint.#ctor(System.IntPtr,System.Boolean)">
+             <summary>
+             For internal use only. Of no interest to the user.
+             </summary>
+            
+             <param name="cPtr">Pointer to the CPP wrapped object.</param>
+             <param name="cMemoryOwn">Indicates if this object is responsible for memory management of the CPP object.</param>
+        </member>
+        <member name="M:Facilita.Native.IpEndPoint.getCPtr(Facilita.Native.IpEndPoint)">
+             <summary>
+             For internal use only. Of no interest to the user.
+             </summary>
+            
+             <param name="obj">A reference to an object of this class.</param>
+             
+             <returns>A long containing the address of the CPP wrapped object.</returns>
+        </member>
+        <member name="M:Facilita.Native.IpEndPoint.Dispose">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Facilita.Native.IpEndPoint.#ctor">
+            <summary>
+            Initialises a new instance of the IpEndPoint class,.
+            </summary>
+        </member>
+        <member name="M:Facilita.Native.IpEndPoint.#ctor(System.Int32)">
+             <summary>
+             Initialises a new instance of the IpEndPoint class, with the localhost IP address (127.0.0.1) and the specified <paramref name="port"/>.
+             </summary>
+            
+             <param name="port">The port number.</param>
+        </member>
+        <member name="M:Facilita.Native.IpEndPoint.#ctor(Facilita.Native.IpEndPoint)">
+             <summary>
+             Initialises a new instance of the IpEndPoint class, which is a copy of the specified IpEndPoint object.
+             </summary>
+            
+             <param name="arg0">The IpEndPoint object to copy.</param>
+        </member>
+        <member name="M:Facilita.Native.IpEndPoint.#ctor(System.String,System.Int32,Facilita.Native.IpEndPoint.AddressType)">
+             <summary>
+             Initialises a new instance of the IpEndPoint class, with the specified <paramref name="host"/>, <paramref name="port"/> and <paramref name="addressType"/>.
+             </summary>
+            
+             <param name="host">The hostname.</param>
+             <param name="port">The port number.</param>
+             <param name="addressType">The address type.</param>
+        </member>
+        <member name="M:Facilita.Native.IpEndPoint.#ctor(System.String,System.Int32)">
+             <summary>
+             Initialises a new instance of the IpEndPoint class, with the specified <paramref name="host"/> and <paramref name="port"/>.
+             </summary>
+            
+             <param name="host">The hostname.</param>
+             <param name="port">The port number.</param>
+        </member>
+        <member name="M:Facilita.Native.IpEndPoint.#ctor(System.String)">
+             <summary>
+             Initialises a new instance of the IpEndPoint class, with the specified <paramref name="host"/>.
+             </summary>
+            
+             <param name="host">The hostname.</param>
+        </member>
+        <member name="M:Facilita.Native.IpEndPoint.ToString">
+            <summary>
+            Represents this object as a string, e.g. <c>"localhost:8080"</c>.
+            </summary>
+            
+            <returns>A string that represents the current object.</returns>
+        </member>
+        <member name="M:Facilita.Native.IpEndPoint.WithPort(System.Int32)">
+             <summary>
+             Initialises a new instance of the IpEndPoint class, which is a copy of this IpEndPoint object,
+             and sets the specified <paramref name="port"/> number.
+             </summary>
+            
+             <param name="port">The new port number.</param>
+             
+             <returns>A new IpEndPoint object.</returns>
+        </member>
+        <member name="M:Facilita.Native.IpEndPoint.GetAddressType">
+            <summary>
+            Gets the address type.
+            </summary>
+            
+            <returns>The address type.</returns>
+        </member>
+        <member name="P:Facilita.Native.IpEndPoint.Any">
+             <summary>
+             Gets a <i>wildcard</i> IpEndPoint object. 
+             The returned object represents an IP address and port where the actual values used by the low level communication layers will be determined by the Operating System.
+             </summary>
+            
+             <value>An IpEndPoint object.</value>
+        </member>
+        <member name="P:Facilita.Native.IpEndPoint.None">
+             <summary>
+             Gets a <i>none</i> IpEndPoint object.
+             The returned object represents an uninitialised IpEndPoint.
+             </summary>
+            
+             <value>An IpEndPoint object.</value>
+        </member>
+        <member name="P:Facilita.Native.IpEndPoint.Local">
+             <summary>
+             Gets an IpEndPoint object with the localhost IP address (127.0.0.1).
+             </summary>
+             
+             <example>
+             The following example demonstrates getting a local web server IpEndPoint
+             <code language="cs">
+             IpEndPoint local = IpEndPoint.Local.WithPort(80); // "127.0.0.1:80"
+             </code>
+             </example>
+            
+             <value>An IpEndPoint object with IP address 127.0.0.1.</value>
+        </member>
+        <member name="P:Facilita.Native.IpEndPoint.All">
+             <summary>
+             Gets an IpEndPoint object which has the IP address that represents all IP addresses (usually only used in server scripts).
+             </summary>
+            
+             <value>An IpEndPoint object.</value>
+        </member>
+        <member name="P:Facilita.Native.IpEndPoint.Broadcast">
+             <summary>
+             Gets an IpEndPoint object which has an IP address that represents the broadcast address.
+             </summary>
+            
+             <value>An IpEndPoint object.</value>
+        </member>
+        <member name="P:Facilita.Native.IpEndPoint.Host">
+             <summary>
+             Gets the host (IP address).
+             </summary>
+            
+             <value>The IP address.</value>
+        </member>
+        <member name="P:Facilita.Native.IpEndPoint.Port">
+             <summary>
+             Gets the port number.
+             </summary>
+            
+             <value>The port number.</value>
+        </member>
+        <member name="P:Facilita.Native.IpEndPoint.IsBroadcast">
+             <summary>
+             Gets a value that indicates whether this object has an IP address representing the broadcast address.
+             </summary>
+            
+             <value><b>true</b> if this object has an IP address representing the broadcast address; otherwise, <b>false</b>.</value>
+             
+             <seealso cref="P:Facilita.Native.IpEndPoint.Broadcast"/>
+        </member>
+        <member name="P:Facilita.Native.IpEndPoint.IsAll">
+             <summary>
+             Gets a value that indicates whether this is the <i>All</i> IpEndPoint.
+             </summary>
+            
+             <value><b>true</b> if this is the <see cref="P:Facilita.Native.IpEndPoint.All"/> IpEndPoint; otherwise, <b>false</b>.</value>
+             
+             <seealso cref="P:Facilita.Native.IpEndPoint.All"/>
+        </member>
+        <member name="P:Facilita.Native.IpEndPoint.IsStandard">
+             <summary>
+             Gets a value that indicates whether this object has a standard IP address and port.
+             </summary>
+            
+             <value><b>true</b> if this object has a standard IP address and port; otherwise, <b>false</b>.</value>
+        </member>
+        <member name="P:Facilita.Native.IpEndPoint.IsLegal">
+             <summary>
+             Gets a value that indicates whether this object is in a legal state and ready for use by the API.
+             </summary>
+            
+             <value><b>true</b> if this object is in a legal state and ready for use by the API; otherwise, <b>false</b>.</value>
+        </member>
+        <member name="T:Facilita.Native.IpEndPoint.AddressType">
+            <summary>
+            The type of address that a <see cref="T:Facilita.Native.IpEndPoint"/> may represent.
+            </summary>
+        </member>
+        <member name="F:Facilita.Native.IpEndPoint.AddressType.NONE">
+            <summary>
+            Represents an uninitialised address.
+            </summary>
+        </member>
+        <member name="F:Facilita.Native.IpEndPoint.AddressType.ANY">
+            <summary>
+            Represents an IP address and port where the actual values used by the low level communication layers will be determined by the Operating System.
+            </summary>
+        </member>
+        <member name="F:Facilita.Native.IpEndPoint.AddressType.STANDARD">
+            <summary>
+            Represents a standard IP address and port.
+            </summary>
+        </member>
+        <member name="F:Facilita.Native.IpEndPoint.AddressType.ALL">
+            <summary>
+            Represents all IP addresses (usually only used in server scripts).
+            </summary>
+        </member>
+        <member name="F:Facilita.Native.IpEndPoint.AddressType.BROADCAST">
+            <summary>
+            Represents the broadcast address.
+            </summary>
+        </member>
+        <member name="T:Facilita.Native.RegExpMatch">
+            <summary>
+            Represents the position and text of a match found in a regular expression search.
+            </summary>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatch.#ctor(System.IntPtr,System.Boolean)">
+             <summary>
+             For internal use only. Of no interest to the user.
+             </summary>
+            
+             <param name="cPtr">Pointer to the CPP wrapped object.</param>
+             <param name="cMemoryOwn">Indicates if this object is responsible for memory management of the CPP object.</param>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatch.getCPtr(Facilita.Native.RegExpMatch)">
+             <summary>
+             For internal use only. Of no interest to the user.
+             </summary>
+            
+             <param name="obj">A reference to an object of this class.</param>
+             
+             <returns>A long containing the address of the CPP wrapped object.</returns>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatch.Dispose">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatch.AddReference(System.Object)">
+            <summary>
+            For internal use only.
+            </summary>
+            
+            <param name="aRef">An Object.</param>
+        </member>
+        <member name="P:Facilita.Native.RegExpMatch.Position">
+             <summary>
+             Gets the offset of the matching text within the Response.
+             </summary>
+            
+             <value>The offset of the matching text within the Response.</value>
+        </member>
+        <member name="P:Facilita.Native.RegExpMatch.Match">
+             <summary>
+             Gets the text that matched the regular expression.
+             </summary>
+            
+             <value>The text that matched the regular expression.</value>
+        </member>
+        <member name="T:Facilita.Native.RegExpMatchList">
+            <summary>
+            A list of <see cref="T:Facilita.Native.RegExpMatch"/> objects.
+            </summary>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.#ctor(System.IntPtr,System.Boolean)">
+             <summary>
+             For internal use only. Of no interest to the user.
+             </summary>
+            
+             <param name="cPtr">Pointer to the CPP wrapped object.</param>
+             <param name="cMemoryOwn">Indicates if this object is responsible for memory management of the CPP object.</param>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.getCPtr(Facilita.Native.RegExpMatchList)">
+             <summary>
+             For internal use only. Of no interest to the user.
+             </summary>
+            
+             <param name="obj">A reference to an object of this class.</param>
+             
+             <returns>A long containing the address of the CPP wrapped object.</returns>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.Dispose">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.#ctor(System.Collections.ICollection)">
+            <summary>
+            Initializes a new instance of the RegExpMatchList class that contains elements copied from the specified <see cref="T:System.Collections.ICollection"/> and that has the same initial capacity as the number of elements copied.
+            </summary>
+            
+            <remarks>
+            The capacity of an RegExpMatchList is the number of elements that the RegExpMatchList can hold. As elements are added to an RegExpMatchList, the capacity is automatically increased as required by reallocating the internal array.
+            <para>
+            If the size of the collection can be estimated, specifying the initial capacity eliminates the need to perform a number of resizing operations while adding elements to the RegExpMatchList.
+            </para>
+            <para>
+            The elements are copied onto the RegExpMatchList in the same order they are read by the IEnumerator of the <see cref="T:System.Collections.ICollection"/>.
+            </para>
+            <para>
+            This constructor is an O(<i>n</i>) operation, where <i>n</i> is the number of elements in <paramref name="c"/>.
+            </para>
+            </remarks>
+            
+            <param name="c">The <see cref="T:System.Collections.ICollection"/> whose elements are copied to the new list.</param>
+            
+            <exception cref="T:System.ArgumentNullException"><paramref name="c"/> is <b>null</b>.</exception>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.CopyTo(Facilita.Native.RegExpMatch[])">
+             <summary>
+             Copies the elements of the RegExpMatchList to an <see cref="T:System.Array"/>.
+             </summary>
+            
+             <remarks>
+             This method uses <see cref="M:System.Array.Copy(System.Array,System.Array,System.Int32)"/> to copy the elements.
+             <para>
+             The elements are copied to the <see cref="T:System.Array"/> in the same order in which the enumerator iterates through the RegExpMatchList.
+             </para>
+             <para>
+             This method is an O(<i>n</i>) operation, where <i>n</i> is <see cref="P:Facilita.Native.RegExpMatchList.Count"/>.
+             </para>
+             </remarks>
+            
+             <param name="array">The one-dimensional <see cref="T:System.Array"/> that is the destination of the elements copied from RegExpMatchList.
+             The <see cref="T:System.Array"/> must have zero-based indexing.</param>
+             
+             <exception cref="T:System.ArgumentNullException"><paramref name="array"/> is <b>null</b>.</exception>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.CopyTo(Facilita.Native.RegExpMatch[],System.Int32)">
+             <summary>
+             Copies the elements of the RegExpMatchList to an <see cref="T:System.Array"/>, starting at a particular <see cref="T:System.Array"/> index.
+             </summary>
+            
+             <remarks>
+             This method uses <see cref="M:System.Array.Copy(System.Array,System.Array,System.Int32)"/> to copy the elements.
+             <para>
+             The elements are copied to the <see cref="T:System.Array"/> in the same order in which the enumerator iterates through the RegExpMatchList.
+             </para>
+             <para>
+             This method is an O(<i>n</i>) operation, where <i>n</i> is <see cref="P:Facilita.Native.RegExpMatchList.Count"/>.
+             </para>
+             </remarks>
+             
+             <param name="array">The one-dimensional <see cref="T:System.Array"/> that is the destination of the elements copied from RegExpMatchList.
+             The <see cref="T:System.Array"/> must have zero-based indexing.</param>
+             <param name="arrayIndex">The zero-based index in <paramref name="array"/> at which copying begins.</param>
+             
+             <exception cref="T:System.ArgumentNullException"><paramref name="array"/> is <b>null</b>.</exception>
+             <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="arrayIndex"/> is less than 0.</exception>
+             <exception cref="T:System.ArgumentException">The number of elements in the source RegExpMatchList is greater than the available space from <paramref name="arrayIndex"/> to the end of the destination <paramref name="array"/>.</exception>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.CopyTo(System.Int32,Facilita.Native.RegExpMatch[],System.Int32,System.Int32)">
+            <summary>
+            Copies a range of elements from the RegExpMatchList to a compatible one-dimensional array, starting at the specified index of the target array.
+            </summary>
+            
+            <remarks>
+            This method uses <see cref="M:System.Array.Copy(System.Array,System.Int32,System.Array,System.Int32,System.Int32)"/> to copy the elements.
+            <para>
+            The elements are copied to the <see cref="T:System.Array"/> in the same order in which the enumerator iterates through the RegExpMatchList.
+            </para>
+            <para>
+            This method is an O(<i>n</i>) operation, where <i>n</i> is <paramref name="count"/>.
+            </para>
+            </remarks>
+            
+            <param name="index">The zero-based index in the source RegExpMatchList at which copying begins.</param>
+            <param name="array">The one-dimensional <see cref="T:System.Array"/> that is the destination of the elements copied from RegExpMatchList.
+            The <see cref="T:System.Array"/> must have zero-based indexing.</param>
+            <param name="arrayIndex">The zero-based index in <paramref name="array"/> at which copying begins.</param>
+            <param name="count">The number of elements to copy.</param>
+            
+            <exception cref="T:System.ArgumentNullException"><paramref name="array"/> is <b>null</b>.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="index"/> is less than 0.<br/>-or-<br/><paramref name="arrayIndex"/> is less than 0.<br/>-or-<br/><paramref name="count"/> is less than 0.</exception>
+            <exception cref="T:System.ArgumentException"><paramref name="index"/> is equal to or greater than the <see cref="P:Facilita.Native.RegExpMatchList.Count"/> of the source RegExpMatchList.<br/>-or-<br/>The number of elements from <paramref name="index"/> to the end of the source RegExpMatchList is greater than the available space from <paramref name="arrayIndex"/> to the end of the destination <paramref name="array"/>.</exception>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through a collection.
+            </summary>
+            
+            <returns>An <see cref="T:System.Collections.IEnumerator"/> object that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through a collection.
+            </summary>
+            
+            <returns>An <see cref="T:System.Collections.IEnumerator"/> object that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.Add(Facilita.Native.RegExpMatch)">
+            <summary>
+            Adds an item to the RegExpMatchList.
+            </summary>
+            
+            <param name="x">The object to add to the RegExpMatchList.</param>
+            
+            <exception cref="T:System.NotSupportedException">The RegExpMatchList is read-only.<br/>-or-<br/>The RegExpMatchList has a fixed size.</exception>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.#ctor">
+            <summary>
+            Initializes a new instance of the RegExpMatchList class that is empty and has the default initial capacity.
+            </summary>
+            
+            <remarks>
+            The capacity of an RegExpMatchList is the number of elements that the RegExpMatchList can hold. As elements are added to an RegExpMatchList, the capacity is automatically increased as required by reallocating the internal array.
+            <para>
+            If the size of the collection can be estimated, specifying the initial capacity eliminates the need to perform a number of resizing operations while adding elements to the RegExpMatchList.
+            </para>
+            <para>
+            This constructor is an O(1) operation.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.#ctor(Facilita.Native.RegExpMatchList)">
+            <summary>
+            Initializes a new instance of the RegExpMatchList class that contains elements copied from the specified collection and that has the same initial capacity as the number of elements copied.
+            </summary>
+            
+            <remarks>
+            The capacity of an RegExpMatchList is the number of elements that the RegExpMatchList can hold. As elements are added to an RegExpMatchList, the capacity is automatically increased as required by reallocating the internal array.
+            <para>
+            If the size of the collection can be estimated, specifying the initial capacity eliminates the need to perform a number of resizing operations while adding elements to the RegExpMatchList.
+            </para>
+            <para>
+            The elements are copied onto the RegExpMatchList in the same order they are read by the IEnumerator of the RegExpMatchList.
+            </para>
+            <para>
+            This constructor is an O(<i>n</i>) operation, where <i>n</i> is the number of elements in <paramref name="other"/>.
+            </para>
+            </remarks>
+            
+            <param name="other">The RegExpMatchList whose elements are copied to the new list.</param>
+            
+            <exception cref="T:System.ArgumentNullException"><paramref name="other"/> is <b>null</b>.</exception>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the RegExpMatchList class that is empty and has the specified initial capacity.
+            </summary>
+            
+            <remarks>
+            The capacity of an RegExpMatchList is the number of elements that the RegExpMatchList can hold. As elements are added to an RegExpMatchList, the capacity is automatically increased as required by reallocating the internal array.
+            <para>
+            If the size of the collection can be estimated, specifying the initial capacity eliminates the need to perform a number of resizing operations while adding elements to the RegExpMatchList.
+            </para>
+            <para>
+            This constructor is an O(<i>n</i>) operation, where <i>n</i> is <paramref name="capacity"/>.
+            </para>
+            </remarks>
+            
+            <param name="capacity">The number of elements that the new RegExpMatchList can initially store.</param>
+            
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="capacity"/> is less than 0.</exception>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.AddRange(Facilita.Native.RegExpMatchList)">
+            <summary>
+            Adds the elements of the specified collection to the end of the RegExpMatchList.
+            </summary>
+            
+            <remarks>
+            The order of the elements in the collection is preserved in the RegExpMatchList.
+            <para>
+            If the new <see cref="P:Facilita.Native.RegExpMatchList.Count"/> (the current <see cref="P:Facilita.Native.RegExpMatchList.Count"/> plus the size of the collection) will be greater than <see cref="P:Facilita.Native.RegExpMatchList.Capacity"/>, the capacity of the RegExpMatchList is increased by automatically reallocating the internal array to accommodate the new elements, and the existing elements are copied to the new array before the new elements are added.
+            </para>
+            <para>
+            If the RegExpMatchList can accommodate the new elements without increasing the <see cref="P:Facilita.Native.RegExpMatchList.Capacity"/>, this method is an O(<i>n</i>) operation, where <i>n</i> is the number of elements to be added. If the capacity needs to be increased to accommodate the new elements, this method becomes an O(<i>n</i> + <i>m</i>) operation, where <i>n</i> is the number of elements to be added and <i>m</i> is <see cref="P:Facilita.Native.RegExpMatchList.Count"/>.
+            </para>
+            </remarks>
+            
+            <param name="values">The collection whose elements should be added to the end of the RegExpMatchList.
+            The collection itself cannot be <b>null</b>, but it can contain elements that are <b>null</b>, if type <i>T</i> is a reference type.</param>
+            
+            <exception cref="T:System.ArgumentNullException"><paramref name="values"/> is <b>null</b>.</exception>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.GetRange(System.Int32,System.Int32)">
+            <summary>
+            Creates a shallow copy of a range of elements in the source RegExpMatchList.
+            </summary>
+            
+            <remarks>
+            A shallow copy of a collection of reference types, or a subset of that collection, contains only the references to the elements of the collection. The objects themselves are not copied. The references in the new list point to the same objects as the references in the original list.
+            <para>
+            A shallow copy of a collection of value types, or a subset of that collection, contains the elements of the collection. However, if the elements of the collection contain references to other objects, those objects are not copied. The references in the elements of the new collection point to the same objects as the references in the elements of the original collection.
+            </para>
+            <para>
+            In contrast, a deep copy of a collection copies the elements and everything directly or indirectly referenced by the elements.
+            </para>
+            <para>
+            This method is an O(<i>n</i>) operation, where <i>n</i> is <paramref name="count"/>.
+            </para>
+            </remarks>
+            
+            <param name="index">The zero-based index at which the range starts.</param>
+            <param name="count">The number of elements in the range.</param>
+            
+            <returns>A shallow copy of a range of elements in the source RegExpMatchList.</returns>
+            
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="index"/> is less than 0.<br/>-or-<br/><paramref name="count"/> is less than 0.</exception>
+            <exception cref="T:System.ArgumentException"><paramref name="index"/> and <paramref name="count"/> do not denote a valid range of elements in the RegExpMatchList.</exception>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.Insert(System.Int32,Facilita.Native.RegExpMatch)">
+            <summary>
+            Inserts an element into the RegExpMatchList at the specified index.
+            </summary>
+            
+            <remarks>
+            If <see cref="P:Facilita.Native.RegExpMatchList.Count"/> already equals <see cref="P:Facilita.Native.RegExpMatchList.Capacity"/>, the capacity of the RegExpMatchList is increased by automatically reallocating the internal array, and the existing elements are copied to the new array before the new element is added.
+            <para>
+            If <paramref name="index"/> is equal to <see cref="P:Facilita.Native.RegExpMatchList.Count"/>, <paramref name="x"/> is added to the end of RegExpMatchList.
+            </para>
+            <para>
+            This method is an O(<i>n</i>) operation, where <i>n</i> is <see cref="P:Facilita.Native.RegExpMatchList.Count"/>.
+            </para>
+            </remarks>
+            
+            <param name="index">The zero-based index at which <paramref name="x"/> should be inserted.</param>
+            <param name="x">The object to insert. The value can be <b>null</b> for reference types.</param>
+            
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="index"/> is less than 0.<br/>-or-<br/><paramref name="index"/> is greater than <see cref="P:Facilita.Native.RegExpMatchList.Count"/>.</exception>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.InsertRange(System.Int32,Facilita.Native.RegExpMatchList)">
+             <summary>
+             Inserts the elements of a collection into the RegExpMatchList at the specified index.
+             </summary>
+             
+             <remarks>
+             If the new <see cref="P:Facilita.Native.RegExpMatchList.Count"/> (the current <see cref="P:Facilita.Native.RegExpMatchList.Count"/> plus the size of the collection) will be greater than <see cref="P:Facilita.Native.RegExpMatchList.Capacity"/>, the capacity of the RegExpMatchList is increased by automatically reallocating the internal array to accommodate the new elements, and the existing elements are copied to the new array before the new elements are added.
+             <para>
+             If <paramref name="index"/> is equal to <see cref="P:Facilita.Native.RegExpMatchList.Count"/>, the elements are added to the end of RegExpMatchList.
+             </para>
+             <para>
+             The order of the elements in the collection is preserved in the RegExpMatchList.
+             </para>
+             <para>
+             This method is an O(<i>n</i> + <i>m</i>) operation, where <i>n</i> is the number of elements to be added and <i>m</i> is <see cref="P:Facilita.Native.RegExpMatchList.Count"/>.
+             </para>
+             </remarks>
+             
+             <param name="index">The zero-based index at which the new elements should be inserted.</param>
+             <param name="values">The collection whose elements should be added to the end of the RegExpMatchList.
+             The collection itself cannot be <b>null</b>, but it can contain elements that are <b>null</b>, if type <i>T</i> is a reference type.</param>
+            
+             <exception cref="T:System.ArgumentNullException"><paramref name="values"/> is <b>null</b>.</exception>
+             <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="index"/> is less than 0.<br/>-or-<br/><paramref name="index"/> is greater than <see cref="P:Facilita.Native.RegExpMatchList.Count"/>.</exception>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.RemoveAt(System.Int32)">
+             <summary>
+             Removes the element at the specified index of the RegExpMatchList.
+             </summary>
+             
+             <remarks>
+             This method is an O(<i>n</i>) operation, where <i>n</i> is (<see cref="P:Facilita.Native.RegExpMatchList.Count"/> - <paramref name="index"/>).
+             </remarks>
+             
+             <param name="index">The zero-based index of the element to remove.</param>
+            
+             <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="index"/> is less than 0.<br/>-or-<br/><paramref name="index"/> is greater than <see cref="P:Facilita.Native.RegExpMatchList.Count"/>.</exception>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.RemoveRange(System.Int32,System.Int32)">
+            <summary>
+            Removes a range of elements from the RegExpMatchList.
+            </summary>
+            
+            <remarks>
+            The items are removed and all the elements following them in the RegExpMatchList have their indexes reduced by <paramref name="count"/>.
+            <para>
+            This method is an O(<i>n</i>) operation, where <i>n</i> is <see cref="P:Facilita.Native.RegExpMatchList.Count"/>.
+            </para>
+            </remarks>
+            
+            <param name="index">The zero-based starting index of the range of elements to remove.</param>
+            <param name="count">The number of elements to remove.</param>
+            
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="index"/> is less than 0.<br/>-or-<br/><paramref name="count"/> is less than 0.</exception>
+            <exception cref="T:System.ArgumentException"><paramref name="index"/> and <paramref name="count"/> do not denote a valid range of elements in the RegExpMatchList.</exception>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.Repeat(Facilita.Native.RegExpMatch,System.Int32)">
+            <summary>
+            Returns a RegExpMatchList whose elements are copies of the specified <paramref name="value"/>. 
+            </summary>
+            
+            <remarks>
+            This method is an O(<i>n</i>) operation, where <i>n</i> is <paramref name="count"/>.
+            </remarks>
+            
+            <param name="value">The <see cref="T:Facilita.Native.RegExpMatch"/> to copy multiple times in the new RegExpMatchList. The value can be a <b>null</b> reference.</param>
+            <param name="count">The number of times <paramref name="value"/> should be copied.</param>
+            
+            <returns>A RegExpMatchList with <paramref name="count"/> number of elements, all of which are copies of <paramref name="value"/>.</returns>
+            
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="count"/> is less than 0.</exception>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.Reverse">
+            <summary>
+            Reverses the order of the elements in the entire RegExpMatchList.
+            </summary>
+            
+            <remarks>
+            This method uses <see cref="M:System.Array.Reverse(System.Array)"/> to reverse the order of the elements, such that the element at RegExpMatchList[i], where i is any index within the range, moves to RegExpMatchList[j], where j equals <see cref="P:Facilita.Native.RegExpMatchList.Count"/> minus i minus 1.
+            <para>
+            This method is an O(<i>n</i>) operation, where <i>n</i> is <see cref="P:Facilita.Native.RegExpMatchList.Count"/>.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.Reverse(System.Int32,System.Int32)">
+            <summary>
+            Reverses the order of the elements in the specified range.
+            </summary>
+            
+            <remarks>
+            This method uses <see cref="M:System.Array.Reverse(System.Array,System.Int32,System.Int32)"/> to reverse the order of the elements, such that the element at RegExpMatchList[i], where i is any index within the range, moves to RegExpMatchList[j], where j equals <paramref name="index"/> plus <paramref name="index"/> plus <paramref name="count"/> minus i minus 1.
+            <para>
+            This method is an O(<i>n</i>) operation, where <i>n</i> is <see cref="P:Facilita.Native.RegExpMatchList.Count"/>.
+            </para>
+            </remarks>
+            
+            <param name="index">The zero-based starting index of the range to reverse.</param>
+            <param name="count">The number of elements in the range to reverse.</param>
+            
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="index"/> is less than 0.<br/>-or-<br/><paramref name="count"/> is less than 0.</exception>
+            <exception cref="T:System.ArgumentException"><paramref name="index"/> and <paramref name="count"/> do not denote a valid range of elements in the RegExpMatchList.</exception>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.SetRange(System.Int32,Facilita.Native.RegExpMatchList)">
+            <summary>
+            Copies the elements of a collection over a range of elements in the RegExpMatchList. 
+            </summary>
+            
+            <param name="index">The zero-based index at which to start copying the elements of <paramref name="values"/>.</param>
+            <param name="values">The RegExpMatchList whose elements to copy to this RegExpMatchList.
+            The collection itself cannot be <b>null</b>, but it can contain elements that are <b>null</b>, if type <i>T</i> is a reference type.</param>
+            
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="index"/> is less than 0.<br/>-or-<br/><paramref name="index"/> plus the number of elements in <paramref name="values"/> is greater than <see cref="P:Facilita.Native.RegExpMatchList.Count"/>.</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="values"/> is <b>null</b>.</exception>
+            <exception cref="T:System.NotSupportedException">This RegExpMatchList is read-only.</exception>
+        </member>
+        <member name="P:Facilita.Native.RegExpMatchList.IsFixedSize">
+            <summary>
+            Gets a value that indicates whether the RegExpMatchList has a fixed size.
+            </summary>
+            
+            <remarks>
+            A collection with a fixed size does not allow the addition or removal of elements after the collection is created, but it allows the modification of existing elements.
+            </remarks>
+            
+            <value><b>true</b> if the RegExpMatchList has a fixed size; otherwise, <b>false</b>.</value>
+        </member>
+        <member name="P:Facilita.Native.RegExpMatchList.IsReadOnly">
+            <summary>
+            Gets a value that indicates whether the RegExpMatchList is read-only.
+            </summary>
+            
+            <remarks>
+            A collection that is read-only does not allow the addition, removal, or modification of elements after the collection is created.
+            </remarks>
+            
+            <value><b>true</b> if the RegExpMatchList is read-only; otherwise, <b>false</b>.</value>
+        </member>
+        <member name="P:Facilita.Native.RegExpMatchList.Item(System.Int32)">
+            <summary>
+            Gets or sets the element at the specified index.
+            </summary>
+            
+            <remarks>
+            This property provides the ability to access a specific element in the collection by using the following syntax: <c>myCollection[index]</c>.
+            <para>
+            Retrieving the value of this property is an O(1) operation; setting the property is also an O(1) operation.
+            </para>
+            </remarks>
+            
+            <param name="index">The zero-based index of the element to get or set.</param>
+            
+            <value>The element at the specified index.</value>
+            
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="index"/> is less than 0.<br/>-or-<br/><paramref name="index"/> is equal to or greater than <see cref="P:Facilita.Native.RegExpMatchList.Count"/>.</exception>
+        </member>
+        <member name="P:Facilita.Native.RegExpMatchList.Capacity">
+            <summary>
+            Gets or sets the total number of elements the internal data structure can hold without resizing.
+            </summary>
+            
+            <remarks>
+            Capacity is the number of elements that the RegExpMatchList can store before resizing is required, while <see cref="P:Facilita.Native.RegExpMatchList.Count"/> is the number of elements that are actually in the RegExpMatchList.
+            <para>
+            Capacity is always greater than or equal to <see cref="P:Facilita.Native.RegExpMatchList.Count"/>. If <see cref="P:Facilita.Native.RegExpMatchList.Count"/> exceeds Capacity while adding elements, the capacity is increased by automatically reallocating the internal array before copying the old elements and adding the new elements.
+            </para>
+            <para>
+            Retrieving the value of this property is an O(1) operation; setting the property is an O(<i>n</i>) operation, where <i>n</i> is the new capacity.
+            </para>
+            </remarks>
+            
+            <value>The number of elements that the RegExpMatchList can contain before resizing is required.</value>
+            
+            <exception cref="T:System.ArgumentOutOfRangeException">Capacity is set to a value that is less than <see cref="P:Facilita.Native.RegExpMatchList.Count"/>.</exception>
+            <exception cref="T:System.OutOfMemoryException">There is not enough memory available on the system.</exception>
+        </member>
+        <member name="P:Facilita.Native.RegExpMatchList.Count">
+            <summary>
+            Gets the number of elements contained in the RegExpMatchList.
+            </summary>
+            
+            <value>The number of elements contained in the RegExpMatchList.</value>
+        </member>
+        <member name="P:Facilita.Native.RegExpMatchList.IsSynchronized">
+            <summary>
+            Gets a value that indicates whether access to the RegExpMatchList is synchronized (thread safe).
+            </summary>
+            
+            <value><b>true</b> if access to the RegExpMatchList is synchronized (thread safe); otherwise, <b>false</b>.</value>
+        </member>
+        <member name="T:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator">
+            <summary>
+            Supports a simple iteration over a <see cref="T:Facilita.Native.RegExpMatchList"/>
+            </summary>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.#ctor(Facilita.Native.RegExpMatchList)">
+            <summary>
+            </summary>
+            
+            <param name="collection">A RegExpMatchList.</param>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.MoveNext">
+            <summary>
+            Advances the enumerator to the next element of the collection.
+            </summary>
+            
+            <remarks>
+            After an enumerator is created or after the <see cref="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.Reset"/> method is called, an enumerator is positioned before the first element of the collection, and the first call to the MoveNext method moves the enumerator over the first element of the collection.
+            <para>
+            If MoveNext passes the end of the collection, the enumerator is positioned after the last element in the collection and MoveNext returns <b>false</b>. When the enumerator is at this position, subsequent calls to MoveNext also return <b>false</b> until <see cref="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.Reset"/> is called.
+            </para>
+            <para>
+            An enumerator remains valid as long as the collection remains unchanged. If changes are made to the collection, such as adding, modifying, or deleting elements, the enumerator is irrecoverably invalidated and the next call to MoveNext or <see cref="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.Reset"/> throws an <see cref="T:System.InvalidOperationException"/>.
+            </para>
+            </remarks>
+            
+            <returns><b>true</b> if the enumerator was successfully advanced to the next element; <b>false</b> if the enumerator has passed the end of the collection.</returns>
+            
+            <exception cref="T:System.InvalidOperationException">The collection was modified after the enumerator was created.</exception>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.Reset">
+            <summary>
+            Sets the enumerator to its initial position, which is before the first element in the collection.
+            </summary>
+            
+            <remarks>
+            An enumerator remains valid as long as the collection remains unchanged. If changes are made to the collection, such as adding, modifying, or deleting elements, the enumerator is irrecoverably invalidated and the next call to the <see cref="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.MoveNext"/> or Reset method throws an <see cref="T:System.InvalidOperationException"/>.
+            </remarks>
+            
+            <exception cref="T:System.InvalidOperationException">The collection was modified after the enumerator was created.</exception>
+        </member>
+        <member name="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.Dispose">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.Current">
+            <summary>
+            Gets the current element in the collection.
+            </summary>
+            
+            <remarks>
+            After an enumerator is created or after the <see cref="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.Reset"/> method is called, the <see cref="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.MoveNext"/> method must be called to advance the enumerator to the first element of the collection before reading the value of the Current property; otherwise, Current is undefined.
+            <para>
+            Current also throws an exception if the last call to <see cref="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.MoveNext"/> returned <b>false</b>, which indicates the end of the collection.
+            </para>
+            <para>
+            Current does not move the position of the enumerator, and consecutive calls to Current return the same object until either <see cref="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.MoveNext"/> or <see cref="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.Reset"/> is called.
+            </para>
+            <para>
+            An enumerator remains valid as long as the collection remains unchanged. If changes are made to the collection, such as adding, modifying, or deleting elements, the enumerator is irrecoverably invalidated and the next call to <see cref="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.MoveNext"/> or <see cref="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.Reset"/> throws an <see cref="T:System.InvalidOperationException"/>. If the collection is modified between <see cref="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.MoveNext"/> and Current, Current returns the element that it is set to, even if the enumerator is already invalidated.
+            </para>
+            </remarks>
+            
+            <value>The current element in the collection.</value>
+        </member>
+        <member name="P:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.System#Collections#IEnumerator#Current">
+            <summary>
+            Gets the current element in the collection.
+            </summary>
+            
+            <remarks>
+            After an enumerator is created or after the <see cref="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.Reset"/> method is called, the <see cref="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.MoveNext"/> method must be called to advance the enumerator to the first element of the collection before reading the value of the Current property; otherwise, Current is undefined.
+            <para>
+            Current also throws an exception if the last call to <see cref="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.MoveNext"/> returned <b>false</b>, which indicates the end of the collection.
+            </para>
+            <para>
+            Current does not move the position of the enumerator, and consecutive calls to Current return the same object until either <see cref="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.MoveNext"/> or <see cref="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.Reset"/> is called.
+            </para>
+            <para>
+            An enumerator remains valid as long as the collection remains unchanged. If changes are made to the collection, such as adding, modifying, or deleting elements, the enumerator is irrecoverably invalidated and the next call to <see cref="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.MoveNext"/> or <see cref="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.Reset"/> throws an <see cref="T:System.InvalidOperationException"/>. If the collection is modified between <see cref="M:Facilita.Native.RegExpMatchList.RegExpMatchListEnumerator.MoveNext"/> and Current, Current returns the element that it is set to, even if the enumerator is already invalidated.
+            </para>
+            </remarks>
+            
+            <value>The current element in the collection.</value>
+        </member>
+    </members>
+</doc>

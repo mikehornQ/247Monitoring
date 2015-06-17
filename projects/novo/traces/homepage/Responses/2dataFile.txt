@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Folder>
+    <ResourceID>EB10CCFCA857F043!127</ResourceID>
+    <ETag>EB10CCFCA857F043!127.2</ETag>
+    <DateModified>2015-06-16T11:13:00.413Z</DateModified>
+    <Items>
+      <Document>
+        <ResourceID>EB10CCFCA857F043!128</ResourceID>
+        <ETag>EB10CCFCA857F043!128.4</ETag>
+        <DateModified>2015-06-16T11:12:47.263Z</DateModified>
+        <RelationshipName>{058CFDF1-$8A2B-$4A52-$95AA-$1CCAF46AFD9D}--MachineInfo.dat</RelationshipName>
+        <WriteStatus>Success</WriteStatus>
+      </Document>
+    </Items>
+    <RelationshipName>browsersettings-tabroaming-internet-explorer</RelationshipName>
+    <WriteStatus>Success</WriteStatus>
+  </Folder>
+</Items>

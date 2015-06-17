@@ -1,0 +1,851 @@
+<!-- Filtered trace created on Tue Jun 16 12:13:48 2015 -->
+<trace version="3.000000">
+<startusertransaction id="Start",snapshot="fc_snapshots\snapshot1.png"/>
+<endusertransaction id="Start" />
+<startusertransaction id="010_homepage",snapshot="fc_snapshots\snapshot2.png"/>
+<call index=22 length"0">
+12:13:07.6: elapsed="344",channel="1",port="62569"
+http://www.unilever.com 80
+GET http://www.unilever.com/ HTTP/1.1
+<requestheaders>
+Accept: text/html, application/xhtml+xml, */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.unilever.com
+DNT: 1
+Connection: Keep-Alive
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Date: Tue, 16 Jun 2015 11:13:10 GMT
+Content-Length: 11734
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\23dataFile.html" bytes=11734 size=71610/>
+
+</call>
+
+<call index=23 length"0">
+12:13:07.553: elapsed="250",channel="1",port="62569"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/Styles/app.css HTTP/1.1
+<requestheaders>
+Accept: text/css, */*
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: text/css
+Last-Modified: Wed, 10 Jun 2015 13:59:03 GMT
+Accept-Ranges: bytes
+ETag: "9e1c289c85a3d01:0"
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Date: Tue, 16 Jun 2015 11:13:10 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+Connection: Transfer-Encoding
+</responseheaders>
+<data name="\Responses\30dataFile.txt" bytes=59673 size=400654/>
+
+</call>
+
+<call index=24 length"0">
+12:13:07.553: elapsed="31",channel="2",port="62571"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/Scripts/vendor/custom.modernizr.min.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: application/x-javascript
+Last-Modified: Wed, 10 Jun 2015 14:54:38 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+X-Server-Name: ce06pw21
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: max-age=38075
+Date: Tue, 16 Jun 2015 11:13:10 GMT
+Content-Length: 4226
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\24dataFile" bytes=4226 size=9643/>
+
+</call>
+
+<call index=25 length"0">
+12:13:07.553: elapsed="156",channel="3",port="62572"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/unilever_logo_tcm244-409314.svg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/svg+xml
+Last-Modified: Wed, 10 Jun 2015 14:06:46 GMT
+Accept-Ranges: bytes
+ETag: "7471f0af86a3d01:0"
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 35178
+Date: Tue, 16 Jun 2015 11:13:10 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\28dataFile" bytes=35178 size=35178/>
+
+</call>
+
+<call index=26 length"0">
+12:13:07.553: elapsed="31",channel="4",port="62574"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/Blue-Band-India-ad-1950s_tcm244-408296_w209.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 14:06:46 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 8192
+Cache-Control: max-age=474501
+Date: Tue, 16 Jun 2015 11:13:10 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\25dataFile" bytes=8192 size=8192/>
+
+</call>
+
+<call index=27 length"0">
+12:13:07.631: elapsed="31",channel="3",port="62576"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/Young-girl-brushing-teeth_tcm244-408615_w209.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 14:06:47 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 8192
+Cache-Control: max-age=474368
+Date: Tue, 16 Jun 2015 11:13:10 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\26dataFile" bytes=8192 size=8192/>
+
+</call>
+
+<call index=28 length"0">
+12:13:07.662: elapsed="16",channel="3",port="62578"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/Lady-carrying-water-on-her-head_tcm244-408614_w209.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 14:06:47 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 8192
+Cache-Control: max-age=474501
+Date: Tue, 16 Jun 2015 11:13:10 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\27dataFile" bytes=8192 size=8192/>
+
+</call>
+
+<call index=29 length"0">
+12:13:07.709: elapsed="31",channel="3",port="62579"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/IMG_6079_990x557_tcm244-414236_w209.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 14:06:47 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 16384
+Cache-Control: max-age=136956
+Date: Tue, 16 Jun 2015 11:13:10 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\29dataFile" bytes=16384 size=16384/>
+
+</call>
+
+<call index=30 length"0">
+12:13:07.881: elapsed="31",channel="1",port="62580"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/ar14_banner_main_novo_tcm244-419671_w209.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 14:06:47 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 16384
+Cache-Control: max-age=155385
+Date: Tue, 16 Jun 2015 11:13:11 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\31dataFile" bytes=16384 size=16384/>
+
+</call>
+
+<call index=31 length"0">
+12:13:07.912: elapsed="16",channel="2",port="62581"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/Two-Unilever-employees-having-a-meeting_tcm244-414276_w209.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 14:06:47 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 8192
+Cache-Control: max-age=474308
+Date: Tue, 16 Jun 2015 11:13:11 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\32dataFile" bytes=8192 size=8192/>
+
+</call>
+
+<call index=32 length"0">
+12:13:07.912: elapsed="16",channel="3",port="62582"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/Q1-2015-990x557_tcm244-423307_w209.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 14:06:48 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 16384
+Cache-Control: max-age=474267
+Date: Tue, 16 Jun 2015 11:13:11 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\33dataFile" bytes=16384 size=16384/>
+
+</call>
+
+<call index=33 length"0">
+12:13:07.959: elapsed="31",channel="1",port="62583"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/Ipad-pen-spreadsheet-990x557_tcm244-414264_w209.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 15:03:00 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+X-Server-Name: ce06pw21
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 8192
+Cache-Control: max-age=474286
+Date: Tue, 16 Jun 2015 11:13:11 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\34dataFile" bytes=8192 size=8192/>
+
+</call>
+
+<call index=34 length"0">
+12:13:07.975: elapsed="36",channel="2",port="62584"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/Unilever-saves-one-million-tonnes-688x387_tcm244-427258_w680.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 14:06:48 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 32768
+Cache-Control: max-age=266192
+Date: Tue, 16 Jun 2015 11:13:11 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\35dataFile" bytes=32768 size=32768/>
+
+</call>
+
+<call index=35 length"0">
+12:13:07.990: elapsed="87",channel="2",port="62574"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/ar14_banner_main_themeblue_990x557_tcm244-414263_w680.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 14:06:48 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 131072
+Cache-Control: max-age=474565
+Date: Tue, 16 Jun 2015 11:13:11 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\38dataFile" bytes=131072 size=131072/>
+
+</call>
+
+<call index=37 length"0">
+12:13:08.11: elapsed="67",channel="3",port="62578"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/Group-of-Unilever-employees-with-ice-cream_tcm244-414273_w680.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 15:46:02 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+X-Server-Name: ce06pw22
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 65536
+Cache-Control: max-age=483627
+Date: Tue, 16 Jun 2015 11:13:11 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\37dataFile" bytes=65536 size=65536/>
+
+</call>
+
+<call index=38 length"0">
+12:13:08.11: elapsed="67",channel="4",port="62572"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/unilever_leatherhead_990x557_tcm244-420699_w680.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 15:03:00 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+X-Server-Name: ce06pw21
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 65536
+Cache-Control: max-age=475689
+Date: Tue, 16 Jun 2015 11:13:11 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\36dataFile" bytes=65536 size=65536/>
+
+</call>
+
+<call index=39 length"0">
+12:13:08.562: elapsed="125",channel="1",port="62582"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/fonts/unilever-iconfont.eot? HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.unilever.com
+Accept-Encoding: gzip, deflate
+Host: www.unilever.com
+DNT: 1
+Connection: Keep-Alive
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: application/octet-stream
+Last-Modified: Wed, 10 Jun 2015 13:58:58 GMT
+Accept-Ranges: bytes
+ETag: "7cd4df9885a3d01:0"
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 16648
+Date: Tue, 16 Jun 2015 11:13:11 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\40dataFile" bytes=16648 size=16648/>
+
+</call>
+
+<call index=40 length"0">
+12:13:08.719: elapsed="94",channel="1",port="62571"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/Scripts/combined.min.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: application/x-javascript
+Last-Modified: Wed, 10 Jun 2015 14:54:38 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+X-Server-Name: ce06pw21
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: max-age=48381
+Date: Tue, 16 Jun 2015 11:13:11 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+Connection: Transfer-Encoding
+</responseheaders>
+<data name="\Responses\41dataFile" bytes=140217 size=470336/>
+
+</call>
+
+<call index=41 length"0">
+12:13:08.953: elapsed="156",channel="1",port="62581"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/fonts/unileverillustrativebeta-webfont.eot? HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.unilever.com
+Accept-Encoding: gzip, deflate
+Host: www.unilever.com
+DNT: 1
+Connection: Keep-Alive
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: application/octet-stream
+Last-Modified: Wed, 10 Jun 2015 14:54:23 GMT
+Accept-Ranges: bytes
+ETag: "1a92b3568da3d01:0"
+Server: Microsoft-IIS/7.0
+X-Server-Name: ce06pw22
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 18632
+Date: Tue, 16 Jun 2015 11:13:12 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\42dataFile" bytes=18632 size=18632/>
+
+</call>
+
+<call index=42 length"0">
+12:13:09.156: elapsed="188",channel="1",port="62583"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/fonts/DINWebPro-Light.woff HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.unilever.com
+Accept-Encoding: gzip, deflate
+Host: www.unilever.com
+DNT: 1
+Connection: Keep-Alive
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: application/font-woff
+Last-Modified: Wed, 10 Jun 2015 13:58:58 GMT
+Accept-Ranges: bytes
+ETag: "82e2c09885a3d01:0"
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 50772
+Date: Tue, 16 Jun 2015 11:13:12 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\43dataFile" bytes=50772 size=50772/>
+
+</call>
+
+<call index=43 length"0">
+12:13:09.359: elapsed="16",channel="1",port="62584"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/images/curve.png HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/png
+Last-Modified: Wed, 10 Jun 2015 13:58:58 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 3551
+Cache-Control: max-age=133126
+Date: Tue, 16 Jun 2015 11:13:12 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\44dataFile" bytes=3551 size=3551/>
+
+</call>
+
+<call index=44 length"0">
+12:13:09.390: elapsed="156",channel="1",port="62572"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/fonts/DINWebPro-Bold.woff HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.unilever.com
+Accept-Encoding: gzip, deflate
+Host: www.unilever.com
+DNT: 1
+Connection: Keep-Alive
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: application/font-woff
+Last-Modified: Wed, 10 Jun 2015 13:58:58 GMT
+Accept-Ranges: bytes
+ETag: "369ab29885a3d01:0"
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 53124
+Date: Tue, 16 Jun 2015 11:13:12 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\45dataFile" bytes=53124 size=53124/>
+
+</call>
+
+<call index=45 length"0">
+12:13:09.734: elapsed="16",channel="1",port="62574"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/images/hr.png HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/png
+Last-Modified: Wed, 10 Jun 2015 13:58:58 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 310
+Cache-Control: max-age=474329
+Date: Tue, 16 Jun 2015 11:13:12 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\46dataFile" bytes=310 size=310/>
+
+</call>
+
+<call index=46 length"0">
+12:13:10.289: elapsed="16",channel="1",port="62578"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/images/hr_down.png HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/png
+Last-Modified: Wed, 10 Jun 2015 13:58:58 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 308
+Cache-Control: max-age=129049
+Date: Tue, 16 Jun 2015 11:13:13 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\47dataFile" bytes=308 size=308/>
+
+</call>
+
+<call index=48 length"0">
+12:13:10.383: elapsed="116",channel="1",port="62582"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/bg1_tcm244-409210.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 14:06:48 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 309405
+Cache-Control: max-age=130788
+Date: Tue, 16 Jun 2015 11:13:13 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\49dataFile" bytes=309405 size=309405/>
+
+</call>
+
+<call index=49 length"0">
+12:13:11.288: elapsed="156",channel="1",port="62581"
+http://www.unilever.com 80
+GET http://www.unilever.com/Images/Homepage-example-seven_tcm244-425273.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.unilever.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.unilever.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/jpeg
+Last-Modified: Wed, 10 Jun 2015 14:06:48 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+Content-Length: 585124
+Cache-Control: max-age=191385
+Date: Tue, 16 Jun 2015 11:13:14 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\50dataFile" bytes=585124 size=585124/>
+
+</call>
+
+<endusertransaction id="010_homepage" />

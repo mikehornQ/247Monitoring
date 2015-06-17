@@ -1,0 +1,13 @@
+				-1		168.000221252	2	Started local injector on port 39000	2
+				-1		192.000150681	2	Checking injectors	2
+This machine	localhost			-1		6452.00014114	1	Transferring files to injector	2
+This machine	localhost			-1		6649.00016785	1	File transfer complete	2
+This machine	localhost	intel.win32.clr4_5.0		-1		8463.00005913	0	Engine listening on port 30051                                                                                                                             	2
+This machine	localhost	intel.win32.clr4_5.0		-1		8733.00004005	0	Engine ready	2
+				-1		8768.00012589	2	Starting virtual users	2
+				-1		8886.0001564	2	Test started	2
+				-1		119491.000175	2	Test completed	2
+				-1		119902.000189	2	Stopping engines	2
+				-1		119928.000212	2	Engines stopped	2
+				-1		119995.000124	2	Stopping monitors	2
+				-1		120043.000221	2	Monitors stopped	2

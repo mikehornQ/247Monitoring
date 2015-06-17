@@ -1,0 +1,4 @@
+description,endTransactionOccurrence,startTransaction,vuTypeName,metaKey,pathName,build,isExecutable,name,package,startTransactionOccurrence,namespace,endTransaction,_id_,_parentId_,traceName
+S,I,S,S,S,S,B,B,S,S,I,S,S,S,S,S
+'',,,'MonitorUser','CSCLRScript','MonitorUser.cs',True,True,'MonitorUser',,,'com.testplant.testing',,'03817b46-baec-4cb6-99e3-1d5339319153','',''
+'',-1,'','MonitorUser','CSWebScript','MonitorUserScript.cs',True,True,'MonitorUserScript',,-1,'com.testplant.testing','','d68eb0cb-1e0d-4074-8f1b-b1a5a7fc5f2b','',''

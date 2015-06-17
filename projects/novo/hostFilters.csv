@@ -1,0 +1,4 @@
+name,hostsRegExpsSet,hostsInRecording,hostsSetPrevious,_id_,metaKey,mode,hostsSet,modePrevious,hostsRegExpsSetPrevious
+S,LS,LS,LS,S,S,I,LS,I,LS
+'homepage',[],['www.googletagmanager.com';'s7.addthis.com';'x.bidswitch.net';'cs.go.affec.tv';'iecvlist.microsoft.com';'r20swj13mr.microsoft.com';'rapport.trusteer.com';'by3301.storage.live.com';'www.google-analytics.com';'browser-update.org';'m.addthis.com';'api.bing.com';'www.unilever.com'],['www.unilever.com'],'76b60414-ba9b-4da6-beb8-2d9ceeb957fb','HostFilter',1,['www.unilever.com'],1,[]
+'PROJECT_DEFAULT_HOST_FILTER',[],['www.googletagmanager.com';'s7.addthis.com';'x.bidswitch.net';'cs.go.affec.tv';'iecvlist.microsoft.com';'r20swj13mr.microsoft.com';'rapport.trusteer.com';'by3301.storage.live.com';'www.google-analytics.com';'browser-update.org';'m.addthis.com';'api.bing.com';'www.unilever.com'],['www.unilever.com'],'76b60414-ba9b-4da6-beb8-2d9ceeb957fb','HostFilter',1,['www.unilever.com'],1,[]

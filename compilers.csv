@@ -1,0 +1,9 @@
+IDE,compiler,metaKey,_id_,name
+S,S,S,S,S
+'','','Compiler','4881b96d-da97-43e2-a006-ab9e266b6f5b','intel.win32.vc12'
+'C$\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\WDExpress.exe','C$\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe','Compiler','630b9bd9-5c7b-4b2c-8349-291011bd6f5d','intel.win32.vc11'
+'','C$\Program Files (x86)\eggPlant Performance\re\java\jre1.8.0_25\bin\javac.exe','Compiler','8a89ebca-32fb-4432-8252-307d451611a7','intel.win32.java'
+'C$\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\WDExpress.exe','C$\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe','Compiler','9bd16bb2-a4a2-4281-b7cb-1dc3d15ba444','intel.win32.cs4_5'
+'','','Compiler','a35221e8-2c14-4b87-823a-44f8b55cf369','intel.win32.cs4'
+'','','Compiler','c28250b4-edf1-4217-a56a-0fdabaffa429','intel.win32.vc10'
+'','','Compiler','ce68dfd8-aba4-4be8-a44b-1acdd7392dd2','intel.win32.cs4_5_1'

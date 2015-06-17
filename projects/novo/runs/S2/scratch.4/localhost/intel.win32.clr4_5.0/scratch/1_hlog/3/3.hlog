@@ -1,0 +1,81 @@
+<!-- Playback trace created on 06/17/15 09:38:45-->
+<trace version="1.0" recorder="Playback">
+<startusertransaction id="one"/>
+<startusertransaction id="010_homepage"/>
+<call index=55 length="0">
+10:38:44.919: elapsed="779",channel="1",port="0"
+http://www.unilever.com 80
+GET http://www.unilever.com/ HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB
+Connection: Keep-Alive
+Dnt: 1
+Host: www.unilever.com
+Referer: http://www.unilever.com/
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Connection: keep-alive
+Date: Wed, 17 Jun 2015 08:38:46 GMT
+Pragma: no-cache
+Content-Length: 11743
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Expires: -1
+Server: Microsoft-IIS/7.0
+Vary: Accept-Encoding
+x-Server-Name: ce06pw23
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+
+
+</responseheaders>
+<data name="content\55_.txt" bytes=71606 size=71606/>
+</call>
+
+<call index=59 length="0">
+10:38:45.744: elapsed="271",channel="1",port="0"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/Styles/app.css HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB
+Connection: Keep-Alive
+Dnt: 1
+Host: www.unilever.com
+If-Modified-Since: Wed, 10 Jun 2015 13:59:03 GMT
+If-None-Match: "9e1c289c85a3d01:0"
+Referer: http://www.unilever.com/
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 OK
+Connection: keep-alive
+Connection: Transfer-Encoding
+Date: Wed, 17 Jun 2015 08:38:46 GMT
+Transfer-Encoding: chunked
+Content-Type: text/css
+Content-Encoding: gzip
+Last-Modified: Wed, 10 Jun 2015 14:54:37 GMT
+Accept-Ranges: bytes
+ETag: "b22c4b5f8da3d01:0"
+Server: Microsoft-IIS/7.0
+Vary: Accept-Encoding
+X-Server-Name: ce06pw22
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+
+
+</responseheaders>
+<data name="content\59_.css" bytes=400654 size=400654/>
+</call>
+

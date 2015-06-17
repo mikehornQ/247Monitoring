@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://facilita.co.uk/2006/06/TestAudit.xsd">
+  <Product>
+    <Version>6.0.0.169</Version>
+    <Licence>FFFF-FFFF-EVAL-CONTROLLER-10-BASE-201507102359-94BA9FCC</Licence>
+    <Licence>FFFF-FFFF-EVAL-CONTROLLER-5-BASE-201506182359-5FDC605D</Licence>
+  </Product>
+  <TestName>scratch</TestName>
+  <Workspace>247 Monitoring</Workspace>
+  <Project>novo</Project>
+  <Series>s1</Series>
+  <RunNumber>4</RunNumber>
+  <StartTime>2015-06-16T08:57:14.9010048</StartTime>
+  <EndTime>2015-06-16T08:57:25.456</EndTime>
+  <TestExitStatus>Completed</TestExitStatus>
+  <Groups>
+    <Name>scratch</Name>
+    <VirtualUsers>1</VirtualUsers>
+    <IterationOption>0</IterationOption>
+    <IterateForTime>1800</IterateForTime>
+    <NumberOfIterations>3</NumberOfIterations>
+    <GlobalRampUp>false</GlobalRampUp>
+    <IterationDelay>0</IterationDelay>
+    <IterationDelayTimeUnit>0</IterationDelayTimeUnit>
+    <Pace>false</Pace>
+    <InitialDelay>0</InitialDelay>
+    <InitialDelayTimeUnit>0</InitialDelayTimeUnit>
+    <EmptyPausePolicy>true</EmptyPausePolicy>
+    <SmallestDelta>1000</SmallestDelta>
+    <LargestDelta>2000</LargestDelta>
+    <DeltaTimeUnit>0</DeltaTimeUnit>
+    <RampupMilliseconds>-1</RampupMilliseconds>
+    <PausePolicy>2</PausePolicy>
+    <WobbleHigh>5000</WobbleHigh>
+    <WobbleLow>1000</WobbleLow>
+    <WobbleTimeUnit>0</WobbleTimeUnit>
+    <PauseHigh>10000</PauseHigh>
+    <PauseLow>5000</PauseLow>
+    <PauseTimeUnit>0</PauseTimeUnit>
+    <PauseFactor>100</PauseFactor>
+    <MaxFailures>5</MaxFailures>
+    <WarmUpIterations>0</WarmUpIterations>
+    <EventLoggingPercentage>10000</EventLoggingPercentage>
+    <EventLogger />
+    <Engines>
+      <Name>intel.win32.clr4_5.0</Name>
+      <Type>CLR</Type>
+      <Injector>localhost</Injector>
+    </Engines>
+    <Script>
+      <Name>scratch</Name>
+      <Path>C:\Workspaces\247 Monitoring\projects\novo\scripts\clr\com\testplant\testing\scratch.cs</Path>
+      <TimeStamp>2015-06-15T16:16:18</TimeStamp>
+    </Script>
+  </Groups>
+  <Injectors>
+    <Name>localhost</Name>
+    <Engines>
+      <Name>intel.win32.clr4_5.0</Name>
+      <Type>CLR</Type>
+      <Injector>localhost</Injector>
+    </Engines>
+  </Injectors>
+  <Notes />
+  <Description />
+  <FlaggedForAnalysis>false</FlaggedForAnalysis>
+</Test>

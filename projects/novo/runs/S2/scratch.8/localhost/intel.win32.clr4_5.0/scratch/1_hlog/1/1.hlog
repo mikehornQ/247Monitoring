@@ -1,0 +1,153 @@
+<!-- Playback trace created on 06/17/15 15:28:44-->
+<trace version="1.0" recorder="Playback">
+<startusertransaction id="one"/>
+<startusertransaction id="010_homepage"/>
+<call index=1 length="0">
+16:28:43.288: elapsed="224",channel="1",port="0"
+http://www.unilever.com 80
+GET http://www.unilever.com/ HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB
+Connection: Keep-Alive
+Dnt: 1
+Host: www.unilever.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Connection: keep-alive
+Date: Wed, 17 Jun 2015 14:28:44 GMT
+Pragma: no-cache
+Content-Length: 11734
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Expires: -1
+Server: Microsoft-IIS/7.0
+Vary: Accept-Encoding
+X-Server-Name: ce06pw22
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+
+
+</responseheaders>
+<data name="content\1_.txt" bytes=71610 size=71610/>
+</call>
+
+<call index=4 length="0">
+16:28:43.577: elapsed="29",channel="1",port="0"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/Scripts/vendor/custom.modernizr.min.js HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB
+Connection: Keep-Alive
+Dnt: 1
+Host: www.unilever.com
+Referer: http://www.unilever.com/
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 OK
+Cache-Control: max-age=17818
+Connection: keep-alive
+Date: Wed, 17 Jun 2015 14:28:44 GMT
+Content-Length: 4226
+Content-Type: application/x-javascript
+Content-Encoding: gzip
+Last-Modified: Wed, 10 Jun 2015 14:54:38 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+Vary: Accept-Encoding
+X-Server-Name: ce06pw21
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+
+
+</responseheaders>
+<data name="content\4_.js" bytes=9643 size=9643/>
+</call>
+
+<call index=3 length="0">
+16:28:43.573: elapsed="107",channel="1",port="0"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/Scripts/combined.min.js HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB
+Connection: Keep-Alive
+Dnt: 1
+Host: www.unilever.com
+Referer: http://www.unilever.com/
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 OK
+Cache-Control: max-age=28068
+Connection: keep-alive
+Connection: Transfer-Encoding
+Date: Wed, 17 Jun 2015 14:28:44 GMT
+Transfer-Encoding: chunked
+Content-Type: application/x-javascript
+Content-Encoding: gzip
+Last-Modified: Wed, 10 Jun 2015 14:54:38 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.0
+Vary: Accept-Encoding
+X-Server-Name: ce06pw21
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+
+
+</responseheaders>
+<data name="content\3_.js" bytes=470336 size=470336/>
+</call>
+
+<call index=5 length="0">
+16:28:43.582: elapsed="197",channel="1",port="0"
+http://www.unilever.com 80
+GET http://www.unilever.com/Content/Styles/app.css HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB
+Connection: Keep-Alive
+Dnt: 1
+Host: www.unilever.com
+Referer: http://www.unilever.com/
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 OK
+Connection: keep-alive
+Connection: Transfer-Encoding
+Date: Wed, 17 Jun 2015 14:28:44 GMT
+Transfer-Encoding: chunked
+Content-Type: text/css
+Content-Encoding: gzip
+Last-Modified: Wed, 10 Jun 2015 14:54:37 GMT
+Accept-Ranges: bytes
+ETag: "b22c4b5f8da3d01:0"
+Server: Microsoft-IIS/7.0
+Vary: Accept-Encoding
+X-Server-Name: ce06pw22
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge, Chrome=1
+
+
+</responseheaders>
+<data name="content\5_.css" bytes=400654 size=400654/>
+</call>
+

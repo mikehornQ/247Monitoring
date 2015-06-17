@@ -1,0 +1,10 @@
+C:\Workspaces\247 Monitoring\repository\intel\win32\cs4_5\247 Monitoring\Release\247 Monitoring_cs4_5.dll
+C:\Workspaces\247 Monitoring\repository\intel\win32\cs4_5\247 Monitoring\Release\clrNativeWrapper.dll
+C:\Workspaces\247 Monitoring\repository\intel\win32\cs4_5\247 Monitoring\Release\clrWebBrowser.dll
+C:\Workspaces\247 Monitoring\repository\intel\win32\cs4_5\247 Monitoring\Release\fc_clr.dll
+C:\Workspaces\247 Monitoring\repository\intel\win32\cs4_5\247 Monitoring\Release\clrWebBrowser.xml
+C:\Workspaces\247 Monitoring\repository\intel\win32\cs4_5\247 Monitoring\Release\fc_clr.xml
+C:\Workspaces\247 Monitoring\repository\intel\win32\cs4_5\247 Monitoring\Release\clrNativeWrapper.xml
+C:\Workspaces\247 Monitoring\repository\intel\win32\cs4_5\obj\Release\247 Monitoring.csprojResolveAssemblyReference.cache
+C:\Workspaces\247 Monitoring\repository\intel\win32\cs4_5\obj\Release\247 Monitoring_cs4_5.dll
+C:\Workspaces\247 Monitoring\repository\intel\win32\cs4_5\247 Monitoring\Release\QualitestMonitoring.dll

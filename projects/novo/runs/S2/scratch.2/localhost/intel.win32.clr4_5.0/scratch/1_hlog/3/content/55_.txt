@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+ <!--<![endif]-->
+<head prefix="og: http://ogp.me/ns#">
+        <title>Unilever global company website | Unilever Global | Unilever global company website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="title" content="Unilever global company website | Unilever Global" />
+    <meta name="description" content="At Unilever we meet everyday needs for nutrition, hygiene and personal care with brands that help people feel good, look good and get more out of life." />
+    <meta property="og:title" content="Unilever global company website | Unilever Global" />
+    <meta property="og:description" content="At Unilever we meet everyday needs for nutrition, hygiene and personal care with brands that help people feel good, look good and get more out of life." />
+    <meta property="og:image" content="http://www.unilever.com/Images/Unilever-sign-Mexico-990x557_tcm244-420843.jpg" />
+    <meta property="og:url" content="http://www.unilever.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Unilever global company website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@unilever" />
+    <meta name="twitter:creator" content="@unilever" />
+
+    <meta name="pageID" content="244-415385-64" />
+    <link rel="canonical" href="http://www.unilever.com/" />
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/Content/Styles/old-ie-blessed1.css" />
+        <link rel="stylesheet" href="/Content/Styles/old-ie.css" />
+    <![endif]-->
+    <!--[if gt IE 9]><!-->
+        <link rel="stylesheet" href="/Content/Styles/app.css" />
+    <!--<![endif]-->
+    <script src="/Content/Scripts/vendor/custom.modernizr.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="/Content/Images/favicon.ico">	
+	<link rel="apple-touch-icon" href="/Content/Images/apple-touch-icon.png" />
+
+    
+    <!--[if lt IE 9]>
+    <script src="/Content/Scripts/vendor/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="body">
+	
+	<!-- ISYSINDEXINGOFF -->
+
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TP4WJ2" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TP4WJ2');</script>
+
+<div class="location-strip dropdown" id="location">
+    <div class="row">
+        <div class="small-12 columns">
+            <a href="#" title="Close overlay" class="overlay-closer">Close</a>
+            <div class="selector-wrap">
+                <h2>Country selector</h2>
+                <p class="current">You are currently at <a href="#">Unilever Global</a></p>
+                
+            </div>
+            <div class="large-list">
+    <h3>Africa</h3>
+    <div class="row">
+        <ul class="location-list medium-3 columns">
+            <li><a href="http://www.unileveralgerie.com">Algeria</a></li>
+            <li><a href="http://www.unilever-esa.com">Angola</a></li>
+            <li><a href="http://www.unilever-esa.com">Burundi</a></li>
+            <li><a href="http://www.unileverme.com">Egypt</a></li>
+            <li><a href="http://www.unileverghana.com">Ghana</a></li>
+        </ul>
+        <ul class="location-list medium-3 columns">
+            <li><a href="http://www.unilever.co.ke">Kenya</a></li>
+            <li><a href="http://www.unilevermaghreb.com">Libya</a></li>
+            <li><a href="http://www.unilever-esa.com">Malawi</a></li>
+            <li><a href="http://www.unilevermaghreb.com">Morocco</a></li>
+            <li><a href="http://www.unilever-esa.com">Mozambique</a></li>
+        </ul>
+        <ul class="location-list medium-3 columns">
+            <li><a href="http://www.unilevernigeria.com">Nigeria</a></li>
+            <li><a href="http://www.unilever-esa.com">Rwanda</a></li>
+            <li><a href="http://www.unilever.co.za">South Africa</a></li>
+            <li><a href="http://www.unileverme.com">Sudan</a></li>
+            <li><a href="http://www.unilever-esa.com">Tanzania</a></li>
+        </ul>
+        <ul class="location-list medium-3 columns end">
+            <li><a href="http://www.unilevermaghreb.com">Tunisia</a></li>
+            <li><a href="http://www.unilever-esa.com">Uganda</a></li>
+            <li><a href="http://www.unilever-esa.com">Zambia</a></li>
+            <li><a href="http://www.unilever-esa.com">Zimbabwe</a></li>
+        </ul>
+    </div>
+    <h3>Americas</h3>
+    <div class="row">
+        <ul class="location-list medium-3 columns">
+            <li><a href="http://www.unilever.com.ar">Argentina</a></li>
+            <li><a href="http://www.unilever.bo">Bolivia</a></li>
+            <li><a href="http://www.unilever.com.br">Brazil</a></li>
+            <li><a href="http://www.unilever.ca">Canada</a></li>
+            <li><a href="http://www.unilever.ca/fr">Canada (Francais)</a></li>
+            <li><a href="http://www.unilever.cl">Chile</a></li>
+        </ul>
+        <ul class="location-list medium-3 columns">
+            <li><a href="http://www.unilever-middleamericas.com/">Colombia</a></li>
+            <li><a href="http://www.unilever-middleamericas.com/">Costa Rica</a></li>
+            <li><a href="http://www.unilever-middleamericas.com/">Ecuador</a></li>
+            <li><a href="http://www.unilever-middleamericas.com/">El Salvador</a></li>
+            <li><a href="http://www.unilever.tt">Trinidad &amp; Tobago</a></li>
+            <li><a href="http://www.unilever.tt/es">Dominican Republic (Español)</a></li>
+        </ul>
+        <ul class="location-list medium-3 columns">
+            <li><a href="http://www.unilever.tt/es">Puerto Rico (Español)</a></li>
+            <li><a href="http://www.unilever-middleamericas.com/">Guatemala</a></li>
+            <li><a href="http://www.unilever-middleamericas.com/">Honduras</a></li>
+            <li><a href="http://www.unilever.com.mx">Mexico</a></li>
+            <li><a href="http://www.unilever-middleamericas.com/">Nicaragua</a></li>
+            <li><a href="http://www.unilever-middleamericas.com/">Panama</a></li>
+        </ul>
+        <ul class="location-list medium-3 columns end">
+            <li><a href="http://www.unilever.com.py">Paraguay</a></li>
+            <li><a href="http://www.unilever.com.pe">Peru</a></li>
+            <li><a href="http://www.unilever.com.uy">Uruguay</a></li>
+            <li><a href="http://www.unileverusa.com">USA</a></li>
+            <li><a href="http://www.unilever-middleamericas.com/">Venezuela</a></li>
+        </ul>
+    </div>
+    <h3>Asia Pacific</h3>
+    <div class="row">
+        <ul class="location-list medium-3 columns">
+            <li><a href="http://www.unilever.com.au">Australia</a></li>
+            <li><a href="http://www.unilever.com.bd">Bangladesh</a></li>
+            <li><a href="http://www.unilever.com.cn">China</a></li>
+            <li><a href="http://www.hul.co.in">India</a></li>
+            <li><a href="http://unilever.co.id">Indonesia (English)</a></li>
+        </ul>
+        <ul class="location-list medium-3 columns">
+            <li><a href="http://unilever.co.id/id/">Indonesia (Indonesian)</a></li>
+            <li><a href="http://www.unilever.co.jp">Japan</a></li>
+            <li><a href="http://www.unilever.co.kr">Korea</a></li>
+            <li><a href="http://www.unilever.com.my">Malaysia</a></li>
+            <li><a href="http://www.unilever.co.nz">New Zealand</a></li>
+        </ul>
+        <ul class="location-list medium-3 columns">
+            <li><a href="http://www.unilever.pk">Pakistan</a></li>
+            <li><a href="http://www.unilever.com.ph">Philippines</a></li>
+            <li><a href="http://www.unilever.ru">Russia</a></li>
+            <li><a href="http://www.unilever.com.sg">Singapore</a></li>
+            <li><a href="http://www.unilever.com.lk">Sri Lanka</a></li>
+        </ul>
+        <ul class="location-list medium-3 columns end">
+            <li><a href="http://www.unilever.co.th">Thailand</a></li>
+            <li><a href="http://www.unilever.com.tr">Turkey</a></li>
+            <li><a href="http://www.unilever.com.tw">Taiwan</a></li>
+            <li><a href="http://www.unilever.com.vn">Vietnam</a></li>
+        </ul>
+    </div>
+
+    <h3>Europe</h3>
+    <div class="row">
+        <ul class="location-list medium-3 columns">
+            <li><a href="http://www.unilever.at">Austria</a></li>
+            <li><a href="http://www.unilever.be/nl/">Belgium (Dutch)</a></li>
+            <li><a href="http://www.unilever.be/fr/">Belgium (Français)</a></li>
+            <li><a href="http://www.unilever.cz">Czech Republic</a></li>
+            <li><a href="http://www.unilever.dk">Denmark</a></li>
+            <li><a href="http://www.unilever.fi">Finland</a></li>
+            <li><a href="http://www.unilever.fr">France</a></li>
+        </ul>
+        <ul class="location-list medium-3 columns">
+            <li><a href="http://www.unilever.de">Germany</a></li>
+            <li><a href="http://www.unilever.gr">Greece</a></li>
+            <li><a href="http://www.unilever.hu">Hungary</a></li>
+            <li><a href="http://www.unilever.ie">Ireland</a></li>
+            <li><a href="http://www.unilever.it">Italy</a></li>
+            <li><a href="http://www.unilever.nl">Netherlands</a></li>
+            <li><a href="http://www.unilever.pl">Poland</a></li>
+        </ul>
+        <ul class="location-list medium-3 columns">
+            <li><a href="http://www.unilever-jm.com">Portugal</a></li>
+            <li><a href="http://www.unilever.ro">Romania</a></li>
+            <li><a href="http://www.unilever.ru">Russia</a></li>
+            <li><a href="http://www.unilever.sk">Slovak Republic</a></li>
+            <li><a href="http://www.unilever.es">Spain</a></li>
+            <li><a href="http://www.unilever.se">Sweden</a></li>
+            <li><a href="http://www.unilever.ch">Switzerland (Deutsch)</a></li>
+        </ul>
+        <ul class="location-list medium-3 columns end">
+            <li><a href="http://www.unilever.ch/fr/">Switzerland (French)</a></li>
+            <li><a href="http://www.unilever.com.tr">Turkey</a></li>
+            <li><a href="http://www.unilever.ua">Ukraine</a></li>
+            <li><a href="http://www.unilever.co.uk">United Kingdom</a></li>
+        </ul>
+    </div>
+    
+    <h3>Middle East</h3>
+    <div class="row">
+        <ul class="location-list medium-3 columns">
+            <li><a href="http://www.unileverme.com">Bahrain</a></li>
+            <li><a href="http://www.unileverme.com">Egypt</a></li>
+            <li><a href="http://www.unileverme.com">Iran</a></li>
+            <li><a href="http://www.unileverme.com">Iraq</a></li>
+        </ul>
+        <ul class="location-list medium-3 columns">
+            <li><a href="http://www.unilever.co.il">Israel</a></li>
+            <li><a href="http://www.unileverme.com">Jordan</a></li>
+            <li><a href="http://www.unileverme.com">Kuwait</a></li>
+            <li><a href="http://www.unileverme.com">Lebanon</a></li>
+        </ul>
+        <ul class="location-list medium-3 columns">
+            <li><a href="http://www.unileverme.com">Oman</a></li>
+            <li><a href="http://www.unileverme.com">Palestine</a></li>
+            <li><a href="http://www.unileverme.com">Qatar</a></li>
+            <li><a href="http://www.unileverme.com">Saudi Arabia</a></li>
+        </ul>
+        <ul class="location-list medium-3 columns end">
+            <li><a href="http://www.unileverme.com">Sudan</a></li>
+            <li><a href="http://www.unileverme.com">Syria</a></li>
+            <li><a href="http://www.unileverme.com">United Arab Emirates</a></li>
+            <li><a href="http://www.unileverme.com">Yemen</a></li>
+        </ul>
+    </div>
+    
+</div>
+            <div class="location-panel">
+    <button id="location-back">Back</button>
+    <div id="location-inner">
+        <ul>
+            <li>
+                <button>Africa</button>
+                <ul>
+                    <li><a href="http://www.unileveralgerie.com">Algeria</a></li>
+                    <li><a href="http://www.unilever-esa.com">Angola</a></li>
+                    <li><a href="http://www.unilever-esa.com">Burundi</a></li>
+                    <li><a href="http://www.unileverme.com">Egypt</a></li>
+                    <li><a href="http://www.unileverghana.com">Ghana</a></li>
+                    <li><a href="http://www.unilever.co.ke">Kenya</a></li>
+                    <li><a href="http://www.unilevermaghreb.com">Libya</a></li>
+                    <li><a href="http://www.unilever-esa.com">Malawi</a></li>
+                    <li><a href="http://www.unilevermaghreb.com">Morocco</a></li>
+                    <li><a href="http://www.unilever-esa.com">Mozambique</a></li>
+                    <li><a href="http://www.unilevernigeria.com">Nigeria</a></li>
+                    <li><a href="http://www.unilever-esa.com">Rwanda</a></li>
+                    <li><a href="http://www.unilever.co.za">South Africa</a></li>
+                    <li><a href="http://www.unileverme.com">Sudan</a></li>
+                    <li><a href="http://www.unilever-esa.com">Tanzania</a></li>
+                    <li><a href="http://www.unilevermaghreb.com">Tunisia</a></li>
+                    <li><a href="http://www.unilever-esa.com">Uganda</a></li>
+                    <li><a href="http://www.unilever-esa.com">Zambia</a></li>
+                    <li><a href="http://www.unilever-esa.com">Zimbabwe</a></li>
+                </ul>
+            </li>
+            <li>
+                <button>Americas</button>
+                <ul>
+                    <li><a href="http://www.unilever.com.ar">Argentina</a></li>
+                    <li><a href="http://www.unilever.bo">Bolivia</a></li>
+                    <li><a href="http://www.unilever.com.br">Brazil</a></li>
+                    <li><a href="http://www.unilever.ca">Canada</a></li>
+                    <li><a href="http://www.unilever.ca/fr">Canada (Francais)</a></li>
+                    <li><a href="http://www.unilever.cl">Chile</a></li>
+                    <li><a href="http://www.unilever-middleamericas.com/">Colombia</a></li>
+                    <li><a href="http://www.unilever-middleamericas.com/">Costa Rica</a></li>
+                    <li><a href="http://www.unilever-middleamericas.com/">Ecuador</a></li>
+                    <li><a href="http://www.unilever-middleamericas.com/">El Salvador</a></li>
+                    <li><a href="http://www.unilever.tt">Trinidad &amp; Tobago</a></li>
+                    <li><a href="http://www.unilever.tt/es">Dominican Republic (Español)</a></li>
+                    <li><a href="http://www.unilever.tt/es">Puerto Rico (Español)</a></li>
+                    <li><a href="http://www.unilever-middleamericas.com/">Guatemala</a></li>
+                    <li><a href="http://www.unilever-middleamericas.com/">Honduras</a></li>
+                    <li><a href="http://www.unilever.com.mx">Mexico</a></li>
+                    <li><a href="http://www.unilever-middleamericas.com/">Nicaragua</a></li>
+                    <li><a href="http://www.unilever-middleamericas.com/">Panama</a></li>
+                    <li><a href="http://www.unilever.com.py">Paraguay</a></li>
+                    <li><a href="http://www.unilever.com.pe">Peru</a></li>
+                    <li><a href="http://www.unilever.com.uy">Uruguay</a></li>
+                    <li><a href="http://www.unileverusa.com">USA</a></li>
+                    <li><a href="http://www.unilever-middleamericas.com/">Venezuela</a></li>
+                </ul>
+            </li>
+            <li>
+                <button>Asia Pacific</button>
+                <ul>
+                    <li><a href="http://www.unilever.com.au">Australia</a></li>
+                    <li><a href="http://www.unilever.com.bd">Bangladesh</a></li>
+                    <li><a href="http://www.unilever.com.cn">China</a></li>
+                    <li><a href="http://www.hul.co.in">India</a></li>
+                    <li><a href="http://unilever.co.id">Indonesia (English)</a></li>
+                    <li><a href="http://unilever.co.id/id/">Indonesia (Indonesian)</a></li>
+                    <li><a href="http://www.unilever.co.jp">Japan</a></li>
+                    <li><a href="http://www.unilever.co.kr">Korea</a></li>
+                    <li><a href="http://www.unilever.com.my">Malaysia</a></li>
+                    <li><a href="http://www.unilever.co.nz">New Zealand</a></li>
+                    <li><a href="http://www.unilever.pk">Pakistan</a></li>
+                    <li><a href="http://www.unilever.com.ph">Philippines</a></li>
+                    <li><a href="http://www.unilever.ru">Russia</a></li>
+                    <li><a href="http://www.unilever.com.sg">Singapore</a></li>
+                    <li><a href="http://www.unilever.com.lk">Sri Lanka</a></li>
+                    <li><a href="http://www.unilever.co.th">Thailand</a></li>
+                    <li><a href="http://www.unilever.com.tr">Turkey</a></li>
+                    <li><a href="http://www.unilever.com.tw">Taiwan</a></li>
+                    <li><a href="http://www.unilever.com.vn">Vietnam</a></li>
+                </ul>
+            </li>
+            <li>
+                <button>Europe</button>
+                <ul>
+                    <li><a href="http://www.unilever.at">Austria</a></li>
+                    <li><a href="http://www.unilever.be/nl/">Belgium (Dutch)</a></li>
+                    <li><a href="http://www.unilever.be/fr/">Belgium (Français)</a></li>
+                    <li><a href="http://www.unilever.cz">Czech Republic</a></li>
+                    <li><a href="http://www.unilever.dk">Denmark</a></li>
+                    <li><a href="http://www.unilever.fi">Finland</a></li>
+                    <li><a href="http://www.unilever.fr">France</a></li>
+                    <li><a href="http://www.unilever.de">Germany</a></li>
+                    <li><a href="http://www.unilever.gr">Greece</a></li>
+                    <li><a href="http://www.unilever.hu">Hungary</a></li>
+                    <li><a href="http://www.unilever.ie">Ireland</a></li>
+                    <li><a href="http://www.unilever.it">Italy</a></li>
+                    <li><a href="http://www.unilever.nl">Netherlands</a></li>
+                    <li><a href="http://www.unilever.pl">Poland</a></li>
+                    <li><a href="http://www.unilever-jm.com">Portugal</a></li>
+                    <li><a href="http://www.unilever.ro">Romania</a></li>
+                    <li><a href="http://www.unilever.ru">Russia</a></li>
+                    <li><a href="http://www.unilever.sk">Slovak Republic</a></li>
+                    <li><a href="http://www.unilever.es">Spain</a></li>
+                    <li><a href="http://www.unilever.se">Sweden</a></li>
+                    <li><a href="http://www.unilever.ch">Switzerland (Deutsch)</a></li>
+                    <li><a href="http://www.unilever.ch/fr/">Switzerland (French)</a></li>
+                    <li><a href="http://www.unilever.com.tr">Turkey</a></li>
+                    <li><a href="http://www.unilever.ua">Ukraine</a></li>
+                    <li><a href="http://www.unilever.co.uk">United Kingdom</a></li>
+                </ul>
+            </li>
+            
+            <li>
+                <button>Middle East</button>
+                <ul>
+                    <li><a href="http://www.unileverme.com">Bahrain</a></li>
+                    <li><a href="http://www.unileverme.com">Egypt</a></li>
+                    <li><a href="http://www.unileverme.com">Iran</a></li>
+                    <li><a href="http://www.unileverme.com">Iraq</a></li>
+                    <li><a href="http://www.unilever.co.il">Israel</a></li>
+                    <li><a href="http://www.unileverme.com">Jordan</a></li>
+                    <li><a href="http://www.unileverme.com">Kuwait</a></li>
+                    <li><a href="http://www.unileverme.com">Lebanon</a></li>
+                    <li><a href="http://www.unileverme.com">Oman</a></li>
+                    <li><a href="http://www.unileverme.com">Palestine</a></li>
+                    <li><a href="http://www.unileverme.com">Qatar</a></li>
+                    <li><a href="http://www.unileverme.com">Saudi Arabia</a></li>
+                    <li><a href="http://www.unileverme.com">Sudan</a></li>
+                    <li><a href="http://www.unileverme.com">Syria</a></li>
+                    <li><a href="http://www.unileverme.com">United Arab Emirates</a></li>
+                    <li><a href="http://www.unileverme.com">Yemen</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+<div class="search-strip dropdown" id="search">
+    <div class="row">
+        <form action="/search.html" method="get">
+            <label for="search-text">Search</label>
+            <input id="search-text" name="search" type="text" placeholder="Search" />
+            <button><span>Search</span></button>
+        </form>
+    </div>
+</div>
+<div class="preheader">
+    <div class="row">
+        <div class="small-12 columns">
+            <ul>
+                <li><a href="/contact/" title="Contact us" class="contact-us">Contact us</a></li>
+
+                <li><a href="#" title="Change country" data-target="#location" class="location">Unilever Global</a></li>
+                <li><a href="#" title="Search" data-target="#search" class="search"><span>Search</span></a></li>
+            </ul>
+            
+            <ul class="social-links">
+                    <li><a target="_blank" href="http://www.facebook.com/Unilever" title="Facebook" class="facebook">Facebook</a></li>
+                    <li><a target="_blank" href="http://www.twitter.com/Unilever" title="Twitter" class="twitter">Twitter</a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/user/Unilever" title="YouTube" class="youtube">YouTube</a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/company/unilever" title="LinkedIn" class="linkedin">LinkedIn</a></li>
+            </ul>
+        </div>
+    </div>
+</div><div id="main-menu-container">
+	<div class="row">
+		<nav class="primary-nav">
+            
+<a href="/" class="logo" style="background-image:url(/Images/unilever_logo_tcm244-409314.svg)">
+    Unilever
+    <img src="/Images/unilever_logo_tcm244-409314.svg" alt="Unilever logo" class="print-logo" />
+</a><a href="#" id="menu-toggle"><span>Toggle</span></a>
+<a href="#" id="search-toggle" title="Search" data-target="#search" class="search"><span>Search</span></a>
+
+
+
+<ul>
+        <li>
+                <a href="/about/" title="About">About</a>
+            <div class="subnav" style="display: none;">
+                <div class="row collapse">
+                    <div class="small-12 large-9 columns main">
+                        <div class="row">
+                            <div class="small-12">
+                                <h2 class="hub-link"><a href="/about/">About us home</a></h2>
+                            </div>
+                        </div>
+                        <div class="row">
+
+
+                            <div class="small-12 large-4 columns">
+        <h2><a href="/about/who-we-are/">Who we are</a></h2>
+    <ul class="level-three">
+                    <li><a href="/about/who-we-are/about-Unilever/">About Unilever</a></li>
+                    <li><a href="/about/who-we-are/our-vision/">Our vision</a></li>
+                    <li><a href="/about/who-we-are/purpose-and-principles/">Purpose &amp; principles</a></li>
+                    <li><a href="/about/who-we-are/our-strategy/">Our strategy</a></li>
+                    <li><a href="/about/who-we-are/our-history/">Our history</a></li>
+                    <li><a href="/about/who-we-are/our-leadership/">Our leadership</a></li>
+                    <li><a href="/about/who-we-are/our-logo/">Our logo</a></li>
+    </ul>
+        <h2><a href="/about/our-position-on/">Our position on...</a></h2>
+    <ul class="level-three">
+                    <li><a href="/about/our-position-on/topics-of-interest-to-our-visitors/">Topics of interest to our visitors</a></li>
+    </ul>
+                            </div>
+                            
+                            <div class="small-12 large-4 columns">
+        <h2><a href="/about/innovation/">Innovation</a></h2>
+    <ul class="level-three">
+                    <li><a href="/about/innovation/innovation-in-unilever/">Innovation at Unilever</a></li>
+                    <li><a href="/about/innovation/working-in-unilever-r-and-d/">Working in Unilever R&amp;D</a></li>
+                    <li><a href="/about/innovation/our-r-and-d-locations/">Our R&amp;D locations</a></li>
+                    <li><a href="/about/innovation/latest-news/">Innovation news</a></li>
+                    <li><a href="/about/innovation/open-innovation/">Open Innovation</a></li>
+    </ul>
+        <h2><a href="/about/safety-and-enviroment/">Safety &amp; environment</a></h2>
+    <ul class="level-three">
+                    <li><a href="/about/safety-and-enviroment/product-and-ingredient-safety/">Product &amp; ingredient safety</a></li>
+                    <li><a href="/about/safety-and-enviroment/safety-and-environment/">Safety and environment</a></li>
+                    <li><a href="/about/safety-and-enviroment/science-and-technology/">Science &amp; technology</a></li>
+                    <li><a href="/about/safety-and-enviroment/consumer-safety/">Consumer safety</a></li>
+                    <li><a href="/about/safety-and-enviroment/occupational-safety/">Occupational safety</a></li>
+                    <li><a href="/about/safety-and-enviroment/environmental-safety/">Environmental safety</a></li>
+                    <li><a href="/about/safety-and-enviroment/environmental-sustainability/">Environmental sustainability</a></li>
+    </ul>
+                            </div>
+                                <div class="small-12 large-4 columns">
+        <h2><a href="/about/suppliers-centre/">Supplier centre</a></h2>
+    <ul class="level-three">
+                    <li><a href="/about/suppliers-centre/working-together/">Working together</a></li>
+                    <li><a href="/about/suppliers-centre/sustainable-sourcing-suppliers/">Sustainable sourcing for suppliers </a></li>
+                    <li><a href="/about/suppliers-centre/partner-to-win/">Partner to Win</a></li>
+                    <li><a href="/about/suppliers-centre/how-to-invoice-us/">How to invoice us</a></li>
+                    <li><a href="/about/suppliers-centre/unilever-supplier-qualification-system/">Unilever Supplier Qualification System</a></li>
+                    <li><a href="/about/suppliers-centre/terms-and-conditions/">Terms &amp; conditions</a></li>
+    </ul>
+        <h2><a href="/about/brightfuture/">brightFuture: Inspiring action around the world</a></h2>
+    <ul class="level-three">
+    </ul>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="small-12 large-3 columns features">
+    <div class="row">
+        <div class="small-12 columns">
+                <div class="nav-sting">
+                    <a href="/about/who-we-are/our-history/" title="Our history">
+                        <h3>Our history</h3>
+                        <img src="/Images/Blue-Band-India-ad-1950s_tcm244-408296_w209.jpg" alt="Part of a Blue Band advert in India" />
+                        <p>Unilever has been in business since the 1880s. Our unique heritage shapes the way we do business today.</p>
+                    </a>
+                </div>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </li>
+        <li>
+                <a href="/brands/" title="Brands">Brands</a>
+            <div class="subnav" style="display: none;">
+                <div class="row collapse">
+                    <div class="small-12 large-9 columns main">
+                        <div class="row">
+                            <div class="small-12">
+                                <h2 class="hub-link"><a href="/brands/">Brands home</a></h2>
+                            </div>
+                        </div>
+                        <div class="row">
+
+
+                            <div class="small-12 large-4 columns">
+        <h2><a href="/brands/our-brands/">View all brands</a></h2>
+    <ul class="level-three">
+                    <li><a href="/brands/our-brands/axe.html">Axe</a></li>
+                    <li><a href="/brands/our-brands/becel-flora.html">Becel/Flora</a></li>
+                    <li><a href="/brands/our-brands/blue-band-rama.html">Blue Band/Rama</a></li>
+                    <li><a href="/brands/our-brands/domestos.html">Domestos</a></li>
+                    <li><a href="/brands/our-brands/dove.html">Dove</a></li>
+                    <li><a href="/brands/our-brands/heartbrand.html">Heartbrand</a></li>
+                    <li><a href="/brands/our-brands/hellmanns-amora.html">Hellmann&#39;s/Amora</a></li>
+                    <li><a href="/brands/our-brands/knorr.html">Knorr</a></li>
+                    <li><a href="/brands/our-brands/lifebuoy.html">Lifebuoy</a></li>
+                    <li><a href="/brands/our-brands/lipton.html">Lipton</a></li>
+                    <li><a href="/brands/our-brands/lux.html">Lux</a></li>
+                    <li><a href="/brands/our-brands/magnum.html">Magnum</a></li>
+                    <li><a href="/brands/our-brands/omo.html">Omo</a></li>
+                    <li><a href="/brands/our-brands/rexona.html">Rexona</a></li>
+                    <li><a href="/brands/our-brands/sunsilk.html">Sunsilk</a></li>
+                    <li><a href="/brands/our-brands/surf.html">Surf</a></li>
+                    <li><a href="/brands/our-brands/unilever-food-solutions.html">Unilever Food Solutions</a></li>
+    </ul>
+                            </div>
+                            
+                            <div class="small-12 large-8 columns">
+        <h2><a href="/brands/brand-stories/">Latest from our brands</a></h2>
+    <ul class="level-three">
+                    <li><a href="/brands/brand-stories/Unileverkeepsdigitaldevicescleaninthekitchen.html">Unilever develops world’s first hands-free recipe player</a></li>
+                    <li><a href="/brands/brand-stories/Dove-surpasses-self-esteem-education-target-one-year-ahead-of-schedule.html">Dove surpasses self-esteem education target</a></li>
+                    <li><a href="/brands/brand-stories/Ramabottlesthesecrettoperfectfrying.html">Rama bottles the secret to perfect frying</a></li>
+                    <li><a href="/brands/brand-stories/Join-Jamie-to-fight-child-obesity.html">Join Jamie to fight child obesity</a></li>
+                    <li><a href="/brands/brand-stories/dove-choose-beautiful.html">Dove: Choose beautiful</a></li>
+                    <li><a href="/brands/brand-stories/knorr-film-reveals-the-greatest-flavour-on-earth.html">Knorr film reveals the greatest flavour on earth</a></li>
+                    <li><a href="/brands/brand-stories/improving-water-access-to-empower-women.html">Improving water access to empower women</a></li>
+                    <li><a href="/brands/brand-stories/changing-the-worlds-dental-habits.html">Changing the world’s dental habits</a></li>
+                    <li><a href="/brands/brand-stories/domestos-bring-hygiene-to-schools.html">Domestos bring hygiene to schools</a></li>
+                    <li><a href="/brands/brand-stories/surf-teams-up-with-bubble-saga.html">Surf teams up with Bubble Saga</a></li>
+                    <li><a href="/brands/brand-stories/hellmanns-invites-consumers-to-help-cultivate-its-tomatoes.html">Hellmann&#39;s invites consumers to help cultivate its tomatoes</a></li>
+                    <li><a href="/brands/brand-stories/hellmanns-and-jamie-oliver-make-festive-food-fun.html">Hellmann&#39;s and Jamie Oliver make festive food fun</a></li>
+                    <li><a href="/brands/brand-stories/lifebuoy-asks-worlds-first-ladies-to-help-a-child-reach-five.html">Lifebuoy asks world&#39;s First Ladies to help a child reach five</a></li>
+                    <li><a href="/brands/brand-stories/lux-pioneers-soap-from-algal-oils.html">Lux pioneers soap from algal oils</a></li>
+                    <li><a href="/brands/brand-stories/simple-celebrates-groundbreaking-women.html">Simple celebrates groundbreaking women</a></li>
+                    <li><a href="/brands/brand-stories/ben-and-Jerrys-names-join-our-core-2014-winners.html">Ben &amp; Jerry&#39;s names Join Our Core 2014 winners</a></li>
+    </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small-12 large-3 columns features">
+    <div class="row">
+        <div class="small-12 columns">
+                <div class="nav-sting">
+                    <a href="/brands/brand-stories/changing-the-worlds-dental-habits.html" title="Changing the world’s dental habits">
+                        <h3>Changing the world’s dental habits</h3>
+                        <img src="/Images/Young-girl-brushing-teeth_tcm244-408615_w209.jpg" alt="Young girl brushes her teeth in Signal advert" />
+                        <p>Signal is helping millions more people to have a healthier smile</p>
+                    </a>
+                </div>
+                <div class="nav-sting">
+                    <a href="/brands/brand-stories/improving-water-access-to-empower-women.html" title="Improving water access to empower women">
+                        <h3>Improving water access to empower women</h3>
+                        <img src="/Images/Lady-carrying-water-on-her-head_tcm244-408614_w209.jpg" alt="Woman carrying water in a container" />
+                        <p>Sunlight reveals how access to clean water is allowing women in Asia and Africa to reclaim their time</p>
+                    </a>
+                </div>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </li>
+        <li>
+                <a href="/sustainable-living/" title="Sustainable Living">Sustainable Living</a>
+            <div class="subnav" style="display: none;">
+                <div class="row collapse">
+                    <div class="small-12 large-9 columns main">
+                        <div class="row">
+                            <div class="small-12">
+                                <h2 class="hub-link"><a href="/sustainable-living/">Sustainable living home</a></h2>
+                            </div>
+                        </div>
+                        <div class="row">
+
+
+                            <div class="small-12 large-4 columns">
+        <h2><a href="/sustainable-living/transformational-change/">Transformational change</a></h2>
+    <ul class="level-three">
+                    <li><a href="/sustainable-living/transformational-change/driving-transformational-change/">Driving transformational change</a></li>
+                    <li><a href="/sustainable-living/transformational-change/tackling-climate-and-development-together/">Tackling climate &amp; development together</a></li>
+                    <li><a href="/sustainable-living/transformational-change/eliminating-deforestation/">Eliminating deforestation</a></li>
+                    <li><a href="/sustainable-living/transformational-change/mainstreaming-sustainable-agriculture/">Mainstreaming sustainable agriculture</a></li>
+                    <li><a href="/sustainable-living/transformational-change/achieving-universal-access-to-water-sanitation-and-hygiene/">Achieving universal access to water, sanitation &amp; hygiene</a></li>
+                    <li><a href="/sustainable-living/transformational-change/creating-opportunities-for-women/">Creating opportunities for women</a></li>
+                    <li><a href="/sustainable-living/transformational-change/global-partnerships/">Global partnerships</a></li>
+    </ul>
+        <h2><a href="/sustainable-living/what-matters-to-you/">What matters to you</a></h2>
+    <ul class="level-three">
+    </ul>
+                            </div>
+                            
+                            <div class="small-12 large-4 columns">
+        <h2><a href="/sustainable-living/sustainable-living-news/">Sustainable living news</a></h2>
+    <ul class="level-three">
+                    <li><a href="/sustainable-living/sustainable-living-news/news/">Latest news</a></li>
+                    <li><a href="/sustainable-living/sustainable-living-news/reports-and-publications/">Reports &amp; publications</a></li>
+                    <li><a href="/sustainable-living/sustainable-living-news/sustainable-living-videos/">Sustainable living videos</a></li>
+                    <li><a href="/sustainable-living/sustainable-living-news/TED-Unilever/"> Unilever TED talks</a></li>
+    </ul>
+        <h2><a href="/sustainable-living/the-sustainable-living-plan/">Introducing our plan</a></h2>
+    <ul class="level-three">
+                    <li><a href="/sustainable-living/the-sustainable-living-plan/our-strategy/">Our strategy for sustainable business</a></li>
+                    <li><a href="/sustainable-living/the-sustainable-living-plan/our-approach-to-reporting/">Our approach to reporting</a></li>
+                    <li><a href="/sustainable-living/the-sustainable-living-plan/improving-health-and-well-being/">Improving Health &amp; Well-being</a></li>
+                    <li><a href="/sustainable-living/the-sustainable-living-plan/reducing-environmental-impact/">Reducing Environmental Impact </a></li>
+                    <li><a href="/sustainable-living/the-sustainable-living-plan/enhancing-livelihoods/">Enhancing Livelihoods</a></li>
+    </ul>
+                            </div>
+                                <div class="small-12 large-4 columns">
+        <h2><a href="/sustainable-living/join-in/">Join in</a></h2>
+    <ul class="level-three">
+                    <li><a href="/sustainable-living/join-in/brightfuture/">brightFuture: helping to bring about change</a></li>
+                    <li><a href="/sustainable-living/join-in/young-entrepreneur-awards/">The Unilever Sustainable Living Young Entrepreneur Awards</a></li>
+                    <li><a href="/sustainable-living/join-in/unilever-voices/">Unilever voices</a></li>
+                    <li><a href="/sustainable-living/join-in/unilever-foundation/">The Unilever Foundation</a></li>
+    </ul>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="small-12 large-3 columns features">
+    <div class="row">
+        <div class="small-12 columns">
+                <div class="nav-sting">
+                    <a href="/sustainable-living/featurespot.html" title="A fundamental change">
+                        <h3>A fundamental change</h3>
+                        <img src="/Images/IMG_6079_990x557_tcm244-414236_w209.jpg" alt="Women tea picking in Turkey" />
+                        <p>See how we’re working to address some of the biggest challenges facing all of us</p>
+                    </a>
+                </div>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </li>
+        <li>
+                <a href="/news/" title="News">News</a>
+            <div class="subnav" style="display: none;">
+                <div class="row collapse">
+                    <div class="small-12 large-9 columns main">
+                        <div class="row">
+                            <div class="small-12">
+                                <h2 class="hub-link"><a href="/news/">News home</a></h2>
+                            </div>
+                        </div>
+                        <div class="row">
+
+
+                            <div class="small-12 large-4 columns">
+        <h2><a href="/news/news-and-features/">News &amp; features</a></h2>
+    <ul class="level-three">
+    </ul>
+        <h2><a href="/news/videos/">Videos</a></h2>
+    <ul class="level-three">
+    </ul>
+        <h2><a href="/news/our-leadership/">Our leadership</a></h2>
+    <ul class="level-three">
+    </ul>
+                            </div>
+                            
+                            <div class="small-12 large-4 columns">
+        <h2><a href="/news/press-releases/">Press releases</a></h2>
+    <ul class="level-three">
+    </ul>
+        <h2><a href="/news/awards-and-recognition/">Awards &amp; recognition</a></h2>
+    <ul class="level-three">
+    </ul>
+        <h2><a href="/news/media-contacts/">Media contacts</a></h2>
+    <ul class="level-three">
+    </ul>
+                            </div>
+                                <div class="small-12 large-4 columns">
+        <h2><a href="/news/speeches/">Speeches &amp; interviews</a></h2>
+    <ul class="level-three">
+    </ul>
+        <h2><a href="/news/heroes/">Unilever’s Heroes</a></h2>
+    <ul class="level-three">
+    </ul>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="small-12 large-3 columns features">
+    <div class="row">
+        <div class="small-12 columns">
+                <div class="nav-sting">
+                    <a href="/investor-relations/annual-reports-and-accounts/ara.html" title="Annual Report and Accounts Overview">
+                        <h3>Annual Report and Accounts Overview</h3>
+                        <img src="/Images/ar14_banner_main_novo_tcm244-419671_w209.jpg" alt="Woman in field in India" />
+                        <p>
+Unilever Annual Report and Accounts Overview 2014
+</p>
+                    </a>
+                </div>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </li>
+        <li>
+                <a href="/careers/" title="Careers">Careers</a>
+            <div class="subnav" style="display: none;">
+                <div class="row collapse">
+                    <div class="small-12 large-9 columns main">
+                        <div class="row">
+                            <div class="small-12">
+                                <h2 class="hub-link"><a href="/careers/">Careers home</a></h2>
+                            </div>
+                        </div>
+                        <div class="row">
+
+
+                            <div class="small-12 large-4 columns">
+        <h2><a href="/careers/graduates/">Graduates</a></h2>
+    <ul class="level-three">
+                    <li><a href="/careers/graduates/uflp/">Unilever Future Leaders Programme</a></li>
+                    <li><a href="/careers/graduates/unilever-internship-programme/">Unilever Internship Programme</a></li>
+                    <li><a href="/careers/graduates/what-we-do/">Unilever uncovered: What we do</a></li>
+                    <li><a href="/careers/graduates/working-here/">What it&#39;s like working here</a></li>
+                    <li><a href="/careers/graduates/application-process/">Application process</a></li>
+                    <li><a href="/careers/graduates/application-help/">Application help</a></li>
+                    <li><a href="/careers/graduates/unilever-webinar-series/">Unilever Webinar Series</a></li>
+    </ul>
+                            </div>
+                            
+                            <div class="small-12 large-8 columns">
+        <h2><a href="/careers/professionals/">Professionals</a></h2>
+    <ul class="level-three">
+                    <li><a href="/careers/professionals/working-at-unilever/">Working at Unilever</a></li>
+                    <li><a href="/careers/professionals/global-mba-recruitment-channel/">Global MBA recruitment channel</a></li>
+                    <li><a href="/careers/professionals/business-to-business/">Business to business</a></li>
+                    <li><a href="/careers/professionals/communications/">Communications</a></li>
+                    <li><a href="/careers/professionals/customer-development/">Customer development</a></li>
+                    <li><a href="/careers/professionals/finance/">Finance</a></li>
+                    <li><a href="/careers/professionals/human-resources/">Human resources</a></li>
+                    <li><a href="/careers/professionals/information-technology/">Information technology</a></li>
+                    <li><a href="/careers/professionals/marketing/">Marketing</a></li>
+                    <li><a href="/careers/professionals/research-and-development/">Research &amp; development</a></li>
+                    <li><a href="/careers/professionals/supply-chain/">Supply chain</a></li>
+    </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small-12 large-3 columns features">
+    <div class="row">
+        <div class="small-12 columns">
+                <div class="nav-sting">
+                    <a href="/careers/graduates/working-here/" title="What it&#39;s like working here">
+                        <h3>What it&#39;s like working here</h3>
+                        <img src="/Images/Two-Unilever-employees-having-a-meeting_tcm244-414276_w209.jpg" alt="Find out about the scheme for graduates" />
+                        <p>At Unilever you can shape your own path as you work with the brands and people that drive our sustainable business growth</p>
+                    </a>
+                </div>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </li>
+        <li>
+                <a href="/investor-relations/" title="Investor Relations">Investor Relations</a>
+            <div class="subnav" style="display: none;">
+                <div class="row collapse">
+                    <div class="small-12 large-9 columns main">
+                        <div class="row">
+                            <div class="small-12">
+                                <h2 class="hub-link"><a href="/investor-relations/">Investor relations home</a></h2>
+                            </div>
+                        </div>
+                        <div class="row">
+
+
+                            <div class="small-12 large-4 columns">
+        <h2><a href="/investor-relations/understanding-unilever/">Understanding Unilever</a></h2>
+    <ul class="level-three">
+                    <li><a href="/investor-relations/understanding-unilever/about-unilever/">About Unilever</a></li>
+                    <li><a href="/investor-relations/understanding-unilever/acquisitions-and-disposals/">Acquisitions &amp; disposals</a></li>
+    </ul>
+        <h2><a href="/investor-relations/results-and-publications/">Results &amp; publications</a></h2>
+    <ul class="level-three">
+                    <li><a href="/investor-relations/results-and-publications/quarterly-results/">Quarterly results</a></li>
+                    <li><a href="/investor-relations/results-and-publications/analysts-consensus/">Analysts&#39; consensus</a></li>
+                    <li><a href="/investor-relations/results-and-publications/presentations-and-speeches/">Presentations &amp; speeches</a></li>
+                    <li><a href="/investor-relations/results-and-publications/video-library/">Video library</a></li>
+                    <li><a href="/investor-relations/results-and-publications/financial-calendar/">Financial calendar</a></li>
+    </ul>
+        <h2><a href="/investor-relations/agm-and-corporate-governance/">Corporate governance</a></h2>
+    <ul class="level-three">
+                    <li><a href="/investor-relations/agm-and-corporate-governance/agm-and-voting/">AGM &amp; voting</a></li>
+                    <li><a href="/investor-relations/agm-and-corporate-governance/legal-structure-and-foundation-agreements/">Unilever&#39;s legal structure and foundation agreements</a></li>
+                    <li><a href="/investor-relations/agm-and-corporate-governance/directors-sharedealings/">Directors Sharedealings</a></li>
+                    <li><a href="/investor-relations/agm-and-corporate-governance/board-and-management-committees/">Board and Management Committees</a></li>
+    </ul>
+                            </div>
+                            
+                            <div class="small-12 large-4 columns">
+        <h2><a href="/investor-relations/unilever-shares/">Unilever shares</a></h2>
+    <ul class="level-three">
+                    <li><a href="/investor-relations/unilever-shares/about-shares/">About Unilever shares</a></li>
+                    <li><a href="/investor-relations/unilever-shares/share-prices/">Share price</a></li>
+                    <li><a href="/investor-relations/unilever-shares/share-price-calculators/">Share price calculators</a></li>
+                    <li><a href="/investor-relations/unilever-shares/historic-share-prices/">Historic share price</a></li>
+    </ul>
+        <h2><a href="/investor-relations/investor-news/">Latest news</a></h2>
+    <ul class="level-three">
+                    <li><a href="/investor-relations/investor-news/press-releases/">Press releases</a></li>
+                    <li><a href="/investor-relations/investor-news/investor-news-and-releases/">Regulatory news</a></li>
+    </ul>
+        <h2><a href="/investor-relations/frequently-asked-questions/">Frequently asked questions</a></h2>
+    <ul class="level-three">
+                    <li><a href="/investor-relations/frequently-asked-questions/dividend-faqs/">Unilever dividend FAQs</a></li>
+                    <li><a href="/investor-relations/frequently-asked-questions/general-faqs/">General FAQs</a></li>
+                    <li><a href="/investor-relations/frequently-asked-questions/Shareholders-faqs/">Shareholders FAQs</a></li>
+    </ul>
+                            </div>
+                                <div class="small-12 large-4 columns">
+        <h2><a href="/investor-relations/annual-reports-and-accounts/">Annual Report and Accounts Overview</a></h2>
+    <ul class="level-three">
+                    <li><a href="/investor-relations/annual-reports-and-accounts/annual-report-and-accounts-2014/">Annual Report and Accounts 2014 Downloads</a></li>
+                    <li><a href="/investor-relations/annual-reports-and-accounts/charts-2005-2014/">Charts 2005 - 2014</a></li>
+                    <li><a href="/investor-relations/annual-reports-and-accounts/archive-of-annual-reports/">Archive of Unilever Annual Report and Accounts</a></li>
+                    <li><a href="/investor-relations/annual-reports-and-accounts/printed-reports/">Printed reports</a></li>
+    </ul>
+        <h2><a href="/investor-relations/dividends/">Unilever dividends</a></h2>
+    <ul class="level-three">
+                    <li><a href="/investor-relations/dividends/dividend-calendar/">Dividend calendar</a></li>
+                    <li><a href="/investor-relations/dividends/dividend-direct/">Unilever dividend direct</a></li>
+                    <li><a href="/investor-relations/dividends/dividend-history-and-reinvestment/">Dividend history and reinvestment</a></li>
+    </ul>
+        <h2><a href="/investor-relations/investor-contacts/">Investor contacts</a></h2>
+    <ul class="level-three">
+                    <li><a href="/investor-relations/investor-contacts/private-investors/">Private investor contacts</a></li>
+                    <li><a href="/investor-relations/investor-contacts/institutional-investors/">Institutional investor contacts</a></li>
+    </ul>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="small-12 large-3 columns features">
+    <div class="row">
+        <div class="small-12 columns">
+                <div class="nav-sting">
+                    <a href="/investor-relations/results-and-publications/latest-results/" title="Q1 2015 Trading Statement">
+                        <h3>Q1 2015 Trading Statement</h3>
+                        <img src="/Images/Q1-2015-990x557_tcm244-423307_w209.jpg" alt="Q1 2015 Trading Statement" />
+                        <p>
+16 April, 2015: Unilever released financial results for the first quarter 2015.
+</p>
+                    </a>
+                </div>
+                <div class="nav-sting">
+                    <a href="/investor-relations/results-and-publications/analysts-consensus/" title="Analysts&#39; consensus">
+                        <h3>Analysts&#39; consensus</h3>
+                        <img src="/Images/Ipad-pen-spreadsheet-990x557_tcm244-414264_w209.jpg" alt="Charts and figures on an iPad and on paper" />
+                        <p>Analysts&#39; estimates collected up until 1 April</p>
+                    </a>
+                </div>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </li>
+
+</ul>
+
+
+		</nav>
+	</div>
+</div>
+<div class="container">
+    <div class="row" style="position: relative;">
+        <div id="drop-down-menu">
+            <div class="row">
+                <div class="small-12 columns collapse">
+                    <!-- Sub menu's drop in here -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<nav id="mobile-nav"
+     data-url="/mobile_navigation.json"
+     data-base=""
+     data-resource-home="Home"
+     data-resource-contact="Contact us"
+     data-resource-contact-url="/contact/"
+     data-resource-location="Change location"
+     data-resource-overview="About us home|Brands home|Sustainable living home|News home|Careers home|Investor relations home">
+    MOBILE NAV
+    <ul id="mobile-nav-level-1"></ul>
+    <ul id="mobile-nav-level-2"></ul>
+    <ul id="mobile-nav-level-3"></ul>
+    <ul id="mobile-nav-level-4"></ul>
+    <ul id="mobile-nav-level-5"></ul>
+    <ul id="mobile-nav-level-6"></ul>
+</nav>	
+	<!-- ISYSINDEXINGON -->
+
+	<hr class="content-start" />
+	<div id="content-wrap">
+		
+
+
+
+
+<section class="home-banner animate">
+
+	<div class="info-block">
+		<div class="row">
+			<div class="large-6 medium-6 medium-centered holder columns">
+				<div class="small-10 medium-3 columns end">
+					<h3>Information for...</h3>
+					<ul>
+						        <li><a href="/about/information-for/suppliers.html" title="Suppliers" >Suppliers</a></li>
+						        <li><a href="/about/information-for/students.html" title="Students" >Students</a></li>
+						        <li><a href="/about/information-for/nutrition-professionals.html" title="Nutrition professionals" >Nutrition professionals</a></li>
+					</ul>
+				</div>
+								<div class="small-10 medium-3 columns end">
+					<h3>Interested in...</h3>
+					<ul>
+                                <li><a href="/about/who-we-are/our-history/" title="Our history and heritage" >Our history and heritage</a></li>
+                                <li><a href="/sustainable-living/" title="Sustainable Living" >Sustainable Living</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-12 columns">
+			<a href="#" class="info-trigger icon-info"><span class="text">Information for...</span></a>
+		</div>
+	</div>
+	<div class="home first">
+		<div class="small-12">
+			<div class="info">
+				<h2>Brands with a purpose <br><span>Unilever meets people&#39;s everyday needs while creating a brighter future</span></h2>
+			</div>
+			<a href="/sustainable-living/" title="Sustainable Living" class="hero-link">
+									<img sizes="100vw" srcset="/Images/Homepage-example-seven_tcm244-425273_w480.jpg 480w, /Images/Homepage-example-seven_tcm244-425273.jpg 2000w" alt="Domestos toilet academy">
+							</a>
+			<div class="tab-holder">
+				<div class="row">
+					    <div class="inline-block">
+						    <div class="tab">
+                                <a href="/sustainable-living/sustainable-living-news/news/Unilever-Foundation-Ambassador-for-UNICEF-2015.html" title="Selected employee gets the chance to see first hand the positive social impact Unilever’s support has on people’s lives" ><h3>Unilever Foundation Ambassador 2015</h3><p>Selected employee gets the chance to see first hand the positive social impact Unilever’s support has on people’s lives</p></a>
+						    </div>
+					    </div>
+					    <div class="inline-block">
+						    <div class="tab">
+                                <a href="/sustainable-living/sustainable-living-news/news/Water-Heroes-campaign-in-Vietnam-V5.html" title="Comfort One Rinse teams up with Vietnamese government to tackle water shortages with online and offline campaign" ><h3>Tackling water shortages in Vietnam</h3><p>Comfort One Rinse teams up with Vietnamese government to tackle water shortages with online and offline campaign</p></a>
+						    </div>
+					    </div>
+					    <div class="inline-block">
+						    <div class="tab">
+                                <a href="/sustainable-living/sustainable-living-news/news/Unilever-invites-competitors-to-share-emissions-saving-compressed-deos-technology.html" title="Unilever has invited competitors to adopt its revolutionary compressed deodorant technology in a bid to help the whole deodorant industry cut its aerosol carbon footprint by 25%" ><h3>Unilever shares deos technology</h3><p>Unilever has invited competitors to adopt its revolutionary compressed deodorant technology in a bid to help the whole deodorant industry cut its aerosol carbon footprint by 25%</p></a>
+						    </div>
+					    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="home">
+	<div class="more-information">
+		<div class="outer">
+			<div class="inner">
+
+				<h3>Find out about</h3>
+				<ul>
+					    <li><a href="/brands/" title="Our Brands" >Our Brands</a></li>
+					    <li><a href="/news/" title="Latest News" >Latest News</a></li>
+					    <li><a href="/sustainable-living/" title="Sustainable Living" >Sustainable Living</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="home">
+    <div class="row">
+        <h2>
+            <span>Company news and performance</span>
+        </h2>
+
+                <div class="medium-12 large-4 columns">
+                    <div class="article">
+                        <a href="/news/press-releases/2015/Unilever-saves-one-million-tonnes-of-CO-two.html">
+                            
+                                <div>
+                                    <img src="/Images/Unilever-saves-one-million-tonnes-688x387_tcm244-427258_w680.jpg" alt="/Images/Unilever-saves-one-million-tonnes-688x387_tcm244-427258.jpg" />
+                                </div>
+                            <h3>
+                                Unilever saves 1 million tonnes of CO2 - and €244m
+                            </h3>
+                            <span></span>
+                            <p>New milestone of 1 million tonnes of CO<sub>2</sub> savings since 2008 - saving €244m</p>
+                        </a>
+                    </div>
+                </div>
+
+<div class="large-4 medium-12 columns">
+    <div class="share-price">
+        <h3>Share price</h3>
+            <div class="price-row">
+                <div class="left">
+                    <p><strong>NV</strong> (EUR)</p>
+                    <p>16/06/2015 | 17:23 CET</p>
+                </div>
+                <div class="right">
+                    <p>37.390</p>
+                    <p class="value up">+1.41</p>
+                </div>
+            </div>
+            <div class="price-row">
+                <div class="left">
+                    <p><strong>PLC</strong> (pence)</p>
+                    <p>16/06/2015 | 16:23 GMT</p>
+                </div>
+                <div class="right">
+                    <p>2,793.00</p>
+                    <p class="value up">+0.58</p>
+                </div>
+            </div>
+            <div class="price-row">
+                <div class="left">
+                    <p><strong>NV ADR NY</strong> (USD)</p>
+                    <p>16/06/2015 | 11:23 EST</p>
+                </div>
+                <div class="right">
+                    <p>41.98</p>
+                    <p class="value up">+0.65</p>
+                </div>
+            </div>
+            <div class="price-row">
+                <div class="left">
+                    <p><strong>PLC ADR NY</strong> (USD)</p>
+                    <p>16/06/2015 | 11:19 EST</p>
+                </div>
+                <div class="right">
+                    <p>43.65</p>
+                    <p class="value up">+0.67</p>
+                </div>
+            </div>
+        <div class="cta-link">
+
+            <a href="/investor-relations/unilever-shares/share-prices/">Share price</a>
+        </div>
+    </div>
+</div>
+   
+                <div class="medium-12 large-4 columns">
+                    <div class="article">
+                        <a href="/investor-relations/annual-reports-and-accounts/annual-report-and-accounts-2014/">
+                            
+                                <div>
+                                    <img src="/Images/ar14_banner_main_themeblue_990x557_tcm244-414263_w680.jpg" alt="/Images/ar14_banner_main_themeblue_990x557_tcm244-414263.jpg" />
+                                </div>
+                            <h3>
+                                Annual Report and Accounts 2014
+                            </h3>
+                            <span></span>
+                            <p>
+Our Annual Report and Accounts 2014 outlines our performance, strategy, markets and approach to sustainability in 2014
+</p>
+                        </a>
+                    </div>
+                </div>
+    </div>
+    <div class="more-information">
+        <div class="outer">
+            <div class="inner">
+
+
+                <h3>Find out more</h3>
+                <ul>
+                    <li>
+                        <a href="/news/news-and-features/">
+                            News &amp; features
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/news/press-releases/">
+                            Press releases
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/investor-relations/">
+                            Investor Relations
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/about/who-we-are/about-Unilever/">
+                            About Unilever
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</section>
+<section class="home">
+    <div class="row">
+        <h2>
+            <span>Careers</span>
+        </h2>
+
+                <div class="medium-12 large-4 columns">
+                    <div class="article">
+                        <a href="/careers/graduates/uflp/">
+                            
+                                <div>
+                                    <img src="/Images/Group-of-Unilever-employees-with-ice-cream_tcm244-414273_w680.jpg" alt="/Images/Group-of-Unilever-employees-with-ice-cream_tcm244-414273.jpg" />
+                                </div>
+                            <h3>
+                                Unilever Future Leaders Programme
+                            </h3>
+                            <span></span>
+                            <p>Our world-class programme turns graduates into managers</p>
+                        </a>
+                    </div>
+                </div>
+
+    <div class="medium-12 large-4 columns">
+        <div class="linklist has-cta">
+            <h3>
+                Current job listings
+            </h3>
+            <ul>
+                
+                        <li>
+                            <a href="https://unilever.taleo.net/careersection/external/jobdetail.ftl?lang=en&amp;searchExpanded=true&amp;job=130003EU">
+                                Key Account Manager - Modern Trade
+                                <small>Unilever Thailand HQ</small>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://unilever.taleo.net/careersection/external/jobdetail.ftl?lang=en&amp;searchExpanded=true&amp;job=130003N2">
+                                Sales Representative/ Executive - Unilever Food Solutions
+                                <small>Thailand</small>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://unilever.taleo.net/careersection/external/jobdetail.ftl?lang=en&amp;searchExpanded=true&amp;job=130003N3">
+                                Sales Training Support Manager - Food Solutions
+                                <small>Thailand</small>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://unilever.taleo.net/careersection/external/jobdetail.ftl?lang=en&amp;searchExpanded=true&amp;job=130003N6">
+                                Area Sales Manager - General Trade
+                                <small>Thailand</small>
+                            </a>
+                        </li>
+            </ul>
+            
+                    <div class="cta-link">
+                        <a href="https://unilever.taleo.net/careersection/external/jobsearch.ftl?lang=en&amp;portal=6170030171" title="All current vacancies" target=_blank>All current vacancies</a>
+                    </div>
+        </div>
+    </div>
+                <div class="medium-12 large-4 columns">
+                    <div class="article">
+                        <a href="/careers/professionals/global-mba-recruitment-channel/">
+                            
+                                <div>
+                                    <img src="/Images/unilever_leatherhead_990x557_tcm244-420699_w680.jpg" alt="/Images/unilever_leatherhead_990x557_tcm244-420699.jpg" />
+                                </div>
+                            <h3>
+                                Global MBA recruitment channel
+                            </h3>
+                            <span></span>
+                            <p>WE RECRUIT MBA GRADUATES AND ALUMNI FOR VACANCIES ALL AROUND THE WORLD</p>
+                        </a>
+                    </div>
+                </div>
+    </div>
+    <div class="more-information">
+        <div class="outer">
+            <div class="inner">
+
+
+                <h3>Find out more</h3>
+                <ul>
+                    <li>
+                        <a href="/careers/professionals/">
+                            Professionals
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/careers/graduates/">
+                            Graduates
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</section>
+<section class="home last">
+	<div class="row social-channels">
+		<div class="large-12 columns">
+			<ul>
+				<li><a target="_blank" href="http://www.facebook.com/unilever" title="Facebook" class="facebook">Facebook</a></li>
+				<li><a target="_blank" href="http://twitter.com/Unilever" title="Twitter" class="twitter">Twitter</a></li>
+				<li><a target="_blank" href="https://www.youtube.com/user/Unilever" title="YouTube" class="youtube">YouTube</a></li>
+				<li><a target="_blank" href="https://www.linkedin.com/company/unilever" title="LinkedIn" class="linkedin">LinkedIn</a></li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+	</div>
+
+	<!-- ISYSINDEXINGOFF -->
+
+
+<div class="to-top">
+	<a href="#body" title="Back to top" class="jump">Back to top</a>
+</div>
+
+
+<div class="footer"  style="background-image: url(/Images/bg1_tcm244-409210.jpg);" >
+	<footer>
+		<div class="row">
+			<div class="large-12 columns">
+				<p>&copy; Unilever 2015</p>
+				<ul>
+									<li>
+										<a href="/contact/">
+ Contact us
+										</a>
+									</li>
+							<li>
+								<a href="https://brightfuture.unilever.com/" target="_blank" title="Link opens in a new window" class="external">
+ brightFuture
+								</a>
+							</li>
+							<li>
+								<a href="http://www.unilever.com/pioti/en/p1.asp" target="_blank" title="Link opens in a new window" class="external">
+ What&#39;s in our products
+								</a>
+							</li>
+									<li>
+										<a href="/legal.html">
+ Legal
+										</a>
+									</li>
+									<li>
+										<a href="/accessibility.html">
+ Accessibility
+										</a>
+									</li>
+							<li>
+								<a href="http://www.unilevercookiepolicy.com/en_GB/accept-policy.aspx" target="_blank" title="Link opens in a new window" class="external">
+ Cookie policy
+								</a>
+							</li>
+							<li>
+								<a href="http://www.unileverprivacypolicy.com/" target="_blank" title="Link opens in a new window" class="external">
+ Privacy policy
+								</a>
+							</li>
+									<li>
+										<a href="/rss.html">
+ RSS
+										</a>
+									</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</div>
+    
+
+    
+    <script>
+    // Set up application namespace and top level objects ready for load
+    var Unilever = Unilever || {};
+
+    var addthis_config = {
+        'data_track_addressbar': false,
+        pubid: "ra-5231981c5d94e418"
+    };
+    </script>
+    <!--[if lte IE 8]>
+        <script src="/Content/Scripts/combined.legacy.min.js"></script>
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <script src="/Content/Scripts/combined.min.js"></script>
+    <!--<![endif]-->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js"></script>
+    <script>
+        var $buoop = { vs: { i: 8 }, c: 2 };
+
+        function $buo_f() {
+
+            var e = document.createElement("script");
+            e.src = "//browser-update.org/update.js";
+            document.body.appendChild(e);
+        };
+
+        try { document.addEventListener("DOMContentLoaded", $buo_f, false); }
+        catch (e) { window.attachEvent("onload", $buo_f); }
+    </script>
+</body>
+</html>

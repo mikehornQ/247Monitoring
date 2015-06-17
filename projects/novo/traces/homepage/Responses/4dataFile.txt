@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Folder>
+    <ResourceID>EB10CCFCA857F043!111</ResourceID>
+    <ETag>EB10CCFCA857F043!111.3</ETag>
+    <DateModified>2015-06-16T11:13:01.343Z</DateModified>
+    <Items>
+      <Document>
+        <ResourceID>EB10CCFCA857F043!113</ResourceID>
+        <ETag>EB10CCFCA857F043!113.6</ETag>
+        <DateModified>2015-06-16T11:12:48.726Z</DateModified>
+        <RelationshipName>Links</RelationshipName>
+        <WriteStatus>Success</WriteStatus>
+      </Document>
+    </Items>
+    <RelationshipName>browsersettings-favoriteurls-internet-explorer</RelationshipName>
+    <WriteStatus>Success</WriteStatus>
+  </Folder>
+</Items>

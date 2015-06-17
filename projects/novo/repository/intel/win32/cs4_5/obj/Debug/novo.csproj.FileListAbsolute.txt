@@ -1,0 +1,13 @@
+C:\Workspaces\247 Monitoring\projects\novo\repository\intel\win32\cs4_5\novo\Debug\novo_cs4_5.dll
+C:\Workspaces\247 Monitoring\projects\novo\repository\intel\win32\cs4_5\novo\Debug\novo_cs4_5.pdb
+C:\Workspaces\247 Monitoring\projects\novo\repository\intel\win32\cs4_5\novo\Debug\247 Monitoring_cs4_5.dll
+C:\Workspaces\247 Monitoring\projects\novo\repository\intel\win32\cs4_5\novo\Debug\clrNativeWrapper.dll
+C:\Workspaces\247 Monitoring\projects\novo\repository\intel\win32\cs4_5\novo\Debug\clrWebBrowser.dll
+C:\Workspaces\247 Monitoring\projects\novo\repository\intel\win32\cs4_5\novo\Debug\fc_clr.dll
+C:\Workspaces\247 Monitoring\projects\novo\repository\intel\win32\cs4_5\novo\Debug\QualitestMonitoring.dll
+C:\Workspaces\247 Monitoring\projects\novo\repository\intel\win32\cs4_5\novo\Debug\clrWebBrowser.xml
+C:\Workspaces\247 Monitoring\projects\novo\repository\intel\win32\cs4_5\novo\Debug\fc_clr.xml
+C:\Workspaces\247 Monitoring\projects\novo\repository\intel\win32\cs4_5\novo\Debug\clrNativeWrapper.xml
+C:\Workspaces\247 Monitoring\projects\novo\repository\intel\win32\cs4_5\obj\Debug\novo_cs4_5.dll
+C:\Workspaces\247 Monitoring\projects\novo\repository\intel\win32\cs4_5\obj\Debug\novo_cs4_5.pdb
+C:\Workspaces\247 Monitoring\projects\novo\repository\intel\win32\cs4_5\obj\Debug\novo.csprojResolveAssemblyReference.cache
