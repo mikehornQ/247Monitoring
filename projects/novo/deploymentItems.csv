@@ -1,3 +1,4 @@
 name,injectors,testName,distributionPolicy,graphSeriesColour,metaKey,workFlowName,isIn,_id_
 S,MI,S,I,S,S,S,B,S
+'scratch',{651100af-7bfa-4287-9f66-7cc71367597e:1},'cloudscratch',0,'4F81BD','TestDeploymentItem','scratch',True,'c27be110-0636-4f51-8a9d-05c262411bd2'
 'scratch',{0b1275e0-49bc-4028-8fce-b11275a927cc:1},'scratch',0,'4F81BD','TestDeploymentItem','scratch',True,'c27be110-0636-4f51-8a9d-05c262411bd2'

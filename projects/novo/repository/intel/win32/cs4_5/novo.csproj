@@ -97,7 +97,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <!--START SCRIPTS--><Compile Include="C:\Workspaces\247 Monitoring\projects\novo\scripts\clr\com\testplant\testing\homepage.cs"><SubType>Code</SubType></Compile><Compile Include="C:\Workspaces\247 Monitoring\projects\novo\scripts\clr\com\testplant\testing\scratch.cs"><SubType>Code</SubType></Compile><!--END SCRIPTS-->
+    <!--START SCRIPTS--><Compile Include="C:\Workspaces\247 Monitoring\projects\novo\scripts\clr\com\testplant\testing\scratch.cs"><SubType>Code</SubType></Compile><Compile Include="C:\Workspaces\247 Monitoring\projects\novo\scripts\clr\com\testplant\testing\homepage.cs"><SubType>Code</SubType></Compile><!--END SCRIPTS-->
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets"/>
   <PropertyGroup>

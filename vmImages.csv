@@ -1,2 +1,3 @@
 metaKey,description,systemImageFlag,cloudType,_id_,name
 S,S,B,I,S,S
+'VMImage','ePP Injector v6.0.0',False,0,'17d20143-3497-461c-a873-24bd7764766a','ami-899afafe'
