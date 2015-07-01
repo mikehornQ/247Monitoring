@@ -1,0 +1,27 @@
+
+/* set_to_tallest.js */
+
+/* 1  */ /*
+/* 2  *| Title: set_to_tallest.js
+/* 3  *| Version: 1.0
+/* 4  *| Author: Cheung Chen
+/* 5  *| Date: 1/25/2015
+/* 6  *| Description:
+/* 7  *| 	-Make content-column elements on QT website equal in height
+/* 8  *| 	-Align buttons in those columns
+/* 9  *| -Property of QualiTest Group-
+/* 10 *| ----------------------------------------------------------------------------------------------------------------------
+/* 11 *| Developer Notes:
+/* 12 *| 	<div class = "content-column one_(???)">	//layout of content column (containerDiv)
+/* 13 *| 		<div>									//div for padding(parentDiv = grandparent to actual button)
+/* 14 *| 			<h3>								//header
+/* 15 *| 				<a href>						//header icon
+/* 16 *| 				<a href>						//header title
+/* 17 *| 			<p>									//short description
+/* 18 *| 			<p>									//div container for button (button w/padding = parent to actual button)
+/* 19 *| 				<a class = "btn yellow"">		//button in column
+/* 20 *| 	
+/* 21 *| 	Should consider adding class/id to elements on web page.
+/* 22 *| -----------------------------------------------------------------------------------------------------------------------
+/* 23 *| */
+/* 24 */ function isPage(){return"White Papers | QualiTest"==document.title||"QualiTest Software Testing Resources | QualiTest"==document.title||"Application Testing Services | IT Software Testing | QualiTest"==document.title?!0:!1}var $j=jQuery.noConflict();equalheight=function(){var t=0,e=$j(".yellow.btn").parent().parent();containerDiv=e.parent(),e.height("100%"),$j(containerDiv).each(function(){t=$j(this).height()>t?$j(this).height():t}),e.height(t)},buttonOffset=function(t){$j(t).each(function(){var t=$j(this).parent().parent(),e=t.offset().top,i=t.height(),n=$j(this).parent().height();$j(this).offset({top:e+i-2*n})})},$j(window).load(function(){isPage()&&(equalheight(".yellow.btn"),buttonOffset(".yellow.btn"))}),$j(window).resize(function(){isPage()&&(equalheight(".yellow.btn"),buttonOffset(".yellow.btn"))});

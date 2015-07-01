@@ -1,0 +1,14 @@
+<RepLookupResponse>
+    <RepLookupResult>
+              <Rs>                    
+            <M>www.qualitestgroup.com</M>
+            <C>UNKN:100:1:1</C>
+            <R>1:1</R>
+            <L>10080</L>
+            <S>0</S>
+        </Rs>
+    </RepLookupResult>
+    <Y>100</Y>
+    <T>00000000-0000-0000-0000-000000000000</T>
+    <E>0</E>
+</RepLookupResponse>

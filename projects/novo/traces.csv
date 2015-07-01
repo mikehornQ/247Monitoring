@@ -1,3 +1,4 @@
 description,_id_,excludedGenerationRules,metaKey,pathName,_parentId_,name
 S,S,LS,S,S,S,S
 '','00c1844d-e633-4f7a-84a0-37d251299bff',[],'WebTrace','homepage\homepage.hlog','c2a78b02-0000-4601-b22e-7591482f485e','homepage'
+'','d10c1760-4789-416b-b12c-a8ded56f31fd',[],'WebTrace','demo\demo.hlog','c2a78b02-0000-4601-b22e-7591482f485e','demo'

@@ -39,7 +39,14 @@ namespace com.testplant.testing
             QMCounter ictr; 
             int CounterValue;
 
-            MonitorUser.QMCounters = Counters.NextValue();
+            try
+            {
+                MonitorUser.QMCounters = Counters.NextValue();
+            }
+            catch
+            {
+                return retVal;
+            }
 
             for (objZ = 0; objZ < MonitorUser.QMCounters.Count; objZ++)
             {

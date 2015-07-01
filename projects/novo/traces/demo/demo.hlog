@@ -1,0 +1,2589 @@
+﻿<!-- Proxy recorder trace created on 19/06/2015 10:48:52 -->
+<trace version="3.0" recorder="eggPlant Performance Proxy Recorder 6.0.0.169">
+<startusertransaction id="Start",snapshot="fc_snapshots\snapshot1.png"/>
+
+<call index=1 length="893">
+10:49:00.529: elapsed="563",channel="1",port="61630"
+https://by3301.storage.live.com 443
+POST https://by3301.storage.live.com/mydata/windows/settings?SyncToken=LM%3d63570301906557%3bID%3dEB10CCFCA857F043!108%3bLR%3d63570300037973%3bEP%3d4%3bTD%3dTrue%3bSO%3d0&View=WindowsSettings HTTP/1.1
+<requestheaders>
+Accept: application/web3s+xml
+Accept-Encoding: gzip
+Authorization: WLID1.1 t=EwAIAjP4AAAUioUFFjFuhEFWY+3MDKhBqAKDA9WAAN/uynwRH6ZZazgW04TeFwFmdrmxuRa1PTAkmss1Yyb0o3cSTc+u/aeddm52wtHYlQLUZ67CAs+Yhhrq6ey2rZ834NTLuiCdXlOoQYBQ3/dFmWDj7b6yL+HWoXwrqnzqr6aWEjZxDmZCag6ZkiRz+31003CiC880/lns6k8VUsoFA2YAAAjreQiqlBzOuFgBd1GnaZTjH4zQUAufztqd1sMpUZGX64eoOjlVy8oLdVeAkjIBpule1i/nK/aQHoRV435LTA+MjQM6j67Dmd3HvLqWSnRLX+iiL783pOt1G+pyeaZ4rYJK5WDKL4Qmdyzlz4gNOdTwleamRo5xH+/pYQ0qGNjyTgRxqk0dgh6B3kqi0zIDGHY8ymrDl/rnox5n1zhyUElC+4zZogm2GUpyedTi5ixOh65Ct7eI92dLw+lbdAIesNM4OGUG6Yo0QjQO2o2iJiSpLIk+ZGBVqKozp1I0VOR9boJ0WXlub2rA+ZjIabTMUGW2KTST3ftcvB2TnxWpDwakqaB6WIvz9b0jEIEisJJ7/LWi5jnus3VzFcCmW/HkulaMkrgGM8HVZpTfAkOMmcMCy6rmjVE6ZXHs79/fvC5OAjqjE/dXviOzUK8S42vWKNcoZoD758igBawbBazf0/edEtqZAQ==&p=
+X-Scenario: SettingsSync_Upload
+X-RequestStats: ClientThrottled=;LastSyncTime=30452335:4132928464
+Content-Type: multipart/related;boundary="{7DC232F1-1EF0-429D-BE4D-33FAB198FDD5}"
+X-SubscriptionIdToNotNotify: WLS_SubscriptionId_AB35B646-DA31-4A0F-AC4A-2BC054D4FDDA
+X-TransactionId: WindowsSettings.F1AE9A4C-1D43-49BA-8304-D28537825BCE
+Application: SettingsSync Windows 6.3
+X-UserAgent: Microsoft SettingsSync (6.3.9600.17415) Windows NT 6.3 (0603) Mobile IsNotAoAc
+Content-Encoding: gzip
+User-Agent: Microsoft SettingsSync (6.3.9600.17415) Windows NT 6.3 (0603) Mobile IsNotAoAc
+Host: by3301.storage.live.com
+Content-Length: 893
+Cache-Control: no-cache
+</requestheaders>
+<postdata length=1351 data="\Responses\1dataFile_postData">
+</postdata>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Length: 361
+Content-Encoding: gzip
+Server: Microsoft-HTTPAPI/2.0
+P3P: CP="BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo"
+X-MSNSERVER: BY3301____PAP266
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-SyncToken: LM%3d63570304143307%3bID%3dEB10CCFCA857F043!108%3bLR%3d63570300037973%3bEP%3d4%3bTD%3dTrue%3bSO%3d0
+X-AsmVersion: UNKNOWN; 19.21.0.0
+Date: Fri, 19 Jun 2015 09:49:02 GMT
+</responseheaders>
+<data name="\Responses\2dataFile.txt" bytes=361 size=740/>
+</call>
+
+<call index=2 length="0">
+10:49:03.458: elapsed="391",channel="2",port="61634"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=www.&src=IE-Address&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Length: 318
+Vary: User-Agent
+Content-Encoding: gzip
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Set-Cookie: _SS=SID=D8243687457E450A9AB6DFD97DE4FA05; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: 129C8CE0D9A44738A0FE027F75DB7A5B Ref B: 5BD6376487909616E94DEF21798E185B Ref C: Fri Jun 19 02:49:05 2015 PST
+Date: Fri, 19 Jun 2015 09:49:04 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\3dataFile.html" bytes=318 size=1335/>
+</call>
+
+<call index=3 length="0">
+10:49:03.458: elapsed="391",channel="1",port="61633"
+http://rapport.trusteer.com 80
+GET http://rapport.trusteer.com/rapport/ping?ak=19E1C498C8F2AEA579D84B57110915FB2E0F8D3D108B746350B91E219D8A435A&ubv=3.5.1412.176-standard-release&t=fdc86e6f&m=RapportKoan HTTP/1.1
+<requestheaders>
+Accept: */*
+X-Trusteer-Rapport: ver=3.5.1412.176; av=a3; rs=0.04374; i=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: rapport.trusteer.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: ak=19E1C498C8F2AEA579D84B57110915FB2E0F8D3D108B746350B91E219D8A435A
+</requestheaders>
+<responseheaders>
+HTTP/1.1 204 204 No Content
+Content-Length: 0
+Content-Type: text/plain; charset=UTF-8
+Date: Fri, 19 Jun 2015 09:49:05 GMT
+Server: haile
+Connection: keep-alive
+</responseheaders>
+</call>
+
+<call index=4 length="0">
+10:49:03.864: elapsed="172",channel="1",port="61633"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=www.q&src=IE-Address&maxwidth=398&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Length: 329
+Vary: User-Agent
+Content-Encoding: gzip
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Set-Cookie: _SS=SID=478B82865F994972A87A5206321CD4D0; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: 479C2F460F6D46429F72F603ECC8B098 Ref B: 1A2ED08D522D8943984CEF3AC79827B2 Ref C: Fri Jun 19 02:49:06 2015 PST
+Date: Fri, 19 Jun 2015 09:49:05 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\4dataFile.html" bytes=329 size=1356/>
+</call>
+
+<call index=5 length="0">
+10:49:04.5: elapsed="344",channel="2",port="61637"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=www.qu&src=IE-Address&maxwidth=398&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Length: 339
+Vary: User-Agent
+Content-Encoding: gzip
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Set-Cookie: _SS=SID=7A9AF29F018B4F5EBCE802B30E5E7711; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: D3CF526C6F4649A9BF350122649E9739 Ref B: 9E61CB90C9A28B84436827CBA6CEC35B Ref C: Fri Jun 19 02:49:06 2015 PST
+Date: Fri, 19 Jun 2015 09:49:06 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\5dataFile.html" bytes=339 size=1388/>
+</call>
+
+<call index=6 length="0">
+10:49:04.400: elapsed="156",channel="1",port="61637"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=www.qua&src=IE-Address&maxwidth=398&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1; _FS=mkt=en-GB; _SS=SID=7A9AF29F018B4F5EBCE802B30E5E7711
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Length: 352
+Vary: User-Agent
+Content-Encoding: gzip
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: C29618312F984A019DF98C2452594DF6 Ref B: 4AAC52BBB9CD0BDDAD8F11077F41ACE7 Ref C: Fri Jun 19 02:49:06 2015 PST
+Date: Fri, 19 Jun 2015 09:49:05 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\6dataFile.html" bytes=352 size=1408/>
+</call>
+
+<call index=7 length="0">
+10:49:04.525: elapsed="344",channel="2",port="61639"
+http://api.bing.com 80
+GET http://api.bing.com/qsml.aspx?query=www.qual&src=IE-Address&maxwidth=398&rowheight=20&sectionHeight=160&FORM=IE8SSC&market=en-GB HTTP/1.1
+<requestheaders>
+Accept: */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: SRCHUID=V=2&GUID=C7F3BDFB9CC34CA781DDB7CF10F9FD10; MUIDB=3379BB307F2A6508232BBC947B2A63CC; MUID=3379BB307F2A6508232BBC947B2A63CC; ANON=A=B1D13F973D94607A8323E564FFFFFFFF&E=10e8&W=1; NAP=V=1.9&E=108e&C=-0yoI2GV_k6sMxt03Yac1_fWUiypMJD7VboL4Jh9eVnGlcY2jrOo9A&W=1; SRCHD=AF=IE8SSC; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150610; SRCHHPGUSR=CW=820&CH=490&DPR=1; _FS=mkt=en-GB; _SS=SID=7A9AF29F018B4F5EBCE802B30E5E7711
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Length: 346
+Vary: User-Agent
+Content-Encoding: gzip
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=mkt=en-GB; domain=.bing.com; path=/
+Edge-control: must-revalidate
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: CD5140119046405CA05C49DFE16216F1 Ref B: FB6B6981C9598242BFC0C6740FA13853 Ref C: Fri Jun 19 02:49:06 2015 PST
+Date: Fri, 19 Jun 2015 09:49:06 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\7dataFile.html" bytes=346 size=1416/>
+</call>
+
+<call index=8 length="0">
+10:49:07.639: elapsed="406",channel="1",port="61639"
+http://www.qualitest.co.uk 80
+GET http://www.qualitest.co.uk/ HTTP/1.1
+<requestheaders>
+Accept: text/html, application/xhtml+xml, */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.qualitest.co.uk
+DNT: 1
+Connection: Keep-Alive
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Pragma: no-cache
+Cache-Control: no-cache
+Location: /
+Transfer-Encoding: chunked
+</responseheaders>
+</call>
+
+<call index=9 length="0">
+10:49:08.45: elapsed="297",channel="1",port="61639"
+http://www.qualitest.co.uk 80
+GET http://www.qualitest.co.uk/ HTTP/1.1
+<requestheaders>
+Accept: text/html, application/xhtml+xml, */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.qualitest.co.uk
+Connection: Keep-Alive
+DNT: 1
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Pragma: no-cache
+Cache-Control: no-cache
+Location: /
+Transfer-Encoding: chunked
+</responseheaders>
+</call>
+
+<call index=10 length="0">
+10:49:08.342: elapsed="520",channel="1",port="61639"
+http://www.qualitest.co.uk 80
+GET http://www.qualitest.co.uk/ HTTP/1.1
+<requestheaders>
+Accept: text/html, application/xhtml+xml, */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.qualitest.co.uk
+Connection: Keep-Alive
+DNT: 1
+</requestheaders>
+<responseheaders>
+HTTP/1.1 301 301 Moved Permanently
+Cache-Control: max-age=900
+Content-Type: text/html
+Location: http://www.QualiTestGroup.com
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 19 Jun 2015 09:49:10 GMT
+Content-Length: 0
+Age: 0
+Connection: keep-alive
+</responseheaders>
+</call>
+
+<call index=11 length="0">
+10:49:09.65: elapsed="250",channel="1",port="61639"
+http://fonts.googleapis.com 80
+GET http://fonts.googleapis.com/css?family=Source+Sans+Pro HTTP/1.1
+<requestheaders>
+Accept: text/css, */*
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: fonts.googleapis.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Length: 218
+Content-Encoding: gzip
+Content-Type: text/css
+Access-Control-Allow-Origin: *
+Timing-Allow-Origin: *
+Expires: Fri, 19 Jun 2015 09:49:11 GMT
+Date: Fri, 19 Jun 2015 09:49:11 GMT
+Cache-Control: private, max-age=86400
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 80:quic,p=0
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\8dataFile.txt" bytes=218 size=270/>
+</call>
+
+<call index=12 length="0">
+10:49:09.596: elapsed="438",channel="1",port="61639"
+http://assets.adobedtm.com 80
+GET http://assets.adobedtm.com/c876840ac68fc41c08a580a3fb1869c51ca83380/satelliteLib-8efb09fa7f22e2cf99cc789dadc72b23fd4661a9.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+If-Modified-Since: Tue, 09 Jun 2015 21:11:40 GMT
+If-None-Match: "d3ca94f81f56bb5c5cff2e45d3cf44d6:1433884300"
+DNT: 1
+Host: assets.adobedtm.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 304 304 Not Modified
+Server: Apache
+ETag: "d3ca94f81f56bb5c5cff2e45d3cf44d6:1433884300"
+Date: Fri, 19 Jun 2015 09:49:12 GMT
+Timing-Allow-Origin: *
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\9dataFile.txt" bytes=0 size=0/>
+</call>
+
+<call index=13 length="361">
+10:49:10.112: elapsed="78",channel="1",port="61642"
+https://urs.microsoft.com 443
+POST https://urs.microsoft.com/urs.asmx?MSURS-Client-Key=uGgvrFYgVlKvCJRX0%2bCMNw%3d%3d&MSURS-MAC=EAk4C8UwbkE%3d HTTP/1.1
+<requestheaders>
+Accept: text/*
+Content-Type: text/xml; charset=utf-8
+User-Agent: VCSoapClient
+Host: urs.microsoft.com
+Content-Length: 361
+DNT: 1
+Cache-Control: no-cache
+</requestheaders>
+<postdata length=361>
+<RepLookup v="5"><G>4A72F430-B40C-4D36-A068-CE33ADA5ADF9</G><O>00000000-0000-0000-0000-000000000000</O><D>10.0.8110.6</D><C>11.00.9600.17840</C><OS>6.3.9600.0.0</OS><I>9.11.9600.17842</I><L>en-GB</L><RU></RU><RI>0.0.0.0</RI><R><Rq><URL>aHR0cDovL3d3dy5xdWFsaXRlc3Rncm91cC5jb20v</URL><O>PRE</O><T>TOP</T><HIP>0.0.0.0</HIP></Rq></R><WA/><PRT>4005</PRT></RepLookup>
+</postdata>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: private, max-age=0
+Content-Length: 370
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 19 Jun 2015 09:49:11 GMT
+Connection: close
+</responseheaders>
+<data name="\Responses\10dataFile.txt" bytes=370 size=370/>
+</call>
+
+<call index=14 length="0">
+10:49:10.398: elapsed="328",channel="1",port="61639"
+http://www.googletagmanager.com 80
+GET http://www.googletagmanager.com/gtm.js?id=GTM-MM7JGG HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.googletagmanager.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: text/javascript; charset=UTF-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Fri, 19 Jun 2015 09:49:12 GMT
+Expires: Fri, 19 Jun 2015 09:49:12 GMT
+Cache-Control: private, max-age=962
+Server: HTTP server (unknown)
+Content-Length: 15848
+X-XSS-Protection: 1; mode=block
+Alternate-Protocol: 80:quic,p=0
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\11dataFile.txt" bytes=15848 size=40438/>
+</call>
+
+<call index=15 length="0">
+10:49:10.460: elapsed="422",channel="2",port="61645"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/themes/custom-theme/core/fonts/aller_rg-webfont.eot? HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.qualitestgroup.com
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+If-Modified-Since: Fri, 27 Mar 2015 20:18:09 GMT
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792
+</requestheaders>
+<responseheaders>
+HTTP/1.1 0 Unknown
+</responseheaders>
+<data name="\Responses\13dataFile.html" bytes=525 size=525/>
+</call>
+
+<call index=16 length="0">
+10:49:10.476: elapsed="406",channel="3",port="61647"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/themes/custom-theme/core/fonts/aller_ltit-webfont.eot? HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.qualitestgroup.com
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+If-Modified-Since: Fri, 27 Mar 2015 20:18:06 GMT
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792
+</requestheaders>
+<responseheaders>
+HTTP/1.1 0 Unknown
+</responseheaders>
+<data name="\Responses\14dataFile.html" bytes=525 size=525/>
+</call>
+
+<call index=17 length="0">
+10:49:10.507: elapsed="359",channel="4",port="61648"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/themes/custom-theme/core/fonts/aller_it-webfont.eot? HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.qualitestgroup.com
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+If-Modified-Since: Fri, 27 Mar 2015 20:18:01 GMT
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792
+</requestheaders>
+<responseheaders>
+HTTP/1.1 0 Unknown
+</responseheaders>
+<data name="\Responses\12dataFile.html" bytes=525 size=525/>
+</call>
+
+<call index=18 length="0">
+10:49:10.773: elapsed="594",channel="4",port="61649"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/themes/custom-theme/core/fonts/aller_lt-webfont.eot? HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.qualitestgroup.com
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+If-Modified-Since: Fri, 27 Mar 2015 20:18:04 GMT
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792
+</requestheaders>
+<responseheaders>
+HTTP/1.1 304 304 Not Modified
+Date: Fri, 19 Jun 2015 09:49:13 GMT
+Server: Apache
+Vary: Accept-Encoding,User-Agent
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\16dataFile.txt" bytes=0 size=0/>
+</call>
+
+<call index=19 length="0">
+10:49:10.882: elapsed="484",channel="4",port="61650"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/themes/custom-theme/core/fonts/aller_bdit-webfont.eot? HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.qualitestgroup.com
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+If-Modified-Since: Fri, 27 Mar 2015 20:17:59 GMT
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792
+</requestheaders>
+<responseheaders>
+HTTP/1.1 304 304 Not Modified
+Date: Fri, 19 Jun 2015 09:49:13 GMT
+Server: Apache
+Vary: Accept-Encoding,User-Agent
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\15dataFile.txt" bytes=0 size=0/>
+</call>
+
+<call index=20 length="0">
+10:49:10.882: elapsed="484",channel="4",port="61651"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/themes/custom-theme/core/fonts/aller_bd-webfont.eot? HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.qualitestgroup.com
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+If-Modified-Since: Fri, 27 Mar 2015 20:17:56 GMT
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792
+</requestheaders>
+<responseheaders>
+HTTP/1.1 304 304 Not Modified
+Date: Fri, 19 Jun 2015 09:49:13 GMT
+Server: Apache
+Vary: Accept-Encoding,User-Agent
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\17dataFile.txt" bytes=0 size=0/>
+</call>
+
+<call index=21 length="0">
+10:49:10.898: elapsed="219",channel="4",port="61652"
+http://qualitest.disqus.com 80
+GET http://qualitest.disqus.com/count.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: qualitest.disqus.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Server: Varnish
+Content-Length: 0
+Location: http://a.disquscdn.com/count.js
+Cache-Control: public, max-age=3600
+Accept-Ranges: bytes
+Date: Fri, 19 Jun 2015 09:49:13 GMT
+Connection: keep-alive
+</responseheaders>
+</call>
+
+<call index=22 length="0">
+10:49:11.320: elapsed="812",channel="4",port="61654"
+http://assets.adobedtm.com 80
+GET http://assets.adobedtm.com/c876840ac68fc41c08a580a3fb1869c51ca83380/s-code-contents-279a80f8db08508e48023c45cdc60152eac788b1.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+If-Modified-Since: Tue, 09 Jun 2015 21:11:41 GMT
+If-None-Match: "9e04bdaf78367e615adfa9583554d8dd:1433884301"
+DNT: 1
+Host: assets.adobedtm.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 304 304 Not Modified
+Server: Apache
+ETag: "9e04bdaf78367e615adfa9583554d8dd:1433884301"
+Date: Fri, 19 Jun 2015 09:49:14 GMT
+Timing-Allow-Origin: *
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\21dataFile.txt" bytes=0 size=0/>
+</call>
+
+<call index=23 length="0">
+10:49:11.429: elapsed="203",channel="2",port="61652"
+http://a.disquscdn.com 80
+GET http://a.disquscdn.com/count.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+If-Modified-Since: Wed, 13 May 2015 20:00:47 GMT
+Host: a.disquscdn.com
+DNT: 1
+If-None-Match: "5553ad6f-33d"
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Server: nginx
+Content-Type: application/javascript
+ETag: "557b382d-33d"
+Content-Encoding: gzip
+P3P: CP="DSP IDC CUR ADM DELi STP NAV COM UNI INT PHY DEM"
+Content-Length: 829
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Age: 70036
+Date: Thu, 18 Jun 2015 14:21:57 GMT
+Last-Modified: Fri, 12 Jun 2015 19:51:09 GMT
+Cache-Control: public, max-age=86400
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\18dataFile" bytes=829 size=1528/>
+</call>
+
+<call index=24 length="0">
+10:49:11.632: elapsed="156",channel="2",port="61651"
+http://www.google-analytics.com 80
+GET http://www.google-analytics.com/analytics.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.google-analytics.com
+If-Modified-Since: Wed, 27 May 2015 21:02:55 GMT
+DNT: 1
+Connection: Keep-Alive
+</requestheaders>
+<responseheaders>
+HTTP/1.1 304 304 Not Modified
+Server: WebProxy/1.0 Pre-Alpha
+Content-Type: text/html
+Content-Length: 0
+Date: Fri, 19 Jun 2015 09:49:13 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\19dataFile.html" bytes=0 size=0/>
+</call>
+
+<call index=25 length="0">
+10:49:11.788: elapsed="78",channel="3",port="61653"
+https://track-mv.com 443
+GET https://track-mv.com/js/49117.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: track-mv.com
+DNT: 1
+Connection: Keep-Alive
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: private
+Content-Type: text/javascript
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 19 Jun 2015 09:49:13 GMT
+Content-Length: 652
+</responseheaders>
+<data name="\Responses\20dataFile.txt" bytes=652 size=1188/>
+</call>
+
+<call index=26 length="0">
+10:49:13.59: elapsed="578",channel="1",port="61651"
+http://multiview.122.2o7.net 80
+GET http://multiview.122.2o7.net/b/ss/mviewtc1367544/1/H.27.5-D568/s38132733159532?AQB=1&ndh=1&t=19%2F5%2F2015%2010%3A49%3A12%205%20-60&D=D%3D&fid=474C37540AA3F738-3496B73ED96122BE&ce=UTF-8&ns=multiview&g=http%3A%2F%2Fwww.qualitestgroup.com%2F&cc=USD&s=1366x768&c=24&j=1.6&v=Y&k=Y&bw=1350&bh=645&p=Shockwave%20Flash%3BSilverlight%20Plug-In%3B&AQE=1 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: multiview.122.2o7.net
+Cookie: s_vi=[CS]v1|2ABCA830051D3384-6000010260058504[CE]
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Fri, 19 Jun 2015 09:49:15 GMT
+Server: Omniture DC/2.0.0
+Access-Control-Allow-Origin: *
+Set-Cookie: s_vi=[CS]v1|2ABCA830051D3384-6000010260058504[CE]; Expires=Sun, 18 Jun 2017 09:49:15 GMT; Domain=multiview.122.2o7.net; Path=/
+X-C: ms-4.9.6
+Expires: Thu, 18 Jun 2015 09:49:15 GMT
+Last-Modified: Sat, 20 Jun 2015 09:49:15 GMT
+Cache-Control: no-cache, no-store, max-age=0, no-transform, private
+Pragma: no-cache
+ETag: "5583E59B-49D8-2CDB2392"
+Vary: *
+P3P: policyref="/w3c/p3p.xml", CP="NOI DSP COR NID PSA OUR IND COM NAV STA"
+xserver: www29
+Content-Length: 43
+Content-Type: image/gif
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\22dataFile" bytes=43 size=43/>
+</call>
+
+<call index=27 length="0">
+10:49:13.637: elapsed="109",channel="1",port="61653"
+https://track-mv.com 443
+GET https://track-mv.com/Track/Capture.aspx?trk_user=49117&trk_sw=1366&trk_sh=768&trk_ref=&trk_tit=Quality%20Assurance%20%26%20Software%20Testing%20Services%20%7C%20QualiTest&trk_loc=http%3A%2F%2Fwww.qualitestgroup.com%2F&trk_agn=Netscape&trk_agv=Mozilla%2F5.0%20(Windows%20NT%206.3%3B%20WOW64%3B%20Trident%2F7.0%3B%20.NET4.0E%3B%20.NET4.0C%3B%20.NET%20CLR%203.5.30729%3B%20.NET%20CLR%202.0.50727%3B%20.NET%20CLR%203.0.30729%3B%20InfoPath.3%3B%20rv%3A11.0)%20like%20Gecko.lfcd24.lflngen-GB&trk_dom=www.qualitestgroup.com&trk_guid=a48ab3ad-45ac-42c0-9dc3-1c31e17b4f85&trk_cookie=NA HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: track-mv.com
+DNT: 1
+Connection: Keep-Alive
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: private
+Content-Type: image/jpeg; charset=utf-8
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 19 Jun 2015 09:49:15 GMT
+Content-Length: 1734
+</responseheaders>
+<data name="\Responses\23dataFile" bytes=1734 size=1734/>
+</call>
+
+<call index=28 length="0">
+10:49:13.762: elapsed="219",channel="1",port="61654"
+http://www.google-analytics.com 80
+GET http://www.google-analytics.com/collect?v=1&_v=j37&a=785197862&t=pageview&_s=1&dl=http%3A%2F%2Fwww.qualitestgroup.com%2F&ul=en-gb&de=utf-8&dt=Quality%20Assurance%20%26%20Software%20Testing%20Services%20%7C%20QualiTest&sd=24-bit&sr=1366x768&vp=1333x645&je=1&fl=18.0%20r0&_u=QCCAgAQ~&jid=1812667889&cid=888569700.1434013792&tid=UA-2374516-2&gtm=GTM-MM7JGG&z=57048486 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.google-analytics.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Pragma: no-cache
+Expires: Mon, 07 Aug 1995 23:30:00 GMT
+Access-Control-Allow-Origin: *
+Last-Modified: Sun, 17 May 1998 03:00:00 GMT
+X-Content-Type-Options: nosniff
+Content-Type: image/gif
+Date: Wed, 17 Jun 2015 07:41:31 GMT
+Server: Golfe2
+Content-Length: 35
+Cache-Control: private, no-cache, no-cache=Set-Cookie, proxy-revalidate
+Age: 180464
+Alternate-Protocol: 80:quic,p=0
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\24dataFile" bytes=35 size=35/>
+</call>
+
+<call index=29 length="0">
+10:49:14.516: elapsed="63",channel="1",port="61662"
+https://stats.g.doubleclick.net 443
+GET https://stats.g.doubleclick.net/r/collect?t=dc&aip=1&_r=3&v=1&_v=j37&tid=UA-2374516-2&cid=888569700.1434013792&jid=1812667889&_u=QCCAgAQ~&z=1686104729 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: stats.g.doubleclick.net
+DNT: 1
+Connection: Keep-Alive
+Cookie: id=22f034b20e020056||t=1433943845|et=730|cs=002213fd488a556f6c03299b69
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=604800
+Date: Fri, 19 Jun 2015 09:49:16 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, no-store, must-revalidate
+Last-Modified: Sun, 17 May 1998 03:00:00 GMT
+X-Content-Type-Options: nosniff
+Content-Type: image/gif
+Server: Golfe2
+Content-Length: 35
+Alternate-Protocol: 443:quic,p=1
+</responseheaders>
+<data name="\Responses\25dataFile" bytes=35 size=35/>
+</call>
+
+<call index=30 length="0">
+10:49:14.719: elapsed="78",channel="1",port="61663"
+https://tp.multiview.com 443
+GET https://tp.multiview.com/dpx.js?cid=30608&m=1&action=100&segment=sfcid_161429 HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: tp.multiview.com
+DNT: 1
+Connection: Keep-Alive
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Server: nginx
+Date: Fri, 19 Jun 2015 09:49:16 GMT
+Content-Type: application/javascript; charset=UTF-8
+Content-Length: 4500
+Last-Modified: Thu, 15 Nov 2012 15:50:49 GMT
+Connection: keep-alive
+ETag: "50a50f59-1194"
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Allow-Headers: DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+Cache-Control: max-age=0, no-cache, no-store, private, must-revalidate, s-maxage=0
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: uid=BZkFRlWD5Zxf4BBIK7RMAg==; expires=Sun, 19-Jun-16 09:49:16 GMT; domain=simpli.fi; path=/
+P3P: policyref="/w3c/p3p.xml", CP="ADMa DEVa PSAa PSDa OUR IND DSP NON COR"
+Accept-Ranges: bytes
+</responseheaders>
+<data name="\Responses\26dataFile" bytes=4500 size=4500/>
+</call>
+
+<call index=31 length="0">
+10:49:16.47: elapsed="188",channel="1",port="61654"
+http://i.simpli.fi 80
+GET http://i.simpli.fi/p?cid=30608&cb=dpx_42656._hp HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: i.simpli.fi
+Cookie: uid=BZkFRlV5UGVgUhBXYrWQAg==
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Server: nginx
+Date: Fri, 19 Jun 2015 09:49:18 GMT
+Content-Type: application/json
+P3P: policyref="http://www.simplifi.com/w3c/Policies.xml", CP="ADMa DEVa PSAa PSDa OUR IND DSP NON COR"
+Set-Cookie: uid_syncd=true; path=/; expires=Mon, 22 Jun 2015 09:49:18 GMT; domain=.simpli.fi
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Allow-Headers: DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+Cache-Control: max-age=0, no-cache, no-store, private, must-revalidate, s-maxage=0
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Transfer-Encoding: chunked
+</responseheaders>
+<data name="\Responses\27dataFile" bytes=781 size=769/>
+</call>
+
+<call index=32 length="0">
+10:49:17.286: elapsed="313",channel="1",port="61651"
+http://cm.g.doubleclick.net 80
+GET http://cm.g.doubleclick.net/pixel?google_nid=simplifi&google_cm&google_sc HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: cm.g.doubleclick.net
+Cookie: id=22f034b20e020056||t=1433943845|et=730|cs=002213fd488a556f6c03299b69
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Content-Length: 247
+Vary: User-Agent
+Content-Encoding: gzip
+P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+Location: http://um.simpli.fi/g_match?id=&google_gid=CAESEB5TYpbvKvS5uqCGKiQbN2Y&google_cver=1
+Date: Fri, 19 Jun 2015 09:49:19 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Content-Type: text/html; charset=UTF-8
+Server: HTTP server (unknown)
+X-XSS-Protection: 1; mode=block
+Alternate-Protocol: 80:quic,p=1
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\28dataFile.html" bytes=247 size=289/>
+</call>
+
+<call index=33 length="0">
+10:49:17.615: elapsed="94",channel="1",port="61654"
+http://i.simpli.fi 80
+GET http://i.simpli.fi/dpx?cid=30608&m=1&action=100&segment=sfcid_161429&cbri=666259548814&referrer= HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: i.simpli.fi
+Cookie: uid_syncd=true; uid=BZkFRlV5UGVgUhBXYrWQAg==
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Server: nginx
+Date: Fri, 19 Jun 2015 09:49:19 GMT
+Content-Type: image/gif
+Content-Length: 43
+Last-Modified: Mon, 28 Sep 1970 06:00:00 GMT
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Allow-Headers: DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\29dataFile" bytes=43 size=43/>
+</call>
+
+<call index=34 length="0">
+10:49:17.739: elapsed="172",channel="1",port="61651"
+http://um.simpli.fi 80
+GET http://um.simpli.fi/g_match?id=&google_gid=CAESEB5TYpbvKvS5uqCGKiQbN2Y&google_cver=1 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Cookie: uid_syncd=true; uid=BZkFRlV5UGVgUhBXYrWQAg==
+Host: um.simpli.fi
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Server: nginx
+Date: Fri, 19 Jun 2015 09:49:19 GMT
+Content-Type: text/plain
+Location: http://cm.g.doubleclick.net/pixel?google_nid=simplifi&google_hm=4605990565507955571052600290B562
+P3P: policyref="http://www.simplifi.com/w3c/Policies.xml", CP="ADMa DEVa PSAa PSDa OUR IND DSP NON COR"
+p3p: policyref="http://www.simpli.fi/w3c/p3p.xml", CP="ADMa DEVa PSAa PSDa OUR IND DSP NON COR"
+Transfer-Encoding: chunked
+</responseheaders>
+</call>
+
+<call index=35 length="0">
+10:49:18.318: elapsed="349",channel="1",port="61654"
+http://ads.yahoo.com 80
+GET http://ads.yahoo.com/pixel?id=2085077&t=2&piggyback=http%3A%2F%2Fads.yahoo.com%2Fcms%2Fv1%3Fesig%3D1%7E553f012f6017f84fb8f957add36d12baf65ffaee%26nwid%3D10000710111%26sigv%3D1 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: ads.yahoo.com
+Cookie: B=an4c3e9anik37&b=3&s=03
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Date: Fri, 19 Jun 2015 09:49:20 GMT
+Server: ATS
+X-RightMedia-Hostname: raptor1056.rm.ch1.yahoo.com
+P3P: policyref="/w3c/p3p.xml", CP="NOI DSP COR NID CURa ADMa DEVa PSAa PSDa OUR BUS COM INT OTC PUR STA"
+Location: http://ads.yahoo.com/cms/v1?esig=1~553f012f6017f84fb8f957add36d12baf65ffaee&nwid=10000710111&sigv=1
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+Vary: *
+Last-Modified: Fri, 19 Jun 2015 09:49:20 GMT
+Expires: Fri, 19 Jun 2015 09:49:20 GMT
+Pragma: no-cache
+Content-Length: 0
+Content-Encoding: gzip
+Age: 0
+Connection: keep-alive
+</responseheaders>
+</call>
+
+<call index=36 length="0">
+10:49:18.557: elapsed="109",channel="2",port="61651"
+http://cm.g.doubleclick.net 80
+GET http://cm.g.doubleclick.net/pixel?google_nid=simplifi&google_hm=4605990565507955571052600290B562 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+Cookie: id=22f034b20e020056||t=1433943845|et=730|cs=002213fd488a556f6c03299b69
+Host: cm.g.doubleclick.net
+DNT: 1
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Content-Length: 200
+Vary: User-Agent
+Content-Encoding: gzip
+P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+Location: http://um.simpli.fi/g_match?id=
+Date: Fri, 19 Jun 2015 09:49:20 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Content-Type: text/html; charset=UTF-8
+Server: HTTP server (unknown)
+X-XSS-Protection: 1; mode=block
+Alternate-Protocol: 80:quic,p=1
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\30dataFile.html" bytes=200 size=228/>
+</call>
+
+<call index=37 length="0">
+10:49:18.682: elapsed="63",channel="1",port="61654"
+http://um.simpli.fi 80
+GET http://um.simpli.fi/g_match?id= HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+Host: um.simpli.fi
+DNT: 1
+Cookie: uid_syncd=true; uid=BZkFRlV5UGVgUhBXYrWQAg==
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Server: nginx
+Date: Fri, 19 Jun 2015 09:49:20 GMT
+Content-Type: text/plain
+P3P: policyref="http://www.simplifi.com/w3c/Policies.xml", CP="ADMa DEVa PSAa PSDa OUR IND DSP NON COR"
+p3p: policyref="http://www.simpli.fi/w3c/p3p.xml", CP="ADMa DEVa PSAa PSDa OUR IND DSP NON COR"
+Transfer-Encoding: chunked
+</responseheaders>
+</call>
+
+<call index=38 length="0">
+10:49:18.713: elapsed="78",channel="2",port="61651"
+http://ads.yahoo.com 80
+GET http://ads.yahoo.com/cms/v1?esig=1~553f012f6017f84fb8f957add36d12baf65ffaee&nwid=10000710111&sigv=1 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+Cookie: B=an4c3e9anik37&b=3&s=03
+Host: ads.yahoo.com
+DNT: 1
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Date: Fri, 19 Jun 2015 09:49:20 GMT
+P3P: policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+Location: http://um.simpli.fi/y_match?xid=gndD7bN03b_le.PbqJmm_EuO
+Cache-Control: private
+Content-Length: 0
+Content-Type: text/plain; charset=utf-8
+Age: 0
+Server: ATS
+Connection: keep-alive
+</responseheaders>
+</call>
+
+<call index=39 length="0">
+10:49:18.791: elapsed="94",channel="1",port="61651"
+http://um.simpli.fi 80
+GET http://um.simpli.fi/y_match?xid=gndD7bN03b_le.PbqJmm_EuO HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+Host: um.simpli.fi
+DNT: 1
+Cookie: uid_syncd=true; uid=BZkFRlV5UGVgUhBXYrWQAg==
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Server: nginx
+Date: Fri, 19 Jun 2015 09:49:20 GMT
+Content-Type: image/gif
+Content-Length: 43
+Last-Modified: Mon, 28 Sep 1970 06:00:00 GMT
+Cache-Control: max-age=0, no-cache, no-store, private, must-revalidate, s-maxage=0
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\31dataFile" bytes=43 size=43/>
+</call>
+
+<call index=40 length="0">
+10:49:18.932: elapsed="172",channel="1",port="61651"
+http://um.simpli.fi 80
+GET http://um.simpli.fi/fb_match HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: um.simpli.fi
+Cookie: uid_syncd=true; uid=BZkFRlV5UGVgUhBXYrWQAg==
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Server: nginx
+Date: Fri, 19 Jun 2015 09:49:21 GMT
+Content-Type: text/plain
+Location: http://www.facebook.com/fr/u.php?p=395691413831785&m=4605990565507955571052600290B562&t=2592000
+P3P: policyref="http://www.simplifi.com/w3c/Policies.xml", CP="ADMa DEVa PSAa PSDa OUR IND DSP NON COR"
+p3p: policyref="http://www.simpli.fi/w3c/p3p.xml", CP="ADMa DEVa PSAa PSDa OUR IND DSP NON COR"
+Transfer-Encoding: chunked
+</responseheaders>
+</call>
+
+<call index=41 length="0">
+10:49:19.119: elapsed="234",channel="1",port="61651"
+http://www.facebook.com 80
+GET http://www.facebook.com/fr/u.php?p=395691413831785&m=4605990565507955571052600290B562&t=2592000 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.facebook.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Pragma: public
+Cache-Control: public, max-age=0
+Expires: Fri, 19 Jun 2015 02:49:21 PDT
+Date: Fri, 19 Jun 2015 02:49:21 PDT
+X-XSS-Protection: 0
+Content-Type: image/gif
+X-Content-Type-Options: nosniff
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-FB-Debug: vnSb/jmuU/PAXLfwH7q78siVI0LmZIbmRq9FqfPYTXSqup4GZJWHudaEC3ZptDMJvpNmcTbZzkNYkEhkUTGo3Q==
+Transfer-Encoding: chunked
+</responseheaders>
+<data name="\Responses\32dataFile" bytes=68 size=43/>
+</call>
+
+<call index=42 length="0">
+10:49:19.307: elapsed="62",channel="2",port="61654"
+http://um.simpli.fi 80
+GET http://um.simpli.fi/an HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: um.simpli.fi
+Cookie: uid_syncd=true; uid=BZkFRlV5UGVgUhBXYrWQAg==
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Server: nginx
+Date: Fri, 19 Jun 2015 09:49:21 GMT
+Content-Type: text/plain
+Location: http://ib.adnxs.com/setuid?entity=66&code=4605990565507955571052600290B562
+P3P: policyref="http://www.simplifi.com/w3c/Policies.xml", CP="ADMa DEVa PSAa PSDa OUR IND DSP NON COR"
+p3p: policyref="http://www.simpli.fi/w3c/p3p.xml", CP="ADMa DEVa PSAa PSDa OUR IND DSP NON COR"
+Transfer-Encoding: chunked
+</responseheaders>
+</call>
+
+<call index=43 length="0">
+10:49:19.369: elapsed="125",channel="2",port="61651"
+http://um.simpli.fi 80
+GET http://um.simpli.fi/lj_match HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: um.simpli.fi
+Cookie: uid_syncd=true; uid=BZkFRlV5UGVgUhBXYrWQAg==
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Server: nginx
+Date: Fri, 19 Jun 2015 09:49:21 GMT
+Content-Type: text/plain
+Location: http://ce.lijit.com/merge?pid=2&3pid=4605990565507955571052600290B562
+P3P: policyref="http://www.simplifi.com/w3c/Policies.xml", CP="ADMa DEVa PSAa PSDa OUR IND DSP NON COR"
+p3p: policyref="http://www.simpli.fi/w3c/p3p.xml", CP="ADMa DEVa PSAa PSDa OUR IND DSP NON COR"
+Transfer-Encoding: chunked
+</responseheaders>
+</call>
+
+<call index=44 length="0">
+10:49:19.385: elapsed="188",channel="2",port="61654"
+http://ib.adnxs.com 80
+GET http://ib.adnxs.com/setuid?entity=66&code=4605990565507955571052600290B562 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Cookie: anj=dTM7k!M4.NDunaTDgEREg(Ua*[Y!io%phwSNai4xO3g#l!1bv7%RP2/
+Host: ib.adnxs.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Location: http://online.vodafone.co.uk/dispatch/Portal/ContentControlServlet?type=restricted
+Content-Type: text/html
+charset=iso-8859-1: 
+Proxy-Connection: close
+</responseheaders>
+<data name="\Responses\33dataFile.html" bytes=55 size=55/>
+</call>
+
+<call index=45 length="0">
+10:49:19.541: elapsed="406",channel="2",port="61651"
+http://ce.lijit.com 80
+GET http://ce.lijit.com/merge?pid=2&3pid=4605990565507955571052600290B562 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Cookie: ljt_reader=a3b2396c15bdaf77a565ee50fc073580; _ljtrtb_2=4605990565507955571052600290B562
+Host: ce.lijit.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Server: nginx
+Date: Fri, 19 Jun 2015 09:49:21 GMT
+Content-Type: image/gif
+Content-Length: 43
+Set-Cookie: ljtrtb="eJwFwcENACAMA7FdMkGouKDyZC3E7thXpa0Z020CXg2sYSp2tQ8pvQ%2BsJwiB";Path=/;Domain=.lijit.com;Expires=Sat, 18-Jun-2016 09:49:21 GMT
+Set-Cookie: _ljtrtb_2=4605990565507955571052600290B562;Path=/;Domain=.lijit.com;Expires=Sat, 18-Jun-2016 09:49:21 GMT
+Cache-Control: private, no-cache, no-store, must-revalidate, proxy-revalidate, max-age=0, s-maxage=0
+Pragma: no-cache
+Expires: Fri, 20 Mar 2009 00:00:00 GMT
+P3P: CP="CUR ADM OUR NOR STA NID"
+X-Sovrn-Pod: ap2dfw1
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\36dataFile" bytes=43 size=43/>
+</call>
+
+<call index=46 length="0">
+10:49:19.588: elapsed="250",channel="2",port="61652"
+http://online.vodafone.co.uk 80
+GET http://online.vodafone.co.uk/dispatch/Portal/ContentControlServlet?type=restricted HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+Host: online.vodafone.co.uk
+DNT: 1
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Date: Fri, 19 Jun 2015 09:49:21 GMT
+Server: Apache
+Location: http://online.vodafone.co.uk/en_GB/assets/static/contentcontrol/unbranded/restricted_access.html?cid=afp-vod-auto/uvtoqto/uvtozve/btlzntyqy/zqsozjuoqy/nuuqss
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 274
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\34dataFile.html" bytes=274 size=341/>
+</call>
+
+<call index=47 length="0">
+10:49:19.838: elapsed="94",channel="2",port="61652"
+http://online.vodafone.co.uk 80
+GET http://online.vodafone.co.uk/en_GB/assets/static/contentcontrol/unbranded/restricted_access.html?cid=afp-vod-auto/uvtoqto/uvtozve/btlzntyqy/zqsozjuoqy/nuuqss HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+Host: online.vodafone.co.uk
+DNT: 1
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Fri, 19 Jun 2015 09:49:21 GMT
+Server: Apache
+Last-Modified: Sat, 04 Aug 2012 18:54:45 GMT
+ETag: "102c-4c6752d942740"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: private, no-cache, no-store, proxy-revalidate, no-transform
+Content-Length: 1325
+Content-Type: text/html; charset=ISO-8859-1
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\35dataFile.html" bytes=1325 size=4140/>
+</call>
+
+<call index=48 length="0">
+10:49:19.885: elapsed="109",channel="3",port="61650"
+http://um.simpli.fi 80
+GET http://um.simpli.fi/cw_match HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: um.simpli.fi
+Cookie: uid_syncd=true; uid=BZkFRlV5UGVgUhBXYrWQAg==
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Server: nginx
+Date: Fri, 19 Jun 2015 09:49:21 GMT
+Content-Type: text/plain
+Location: http://bh.contextweb.com/bh/rtset?do=add&pid=537085&ev=4605990565507955571052600290B562
+P3P: policyref="http://www.simplifi.com/w3c/Policies.xml", CP="ADMa DEVa PSAa PSDa OUR IND DSP NON COR"
+p3p: policyref="http://www.simpli.fi/w3c/p3p.xml", CP="ADMa DEVa PSAa PSDa OUR IND DSP NON COR"
+Transfer-Encoding: chunked
+</responseheaders>
+</call>
+
+<call index=49 length="0">
+10:49:19.994: elapsed="78",channel="2",port="61652"
+http://um.simpli.fi 80
+GET http://um.simpli.fi/rb_match HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: um.simpli.fi
+Cookie: uid_syncd=true; uid=BZkFRlV5UGVgUhBXYrWQAg==
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Server: nginx
+Date: Fri, 19 Jun 2015 09:49:22 GMT
+Content-Type: text/plain
+Location: https://pixel.rubiconproject.com/tap.php?v=6286&nid=2132&put=4605990565507955571052600290B562&expires=365
+P3P: policyref="http://www.simplifi.com/w3c/Policies.xml", CP="ADMa DEVa PSAa PSDa OUR IND DSP NON COR"
+p3p: policyref="http://www.simpli.fi/w3c/p3p.xml", CP="ADMa DEVa PSAa PSDa OUR IND DSP NON COR"
+Transfer-Encoding: chunked
+</responseheaders>
+</call>
+
+<call index=50 length="0">
+10:49:20.10: elapsed="219",channel="2",port="61651"
+http://bh.contextweb.com 80
+GET http://bh.contextweb.com/bh/rtset?do=add&pid=537085&ev=4605990565507955571052600290B562 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Cookie: V=Vh66tUPKi140; pb_rtb_ev=2-537085.4605990565507955571052600290B562.0.0.1434013802321
+Host: bh.contextweb.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+P3P: policyref="/bh/w3c/p3p.xml", CP="NOI DSP COR NID CURa DEVa PSAa OUR BUS COM NAV INT"
+Set-Cookie: V=Vh66tUPKi140;Path=/;Domain=.contextweb.com;Expires=Mon, 13-Jun-2016 09:49:22 GMT
+Expires: -1
+Set-Cookie: pb_rtb_ev=2-537085.4605990565507955571052600290B562.0.0.1434707362248;Path=/;Domain=.contextweb.com;Expires=Sat, 18-Jun-2016 09:49:22 GMT
+CW-Server: ams-bh01
+Cache-Control: private, max-age=0, no-cache, no-store
+Content-Language: en-GB
+Content-Type: image/gif; charset=ISO-8859-1
+Server: Jetty(9.2.3.v20140905)
+Set-Cookie: sto-id-20480-bh=DIANNMAKJCBP; Domain=contextweb.com; Expires=Fri, 19-Jun-2015 10:04:21 GMT; Path=/
+Accept-Ranges: bytes
+Date: Fri, 19 Jun 2015 09:49:22 GMT
+Via: 1.1 varnish
+X-Served-By: cache-lhr6329-LHR
+X-Cache: MISS
+X-Cache-Hits: 0
+Transfer-Encoding: chunked
+</responseheaders>
+<data name="\Responses\37dataFile" bytes=60 size=49/>
+</call>
+
+<call index=51 length="0">
+10:49:20.10: elapsed="94",channel="3",port="61650"
+http://um.simpli.fi 80
+GET http://um.simpli.fi/ox_match HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: um.simpli.fi
+Cookie: uid_syncd=true; uid=BZkFRlV5UGVgUhBXYrWQAg==
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Server: nginx
+Date: Fri, 19 Jun 2015 09:49:22 GMT
+Content-Type: text/plain
+Location: http://us-u.openx.net/w/1.0/sd?id=537072966&val=4605990565507955571052600290B562
+P3P: policyref="http://www.simplifi.com/w3c/Policies.xml", CP="ADMa DEVa PSAa PSDa OUR IND DSP NON COR"
+p3p: policyref="http://www.simpli.fi/w3c/p3p.xml", CP="ADMa DEVa PSAa PSDa OUR IND DSP NON COR"
+Transfer-Encoding: chunked
+</responseheaders>
+</call>
+
+<call index=52 length="0">
+10:49:20.119: elapsed="188",channel="3",port="61650"
+http://us-u.openx.net 80
+GET http://us-u.openx.net/w/1.0/sd?id=537072966&val=4605990565507955571052600290B562 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Cookie: i=364a9466-fe67-4eb9-bed5-17ed91620a0c|1434013802
+Host: us-u.openx.net
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Server: OXGW/10.94.4
+Pragma: no-cache
+P3P: CP="CUR ADM OUR NOR STA NID"
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+Date: Fri, 19 Jun 2015 09:49:22 GMT
+Content-Type: image/gif
+Content-Length: 43
+Cache-Control: private, max-age=0, no-cache
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\38dataFile" bytes=43 size=43/>
+</call>
+
+<call index=53 length="0">
+10:49:20.307: elapsed="238",channel="2",port="61651"
+http://www.googleadservices.com 80
+GET http://www.googleadservices.com/pagead/conversion/1026675585/?random={%20{%20cacheBust%20}%20}&cv=7&fst={%20{%20cacheBust%20}%20}&fmt=3&value=0&label=eGG0CO2U2AIQgafH6QM&guid=ON HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.googleadservices.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+P3P: policyref="http://www.googleadservices.com/pagead/p3p.xml", CP="NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC"
+Date: Fri, 19 Jun 2015 09:49:22 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Content-Type: image/gif
+Location: http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1026675585/?random=2018574361&cv=7&fst=%7B%20%7B%20cacheBust%20%7D%20%7D&fmt=3&value=0&label=eGG0CO2U2AIQgafH6QM&guid=ON&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&convclickts=0&ocp_id=ouWDVYeIIoqqigaSqYOYDw
+X-Content-Type-Options: nosniff
+Server: cafe
+Content-Length: 42
+X-XSS-Protection: 1; mode=block
+Alternate-Protocol: 80:quic,p=1
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\39dataFile" bytes=42 size=42/>
+</call>
+
+<call index=54 length="0">
+10:49:20.338: elapsed="82",channel="2",port="61650"
+http://um.simpli.fi 80
+GET http://um.simpli.fi/pm_match?http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTgwNiZ0bD01MTg0MDA=&piggybackCookie=uid:$UID HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: um.simpli.fi
+Cookie: uid_syncd=true; uid=BZkFRlV5UGVgUhBXYrWQAg==
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Server: nginx
+Date: Fri, 19 Jun 2015 09:49:22 GMT
+Content-Type: text/plain
+Location: http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTgwNiZ0bD01MTg0MDA=&piggybackCookie=uid:4605990565507955571052600290B562
+P3P: policyref="http://www.simplifi.com/w3c/Policies.xml", CP="ADMa DEVa PSAa PSDa OUR IND DSP NON COR"
+p3p: policyref="http://www.simpli.fi/w3c/p3p.xml", CP="ADMa DEVa PSAa PSDa OUR IND DSP NON COR"
+Transfer-Encoding: chunked
+</responseheaders>
+</call>
+
+<call index=55 length="0">
+10:49:20.338: elapsed="332",channel="3",port="61652"
+http://adadvisor.net 80
+GET http://adadvisor.net/adscores/g.pixel?sid=9201915418 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: adadvisor.net
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Date: Fri,  19 Jun 2015 09:49:22 GMT
+Server: AAWebServer
+P3P: policyref="http://www.adadvisor.net/w3c/p3p.xml",CP="NOI NID"
+Content-Length: 0
+Location: http://d.agkn.com/pixel/5502/?atr=000&age=&gender=&st=&sk=001003016300002003306&pd=&ex=&at=&dm=&cp=&l0=http://um.simpli.fi/aa_px?sk=001003016300002003306
+Set-Cookie: ab=0001%3A1zvutOW9p8x1VTyowsCkOradrlEBFqNq; Domain=.adadvisor.net; Expires=Fri,  19 Jun 2016 09:49:22 GMT; Path=/
+Connection: keep-alive
+</responseheaders>
+</call>
+
+<call index=56 length="0">
+10:49:20.420: elapsed="281",channel="3",port="61650"
+http://image2.pubmatic.com 80
+GET http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTgwNiZ0bD01MTg0MDA=&piggybackCookie=uid:4605990565507955571052600290B562 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Cookie: KRTBCOOKIE_148=1699-uid:4605990565507955571052600290B562; PUBMDCID=3
+Host: image2.pubmatic.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Fri, 19 Jun 2015 09:49:22 GMT
+Server: Apache/2.2.24 (Unix) mod_ssl/2.2.24 OpenSSL/1.0.1e-fips mod_fastcgi/2.4.6
+Set-Cookie: KRTBCOOKIE_148=1699-uid:4605990565507955571052600290B562; domain=pubmatic.com; expires=Fri, 03-Jul-2015 09:49:22 GMT; path=/
+Set-Cookie: PUBRETARGET=dummy; domain=pubmatic.com; expires=Fri, 19-Jun-2015 09:49:22 GMT; path=/
+Set-Cookie: PUBMDCID=3; domain=pubmatic.com; expires=Thu, 17-Sep-2015 09:49:22 GMT; path=/
+X-lat: Pug22051:0:265
+Content-Length: 42
+P3P: CP="NOI DSP COR LAW CUR ADMo DEVo TAIo PSAo PSDo IVAo IVDo HISo OTPo OUR SAMo BUS UNI COM NAV INT DEM CNT STA PRE LOC"
+Cache-Control: no-store, no-cache, private
+Pragma: no-cache
+Content-Type: image/gif; charset=utf-8
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\40dataFile" bytes=42 size=42/>
+</call>
+
+<call index=57 length="0">
+10:49:20.561: elapsed="234",channel="3",port="61651"
+http://googleads.g.doubleclick.net 80
+GET http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1026675585/?random=2018574361&cv=7&fst=%7B%20%7B%20cacheBust%20%7D%20%7D&fmt=3&value=0&label=eGG0CO2U2AIQgafH6QM&guid=ON&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&convclickts=0&ocp_id=ouWDVYeIIoqqigaSqYOYDw HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+Cookie: id=22f034b20e020056||t=1433943845|et=730|cs=002213fd488a556f6c03299b69
+Host: googleads.g.doubleclick.net
+DNT: 1
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+Date: Fri, 19 Jun 2015 09:49:22 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Location: http://www.google.com/ads/conversion/1026675585/?random=2018574361&cv=7&fst=%7B%20%7B%20cacheBust%20%7D%20%7D&fmt=3&value=0&label=eGG0CO2U2AIQgafH6QM&guid=ON&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&cdct=2&convclickts=0&ocp_id=ouWDVYeIIoqqigaSqYOYDw&random=1938341704
+Content-Type: image/gif
+X-Content-Type-Options: nosniff
+Server: cafe
+Content-Length: 42
+X-XSS-Protection: 1; mode=block
+Alternate-Protocol: 80:quic,p=1
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\41dataFile" bytes=42 size=42/>
+</call>
+
+<call index=58 length="0">
+10:49:20.733: elapsed="219",channel="2",port="61652"
+http://d.agkn.com 80
+GET http://d.agkn.com/pixel/5502/?atr=000&age=&gender=&st=&sk=001003016300002003306&pd=&ex=&at=&dm=&cp=&l0=http://um.simpli.fi/aa_px?sk=001003016300002003306 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+Cookie: uuid=146297539046759197; u=C|0AAIdDAzsHQwM7AAAAAAAAAA
+Host: d.agkn.com
+DNT: 1
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Cache-Control: no-cache, must-revalidate
+Date: Fri, 19 Jun 2015 09:49:22 GMT
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+Location: http://um.simpli.fi/aa_px?sk=001003016300002003306
+P3P: CP="NOI DSP COR CURa ADMa DEVa TAIa OUR BUS IND UNI COM NAV INT"
+Pragma: no-cache
+Server: Apache-Coyote/1.1
+Set-Cookie: uuid=146297539046759197; Version=1; Domain=.agkn.com; Max-Age=157680000; Expires=Wed, 17-Jun-2020 09:49:22 GMT; Path=/
+Set-Cookie: u=C|0CAIdDAzsHRaiIgAAEAABAAABARYAAAAVMDAxMDAzMDE2MzAwMDAyMDAzMzA2; Version=1; Domain=.agkn.com; Max-Age=63072000; Expires=Sun, 18-Jun-2017 09:49:22 GMT; Path=/
+Content-Length: 0
+Connection: keep-alive
+</responseheaders>
+</call>
+
+<call index=59 length="0">
+10:49:20.748: elapsed="531",channel="3",port="61677"
+https://pixel.rubiconproject.com 443
+GET https://pixel.rubiconproject.com/tap.php?v=6286&nid=2132&put=4605990565507955571052600290B562&expires=365 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Cookie: rpx=6286%3D47689%2C0%2C1%2C%2C; rpb=6286%3D1; sput=398337|2132^4605990565507955571052600290B562^8760; khaos=IARYSK79-1F-5V2J
+DNT: 1
+Connection: Keep-Alive
+Host: pixel.rubiconproject.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Server: Apache-Coyote/1.1
+X-RPHost: sHi99U1XGAMzAil1gJPQeg
+Set-Cookie: rpb=6286%3D1; Domain=.rubiconproject.com; Expires=Sun, 19-Jul-2015 09:49:23 GMT; Path=/
+Set-Cookie: sput=398529|2132^4605990565507955571052600290B562^8760; Domain=.rubiconproject.com; Expires=Wed, 16-Dec-2015 09:49:23 GMT; Path=/
+Set-Cookie: rpx=6286%3D47689%2C192%2C2%2C%2C; Domain=.pixel.rubiconproject.com; Expires=Sun, 19-Jul-2015 09:49:23 GMT; Path=/
+Set-Cookie: khaos=IARYSK79-1F-5V2J; Domain=.rubiconproject.com; Expires=Fri, 18-Dec-2015 21:49:23 GMT; Path=/
+Connection: keep-alive
+P3P: CP="NOI CURa ADMa DEVa TAIa OUR BUS IND UNI COM NAV INT"
+Pragma: no-cache
+Cache-Control: no-cache, no-store, must-revalidate
+Expires: 0
+Content-Type: image/gif
+Content-Length: 42
+Date: Fri, 19 Jun 2015 09:49:22 GMT
+</responseheaders>
+<data name="\Responses\44dataFile" bytes=42 size=42/>
+</call>
+
+<call index=60 length="0">
+10:49:20.811: elapsed="234",channel="3",port="61651"
+http://www.google.com 80
+GET http://www.google.com/ads/conversion/1026675585/?random=2018574361&cv=7&fst=%7B%20%7B%20cacheBust%20%7D%20%7D&fmt=3&value=0&label=eGG0CO2U2AIQgafH6QM&guid=ON&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&cdct=2&convclickts=0&ocp_id=ouWDVYeIIoqqigaSqYOYDw&random=1938341704 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+Host: www.google.com
+DNT: 1
+Cookie: NID=68=D3wVayw1DYf1IxFsqB7XCXihdt_weBTDlTzJe5fmlnQIdN1ot7lRpobULGTnGuD7Mogtk1NRVRoSQhx7zk7Yd00lsbSAvzt06e9uTMjHKW-_LJ42Wg3euzYxUigetwvT
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Content-Length: 398
+Vary: User-Agent
+Content-Encoding: gzip
+Location: http://www.google.co.uk/ads/conversion/1026675585/?random=2018574361&cv=7&fst=%7B%20%7B%20cacheBust%20%7D%20%7D&fmt=3&value=0&label=eGG0CO2U2AIQgafH6QM&guid=ON&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&cdct=2&convclickts=0&ocp_id=ouWDVYeIIoqqigaSqYOYDw&random=1938341704&ipr=y
+Cache-Control: private, max-age=43200
+Date: Fri, 19 Jun 2015 09:49:23 GMT
+Expires: Fri, 19 Jun 2015 09:49:23 GMT
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+Server: adclick_server
+X-XSS-Protection: 1; mode=block
+Alternate-Protocol: 80:quic,p=0
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\42dataFile.html" bytes=398 size=531/>
+</call>
+
+<call index=61 length="0">
+10:49:20.998: elapsed="109",channel="3",port="61652"
+http://um.simpli.fi 80
+GET http://um.simpli.fi/aa_px?sk=001003016300002003306 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+Host: um.simpli.fi
+DNT: 1
+Cookie: uid_syncd=true; uid=BZkFRlV5UGVgUhBXYrWQAg==
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Server: nginx
+Date: Fri, 19 Jun 2015 09:49:23 GMT
+Content-Type: image/gif
+Content-Length: 43
+Last-Modified: Mon, 28 Sep 1970 06:00:00 GMT
+Cache-Control: max-age=0, no-cache, no-store, private, must-revalidate, s-maxage=0
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\43dataFile" bytes=43 size=43/>
+</call>
+
+<call index=62 length="0">
+10:49:21.61: elapsed="250",channel="3",port="61651"
+http://www.google.co.uk 80
+GET http://www.google.co.uk/ads/conversion/1026675585/?random=2018574361&cv=7&fst=%7B%20%7B%20cacheBust%20%7D%20%7D&fmt=3&value=0&label=eGG0CO2U2AIQgafH6QM&guid=ON&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&cdct=2&convclickts=0&ocp_id=ouWDVYeIIoqqigaSqYOYDw&random=1938341704&ipr=y HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+Host: www.google.co.uk
+DNT: 1
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Content-Type: image/gif
+Date: Fri, 19 Jun 2015 09:49:23 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, no-store, must-revalidate
+X-Content-Type-Options: nosniff
+Server: adclick_server
+Content-Length: 42
+X-XSS-Protection: 1; mode=block
+Alternate-Protocol: 80:quic,p=0
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\45dataFile" bytes=42 size=42/>
+</call>
+<endusertransaction id="Start"/>
+<startusertransaction id="aboutus",snapshot="fc_snapshots\snapshot2.png"/>
+
+<call index=63 length="0">
+10:49:26.40: elapsed="427",channel="1",port="61651"
+http://multiview.122.2o7.net 80
+GET http://multiview.122.2o7.net/b/ss/mviewtc1367544/1/H.27.5-D568/s31089359649?AQB=1&ndh=1&t=19%2F5%2F2015%2010%3A49%3A25%205%20-60&D=D%3D&fid=474C37540AA3F738-3496B73ED96122BE&ce=UTF-8&ns=multiview&g=http%3A%2F%2Fwww.qualitestgroup.com%2F&cc=USD&pe=lnk_e&pev1=http%3A%2F%2Fwww.qualitestgroup.com%2Fabout-us%2Fcompany-overview%2F&s=1366x768&c=24&j=1.6&v=Y&k=Y&bw=1350&bh=645&p=Shockwave%20Flash%3BSilverlight%20Plug-In%3B&pid=http%3A%2F%2Fwww.qualitestgroup.com%2F&oid=http%3A%2F%2Fwww.qualitestgroup.com%2Fabout-us%2Fcompany-overview%2F&ot=A&oi=220&AQE=1 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: multiview.122.2o7.net
+Cookie: s_vi=[CS]v1|2ABCA830051D3384-6000010260058504[CE]
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Fri, 19 Jun 2015 09:49:28 GMT
+Server: Omniture DC/2.0.0
+Access-Control-Allow-Origin: *
+Set-Cookie: s_vi=[CS]v1|2ABCA830051D3384-6000010260058504[CE]; Expires=Sun, 18 Jun 2017 09:49:28 GMT; Domain=multiview.122.2o7.net; Path=/
+X-C: ms-4.9.6
+Expires: Thu, 18 Jun 2015 09:49:28 GMT
+Last-Modified: Sat, 20 Jun 2015 09:49:28 GMT
+Cache-Control: no-cache, no-store, max-age=0, no-transform, private
+Pragma: no-cache
+ETag: "5583E5A8-3F4E-0CFCB15C"
+Vary: *
+P3P: policyref="/w3c/p3p.xml", CP="NOI DSP COR NID PSA OUR IND COM NAV STA"
+xserver: www835
+Content-Length: 43
+Content-Type: image/gif
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\46dataFile" bytes=43 size=43/>
+</call>
+
+<call index=64 length="0">
+10:49:26.782: elapsed="172",channel="2",port="61689"
+http://rapport.trusteer.com 80
+GET http://rapport.trusteer.com/rapport/ping?ak=19E1C498C8F2AEA579D84B57110915FB2E0F8D3D108B746350B91E219D8A435A&ubv=3.5.1412.176-standard-release&t=71e18d8b&m=RapportKoan_x64 HTTP/1.1
+<requestheaders>
+Accept: */*
+X-Trusteer-Rapport: ver=3.5.1412.176; av=a3; rs=0.04374; i=0
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+Host: rapport.trusteer.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: ak=19E1C498C8F2AEA579D84B57110915FB2E0F8D3D108B746350B91E219D8A435A
+</requestheaders>
+<responseheaders>
+HTTP/1.1 204 204 No Content
+Content-Length: 0
+Content-Type: text/plain; charset=UTF-8
+Date: Fri, 19 Jun 2015 09:49:28 GMT
+Server: haile
+Connection: keep-alive
+</responseheaders>
+</call>
+
+<call index=65 length="0">
+10:49:26.938: elapsed="703",channel="2",port="61639"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/about-us/company-overview/ HTTP/1.1
+<requestheaders>
+Accept: text/html, application/xhtml+xml, */*
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792; _dc_gtm_UA-2374516-2=1; s_cc=true; s_sq=%5B%5BB%5D%5D
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Vary: User-Agent
+Content-Encoding: gzip
+Date: Fri, 19 Jun 2015 09:49:29 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.17
+Vary: Accept-Encoding,User-Agent
+Last-Modified: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+</responseheaders>
+<data name="\Responses\49dataFile.html" bytes=36351 size=469374/>
+</call>
+
+<call index=66 length="0">
+10:49:27.360: elapsed="63",channel="2",port="61688"
+https://r20swj13mr.microsoft.com 443
+GET https://r20swj13mr.microsoft.com/ieblocklist/v1/urlblockindex.bin HTTP/1.1
+<requestheaders>
+Accept: */*
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+Host: r20swj13mr.microsoft.com
+DNT: 1
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: MC1=GUID=05e2126afe96dc4e8b872f8b8135ec3c&HASH=6a12&LV=201505&V=4&LU=1431361313424; A=I&I=AxUFAAAAAAB2CQAARUheEJtK3UfLsIOe2a4NLg!!&V=4; MSFPC=ID=05e2126afe96dc4e8b872f8b8135ec3c&CS=3&LV=201505&V=1; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150611
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Accept-Ranges: bytes
+Content-MD5: +lGOPfroyjoOSVRg/WDHkQ==
+Content-Type: application/octet-stream
+Date: Fri, 19 Jun 2015 09:49:29 GMT
+Etag: 0x8D196A9E9DF432F
+Last-Modified: Thu, 04 Sep 2014 22:51:35 GMT
+Server: ECAcc (lcy/1D65)
+X-Cache: HIT
+x-ms-blob-type: BlockBlob
+x-ms-lease-status: unlocked
+x-ms-request-id: 37dea40c-0001-0024-24d7-a8aa5d000000
+x-ms-version: 2009-09-19
+Content-Length: 16
+</responseheaders>
+<data name="\Responses\47dataFile" bytes=16 size=16/>
+</call>
+
+<call index=67 length="0">
+10:49:27.407: elapsed="1364",channel="3",port="61649"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/cache/minify/000000/fY5BCsMwEAM_FLP1k9yNGhtsb7E2gfy-JoVCD-1R0iAmClpIqjbWYp3faYlCpKE54MA4PZe-CT15UVFyjoF-VnC5ie50a8EzGmQe4CIe1p2hlf6T2KrdU_2LDPA5bcqBC4tzqXvrgdmGq62gJBLOt9SnfQE.css HTTP/1.1
+<requestheaders>
+Accept: text/css, */*
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.qualitestgroup.com
+If-Modified-Since: Wed, 10 Jun 2015 09:12:40 GMT
+DNT: 1
+Connection: Keep-Alive
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792; _dc_gtm_UA-2374516-2=1; s_cc=true; s_sq=%5B%5BB%5D%5D
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Fri, 19 Jun 2015 09:49:29 GMT
+Server: Apache
+Vary: Accept-Encoding
+Last-Modified: Thu, 18 Jun 2015 09:09:28 GMT
+Accept-Ranges: bytes
+Content-Length: 266985
+Content-Type: text/css
+Content-Encoding: gzip
+Expires: Fri, 19 Jun 2015 14:45:29 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\55dataFile.txt" bytes=266985 size=444960/>
+</call>
+
+<call index=68 length="0">
+10:49:27.454: elapsed="62",channel="3",port="61687"
+https://iecvlist.microsoft.com 443
+GET https://iecvlist.microsoft.com/ie11blocklist/1401746408/versionlist.xml HTTP/1.1
+<requestheaders>
+Accept: text/xml
+Accept-Encoding: gzip
+If-Modified-Since: Wed, 10 Jun 2015 13:42:42 GMT
+Host: iecvlist.microsoft.com
+DNT: 1
+Connection: Keep-Alive
+Cookie: MC1=GUID=05e2126afe96dc4e8b872f8b8135ec3c&HASH=6a12&LV=201505&V=4&LU=1431361313424; A=I&I=AxUFAAAAAAB2CQAARUheEJtK3UfLsIOe2a4NLg!!&V=4; MSFPC=ID=05e2126afe96dc4e8b872f8b8135ec3c&CS=3&LV=201505&V=1; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150611
+</requestheaders>
+<responseheaders>
+HTTP/1.1 304 304 Not Modified
+Accept-Ranges: bytes
+Cache-Control: max-age=3600
+Date: Fri, 19 Jun 2015 09:49:29 GMT
+Etag: 0x8D270F9366C6CC1
+Last-Modified: Tue, 09 Jun 2015 18:28:27 GMT
+Server: ECAcc (lcy/1D6D)
+X-Cache: HIT
+x-ms-blob-type: BlockBlob
+x-ms-lease-status: unlocked
+x-ms-request-id: ae041a2c-0001-0075-5872-aab4a8000000
+x-ms-version: 2009-09-19
+</responseheaders>
+<data name="\Responses\48dataFile.txt" bytes=0 size=0/>
+</call>
+
+<call index=69 length="0">
+10:49:27.469: elapsed="641",channel="4",port="61650"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/cache/minify/000000/jYxLEsIwDEMvFGOYnih1THGpY3CSBZyelM-CRWe6kjSS3oDzvbE_wvA1oDJ5rHxQyeGErBCJzJNYLv_p09Y4lp-GI1Ir1Xq6sDL2JeNcUC2xZ3n6G7oxugnV5nyWZYEx0nVyazlB_8K-1wp_AQ.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.qualitestgroup.com
+If-Modified-Since: Wed, 10 Jun 2015 09:09:15 GMT
+DNT: 1
+Connection: Keep-Alive
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792; _dc_gtm_UA-2374516-2=1; s_cc=true; s_sq=%5B%5BB%5D%5D
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Fri, 19 Jun 2015 09:49:29 GMT
+Server: Apache
+Vary: Accept-Encoding
+Last-Modified: Thu, 18 Jun 2015 09:09:30 GMT
+Accept-Ranges: bytes
+Content-Length: 44766
+Content-Type: application/x-javascript
+Content-Encoding: gzip
+Expires: Fri, 19 Jun 2015 14:45:28 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\51dataFile" bytes=44766 size=127940/>
+</call>
+
+<call index=70 length="0">
+10:49:27.485: elapsed="406",channel="5",port="61652"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/cache/minify/000000/M9BPLi0uyc_VLclIzU3VL04tiS_Jjy9JzMlJLS4BAA.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.qualitestgroup.com
+If-Modified-Since: Wed, 10 Jun 2015 09:09:16 GMT
+DNT: 1
+Connection: Keep-Alive
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792; _dc_gtm_UA-2374516-2=1; s_cc=true; s_sq=%5B%5BB%5D%5D
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Fri, 19 Jun 2015 09:49:29 GMT
+Server: Apache
+Vary: Accept-Encoding
+Last-Modified: Thu, 18 Jun 2015 09:09:29 GMT
+Accept-Ranges: bytes
+Content-Length: 810
+Content-Type: application/x-javascript
+Content-Encoding: gzip
+Expires: Fri, 19 Jun 2015 14:45:29 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\50dataFile" bytes=810 size=2014/>
+</call>
+
+<call index=71 length="0">
+10:49:27.485: elapsed="2130",channel="6",port="61651"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/assets/Qualitest-interior.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792; _dc_gtm_UA-2374516-2=1; s_cc=true; s_sq=%5B%5BB%5D%5D
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Fri, 19 Jun 2015 09:49:29 GMT
+Server: Apache
+Vary: Accept-Encoding,User-Agent
+Last-Modified: Tue, 09 Dec 2014 16:22:48 GMT
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Expires: Thu, 15 Apr 2030 20:00:00 GMT
+Content-Type: image/jpeg
+Transfer-Encoding: chunked
+</responseheaders>
+<data name="\Responses\65dataFile" bytes=413271 size=413206/>
+</call>
+
+<call index=72 length="0">
+10:49:27.704: elapsed="625",channel="5",port="61693"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/assets/qualitest-sign21.png HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792; _dc_gtm_UA-2374516-2=1; s_cc=true; s_sq=%5B%5BB%5D%5D
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Fri, 19 Jun 2015 09:49:29 GMT
+Server: Apache
+Vary: Accept-Encoding,User-Agent
+Last-Modified: Tue, 09 Dec 2014 16:22:49 GMT
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Expires: Thu, 15 Apr 2030 20:00:00 GMT
+Content-Type: image/png
+Transfer-Encoding: chunked
+</responseheaders>
+<data name="\Responses\52dataFile" bytes=109369 size=109544/>
+</call>
+
+<call index=73 length="0">
+10:49:28.157: elapsed="333",channel="4",port="61695"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/cache/minify/000000/M9BPLi0uyc_VLclIzU3VT84vStXPKtYvyClNz8wr1jHALp2ek5-UmKObm5mHS0VJUWJydmZeOkgNAA.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.qualitestgroup.com
+If-Modified-Since: Wed, 10 Jun 2015 09:12:40 GMT
+DNT: 1
+Connection: Keep-Alive
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792; _dc_gtm_UA-2374516-2=1; s_cc=true; s_sq=%5B%5BB%5D%5D
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Fri, 19 Jun 2015 09:49:30 GMT
+Server: Apache
+Vary: Accept-Encoding
+Last-Modified: Thu, 18 Jun 2015 09:09:29 GMT
+Accept-Ranges: bytes
+Content-Length: 23659
+Content-Type: application/x-javascript
+Content-Encoding: gzip
+Expires: Fri, 19 Jun 2015 14:45:30 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\53dataFile" bytes=23659 size=72420/>
+</call>
+
+<call index=74 length="0">
+10:49:28.568: elapsed="94",channel="3",port="61687"
+https://iecvlist.microsoft.com 443
+GET https://iecvlist.microsoft.com/IE11/1387494476607/iecompatviewlist.xml HTTP/1.1
+<requestheaders>
+Accept: */*
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+Host: iecvlist.microsoft.com
+If-Modified-Since: Thu, 23 Apr 2015 16:21:58 GMT
+If-None-Match: 0x8D24BF8C1A546A6
+DNT: 1
+Connection: Keep-Alive
+Cookie: MC1=GUID=05e2126afe96dc4e8b872f8b8135ec3c&HASH=6a12&LV=201505&V=4&LU=1431361313424; A=I&I=AxUFAAAAAAB2CQAARUheEJtK3UfLsIOe2a4NLg!!&V=4; MSFPC=ID=05e2126afe96dc4e8b872f8b8135ec3c&CS=3&LV=201505&V=1; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150611
+</requestheaders>
+<responseheaders>
+HTTP/1.1 304 304 Not Modified
+Cache-Control: max-age=21600
+Date: Fri, 19 Jun 2015 09:49:30 GMT
+Etag: 0x8D24BF8C1A546A6
+Last-Modified: Thu, 23 Apr 2015 16:21:58 GMT
+Server: ECAcc (lcy/1D71)
+Vary: Accept-Encoding
+X-Cache: HIT
+x-ms-blob-type: BlockBlob
+x-ms-lease-status: unlocked
+x-ms-request-id: 283f87aa-0001-001a-4159-aa1c7c000000
+x-ms-version: 2009-09-19
+</responseheaders>
+<data name="\Responses\54dataFile.txt" bytes=0 size=0/>
+</call>
+
+<call index=75 length="0">
+10:49:28.927: elapsed="203",channel="2",port="61693"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/themes/custom-theme/core/fonts/aller_it-webfont.eot? HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.qualitestgroup.com
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+If-Modified-Since: Fri, 27 Mar 2015 20:18:01 GMT
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792; _dc_gtm_UA-2374516-2=1; s_cc=true; s_sq=%5B%5BB%5D%5D
+</requestheaders>
+<responseheaders>
+HTTP/1.1 304 304 Not Modified
+Date: Fri, 19 Jun 2015 09:49:31 GMT
+Server: Apache
+Vary: Accept-Encoding,User-Agent
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\57dataFile.txt" bytes=0 size=0/>
+</call>
+
+<call index=76 length="0">
+10:49:28.974: elapsed="109",channel="3",port="61653"
+https://track-mv.com 443
+GET https://track-mv.com/js/49117.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: track-mv.com
+DNT: 1
+Connection: Keep-Alive
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: private
+Content-Type: text/javascript
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 19 Jun 2015 09:49:30 GMT
+Content-Length: 652
+</responseheaders>
+<data name="\Responses\56dataFile.txt" bytes=652 size=1188/>
+</call>
+
+<call index=77 length="0">
+10:49:29.83: elapsed="203",channel="4",port="61650"
+http://multiview.122.2o7.net 80
+GET http://multiview.122.2o7.net/b/ss/mviewtc1367544/1/H.27.5-D568/s31575128412705?AQB=1&ndh=1&t=19%2F5%2F2015%2010%3A49%3A28%205%20-60&D=D%3D&fid=474C37540AA3F738-3496B73ED96122BE&ce=UTF-8&ns=multiview&g=http%3A%2F%2Fwww.qualitestgroup.com%2Fabout-us%2Fcompany-overview%2F&r=http%3A%2F%2Fwww.qualitestgroup.com%2F&cc=USD&s=1366x768&c=24&j=1.6&v=Y&k=Y&bw=1350&bh=645&p=Shockwave%20Flash%3BSilverlight%20Plug-In%3B&AQE=1 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: multiview.122.2o7.net
+Cookie: s_vi=[CS]v1|2ABCA830051D3384-6000010260058504[CE]
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Fri, 19 Jun 2015 09:49:31 GMT
+Server: Omniture DC/2.0.0
+Access-Control-Allow-Origin: *
+Set-Cookie: s_vi=[CS]v1|2ABCA830051D3384-6000010260058504[CE]; Expires=Sun, 18 Jun 2017 09:49:31 GMT; Domain=multiview.122.2o7.net; Path=/
+X-C: ms-4.9.6
+Expires: Thu, 18 Jun 2015 09:49:31 GMT
+Last-Modified: Sat, 20 Jun 2015 09:49:31 GMT
+Cache-Control: no-cache, no-store, max-age=0, no-transform, private
+Pragma: no-cache
+ETag: "5583E5AB-804E-0E15B4D7"
+Vary: *
+P3P: policyref="/w3c/p3p.xml", CP="NOI DSP COR NID PSA OUR IND COM NAV STA"
+xserver: www873
+Content-Length: 43
+Content-Type: image/gif
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\59dataFile" bytes=43 size=43/>
+</call>
+
+<call index=78 length="0">
+10:49:29.83: elapsed="203",channel="4",port="61695"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/themes/custom-theme/core/fonts/aller_ltit-webfont.eot? HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.qualitestgroup.com
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+If-Modified-Since: Fri, 27 Mar 2015 20:18:06 GMT
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792; _dc_gtm_UA-2374516-2=1; s_cc=true; s_sq=%5B%5BB%5D%5D
+</requestheaders>
+<responseheaders>
+HTTP/1.1 304 304 Not Modified
+Date: Fri, 19 Jun 2015 09:49:31 GMT
+Server: Apache
+Vary: Accept-Encoding,User-Agent
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\60dataFile.txt" bytes=0 size=0/>
+</call>
+
+<call index=79 length="0">
+10:49:29.115: elapsed="78",channel="5",port="61663"
+https://tp.multiview.com 443
+GET https://tp.multiview.com/dpx.js?cid=30608&m=1&action=100&segment=sfcid_161429 HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: tp.multiview.com
+DNT: 1
+Connection: Keep-Alive
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Server: nginx
+Date: Fri, 19 Jun 2015 09:49:31 GMT
+Content-Type: application/javascript; charset=UTF-8
+Content-Length: 4500
+Last-Modified: Thu, 15 Nov 2012 15:50:49 GMT
+Connection: keep-alive
+ETag: "50a50f59-1194"
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Allow-Headers: DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+Cache-Control: max-age=0, no-cache, no-store, private, must-revalidate, s-maxage=0
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: uid=BZkFRlWD5atf4BBIK7bdAg==; expires=Sun, 19-Jun-16 09:49:31 GMT; domain=simpli.fi; path=/
+P3P: policyref="/w3c/p3p.xml", CP="ADMa DEVa PSAa PSDa OUR IND DSP NON COR"
+Accept-Ranges: bytes
+</responseheaders>
+<data name="\Responses\58dataFile" bytes=4500 size=4500/>
+</call>
+
+<call index=80 length="0">
+10:49:29.208: elapsed="172",channel="4",port="61649"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/themes/custom-theme/core/fonts/aller_rg-webfont.eot? HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.qualitestgroup.com
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+If-Modified-Since: Fri, 27 Mar 2015 20:18:09 GMT
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792; _dc_gtm_UA-2374516-2=1; s_cc=true; s_sq=%5B%5BB%5D%5D
+</requestheaders>
+<responseheaders>
+HTTP/1.1 304 304 Not Modified
+Date: Fri, 19 Jun 2015 09:49:31 GMT
+Server: Apache
+Vary: Accept-Encoding,User-Agent
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\63dataFile.txt" bytes=0 size=0/>
+</call>
+
+<call index=81 length="0">
+10:49:29.302: elapsed="47",channel="3",port="61653"
+https://track-mv.com 443
+GET https://track-mv.com/Track/Capture.aspx?trk_user=49117&trk_sw=1366&trk_sh=768&trk_ref=http%3A%2F%2Fwww.qualitestgroup.com%2F&trk_tit=Quality%20Assurance%20%26%20Software%20Testing%20Company%20%7C%20QualiTest&trk_loc=http%3A%2F%2Fwww.qualitestgroup.com%2Fabout-us%2Fcompany-overview%2F&trk_agn=Netscape&trk_agv=Mozilla%2F5.0%20(Windows%20NT%206.3%3B%20WOW64%3B%20Trident%2F7.0%3B%20.NET4.0E%3B%20.NET4.0C%3B%20.NET%20CLR%203.5.30729%3B%20.NET%20CLR%202.0.50727%3B%20.NET%20CLR%203.0.30729%3B%20InfoPath.3%3B%20rv%3A11.0)%20like%20Gecko.lfcd24.lflngen-GB&trk_dom=www.qualitestgroup.com&trk_guid=84b5532e-9f66-404c-83f3-08bc8790494c&trk_cookie=NA HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: track-mv.com
+DNT: 1
+Connection: Keep-Alive
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Cache-Control: private
+Content-Type: image/jpeg; charset=utf-8
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 19 Jun 2015 09:49:30 GMT
+Content-Length: 1801
+</responseheaders>
+<data name="\Responses\62dataFile" bytes=1801 size=1801/>
+</call>
+
+<call index=82 length="0">
+10:49:29.302: elapsed="47",channel="4",port="61693"
+http://www.google-analytics.com 80
+GET http://www.google-analytics.com/analytics.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.google-analytics.com
+If-Modified-Since: Wed, 27 May 2015 21:02:55 GMT
+DNT: 1
+Connection: Keep-Alive
+</requestheaders>
+<responseheaders>
+HTTP/1.1 304 304 Not Modified
+Server: WebProxy/1.0 Pre-Alpha
+Content-Type: text/html
+Content-Length: 0
+Date: Fri, 19 Jun 2015 09:49:31 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\61dataFile.html" bytes=0 size=0/>
+</call>
+
+<call index=83 length="0">
+10:49:29.380: elapsed="125",channel="2",port="61650"
+http://i.simpli.fi 80
+GET http://i.simpli.fi/p?cid=30608&cb=dpx_42656._hp HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: i.simpli.fi
+Cookie: uid_syncd=true; uid=BZkFRlV5UGVgUhBXYrWQAg==
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Server: nginx
+Date: Fri, 19 Jun 2015 09:49:31 GMT
+Content-Type: application/json
+P3P: policyref="http://www.simplifi.com/w3c/Policies.xml", CP="ADMa DEVa PSAa PSDa OUR IND DSP NON COR"
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Allow-Headers: DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+Cache-Control: max-age=0, no-cache, no-store, private, must-revalidate, s-maxage=0
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Transfer-Encoding: chunked
+</responseheaders>
+<data name="\Responses\64dataFile" bytes=40 size=29/>
+</call>
+
+<call index=84 length="0">
+10:49:30.572: elapsed="203",channel="1",port="61649"
+http://www.google-analytics.com 80
+GET http://www.google-analytics.com/collect?v=1&_v=j37&a=746045597&t=pageview&_s=1&dl=http%3A%2F%2Fwww.qualitestgroup.com%2Fabout-us%2Fcompany-overview%2F&ul=en-gb&de=utf-8&dt=Quality%20Assurance%20%26%20Software%20Testing%20Company%20%7C%20QualiTest&sd=24-bit&sr=1366x768&vp=1333x645&je=1&fl=18.0%20r0&_u=QCCAgAQ~&jid=&cid=888569700.1434013792&tid=UA-2374516-2&gtm=GTM-MM7JGG&z=535231635 HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.google-analytics.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Pragma: no-cache
+Expires: Mon, 07 Aug 1995 23:30:00 GMT
+Access-Control-Allow-Origin: *
+Last-Modified: Sun, 17 May 1998 03:00:00 GMT
+X-Content-Type-Options: nosniff
+Content-Type: image/gif
+Date: Wed, 17 Jun 2015 07:41:31 GMT
+Server: Golfe2
+Content-Length: 35
+Cache-Control: private, no-cache, no-cache=Set-Cookie, proxy-revalidate
+Age: 180481
+Alternate-Protocol: 80:quic,p=0
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\66dataFile" bytes=35 size=35/>
+</call>
+
+<call index=85 length="0">
+10:49:30.775: elapsed="94",channel="1",port="61650"
+http://i.simpli.fi 80
+GET http://i.simpli.fi/dpx?cid=30608&m=1&action=100&segment=sfcid_161429&cbri=210090353101&referrer=http%3A//www.qualitestgroup.com/ HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: i.simpli.fi
+Cookie: uid_syncd=true; uid=BZkFRlV5UGVgUhBXYrWQAg==
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Server: nginx
+Date: Fri, 19 Jun 2015 09:49:32 GMT
+Content-Type: image/gif
+Content-Length: 43
+Last-Modified: Mon, 28 Sep 1970 06:00:00 GMT
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Allow-Headers: DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\67dataFile" bytes=43 size=43/>
+</call>
+<endusertransaction id="aboutus"/>

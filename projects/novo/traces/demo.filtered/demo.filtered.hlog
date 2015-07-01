@@ -1,0 +1,573 @@
+<!-- Filtered trace created on Fri Jun 19 10:50:15 2015 -->
+<trace version="3.000000">
+<startusertransaction id="Start",snapshot="fc_snapshots\snapshot1.png"/>
+<call index=8 length"0">
+10:49:07.639: elapsed="406",channel="1",port="61639"
+http://www.qualitest.co.uk 80
+GET http://www.qualitest.co.uk/ HTTP/1.1
+<requestheaders>
+Accept: text/html, application/xhtml+xml, */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.qualitest.co.uk
+DNT: 1
+Connection: Keep-Alive
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Pragma: no-cache
+Cache-Control: no-cache
+Location: /
+Transfer-Encoding: chunked
+</responseheaders>
+
+</call>
+
+<call index=9 length"0">
+10:49:08.45: elapsed="297",channel="1",port="61639"
+http://www.qualitest.co.uk 80
+GET http://www.qualitest.co.uk/ HTTP/1.1
+<requestheaders>
+Accept: text/html, application/xhtml+xml, */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.qualitest.co.uk
+Connection: Keep-Alive
+DNT: 1
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Pragma: no-cache
+Cache-Control: no-cache
+Location: /
+Transfer-Encoding: chunked
+</responseheaders>
+
+</call>
+
+<call index=10 length"0">
+10:49:08.342: elapsed="520",channel="1",port="61639"
+http://www.qualitest.co.uk 80
+GET http://www.qualitest.co.uk/ HTTP/1.1
+<requestheaders>
+Accept: text/html, application/xhtml+xml, */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.qualitest.co.uk
+Connection: Keep-Alive
+DNT: 1
+</requestheaders>
+<responseheaders>
+HTTP/1.1 301 301 Moved Permanently
+Cache-Control: max-age=900
+Content-Type: text/html
+Location: http://www.QualiTestGroup.com
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 19 Jun 2015 09:49:10 GMT
+Content-Length: 0
+Age: 0
+Connection: keep-alive
+</responseheaders>
+
+</call>
+
+<call index=15 length"0">
+10:49:10.460: elapsed="422",channel="2",port="61645"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/themes/custom-theme/core/fonts/aller_rg-webfont.eot? HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.qualitestgroup.com
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+If-Modified-Since: Fri, 27 Mar 2015 20:18:09 GMT
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792
+</requestheaders>
+<responseheaders>
+HTTP/1.1 0 Unknown
+</responseheaders>
+<data name="\Responses\13dataFile.html" bytes=525 size=525/>
+
+</call>
+
+<call index=16 length"0">
+10:49:10.476: elapsed="406",channel="3",port="61647"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/themes/custom-theme/core/fonts/aller_ltit-webfont.eot? HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.qualitestgroup.com
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+If-Modified-Since: Fri, 27 Mar 2015 20:18:06 GMT
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792
+</requestheaders>
+<responseheaders>
+HTTP/1.1 0 Unknown
+</responseheaders>
+<data name="\Responses\14dataFile.html" bytes=525 size=525/>
+
+</call>
+
+<call index=17 length"0">
+10:49:10.507: elapsed="359",channel="4",port="61648"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/themes/custom-theme/core/fonts/aller_it-webfont.eot? HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.qualitestgroup.com
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+If-Modified-Since: Fri, 27 Mar 2015 20:18:01 GMT
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792
+</requestheaders>
+<responseheaders>
+HTTP/1.1 0 Unknown
+</responseheaders>
+<data name="\Responses\12dataFile.html" bytes=525 size=525/>
+
+</call>
+
+<call index=18 length"0">
+10:49:10.773: elapsed="594",channel="4",port="61649"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/themes/custom-theme/core/fonts/aller_lt-webfont.eot? HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.qualitestgroup.com
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+If-Modified-Since: Fri, 27 Mar 2015 20:18:04 GMT
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792
+</requestheaders>
+<responseheaders>
+HTTP/1.1 304 304 Not Modified
+Date: Fri, 19 Jun 2015 09:49:13 GMT
+Server: Apache
+Vary: Accept-Encoding,User-Agent
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\16dataFile.txt" bytes=0 size=0/>
+
+</call>
+
+<call index=19 length"0">
+10:49:10.882: elapsed="484",channel="4",port="61650"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/themes/custom-theme/core/fonts/aller_bdit-webfont.eot? HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.qualitestgroup.com
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+If-Modified-Since: Fri, 27 Mar 2015 20:17:59 GMT
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792
+</requestheaders>
+<responseheaders>
+HTTP/1.1 304 304 Not Modified
+Date: Fri, 19 Jun 2015 09:49:13 GMT
+Server: Apache
+Vary: Accept-Encoding,User-Agent
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\15dataFile.txt" bytes=0 size=0/>
+
+</call>
+
+<call index=20 length"0">
+10:49:10.882: elapsed="484",channel="4",port="61651"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/themes/custom-theme/core/fonts/aller_bd-webfont.eot? HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.qualitestgroup.com
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+If-Modified-Since: Fri, 27 Mar 2015 20:17:56 GMT
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792
+</requestheaders>
+<responseheaders>
+HTTP/1.1 304 304 Not Modified
+Date: Fri, 19 Jun 2015 09:49:13 GMT
+Server: Apache
+Vary: Accept-Encoding,User-Agent
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\17dataFile.txt" bytes=0 size=0/>
+
+</call>
+
+<call index=21 length"0">
+10:49:10.898: elapsed="219",channel="4",port="61652"
+http://qualitest.disqus.com 80
+GET http://qualitest.disqus.com/count.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: qualitest.disqus.com
+</requestheaders>
+<responseheaders>
+HTTP/1.1 302 302 Moved Temporarily
+Server: Varnish
+Content-Length: 0
+Location: http://a.disquscdn.com/count.js
+Cache-Control: public, max-age=3600
+Accept-Ranges: bytes
+Date: Fri, 19 Jun 2015 09:49:13 GMT
+Connection: keep-alive
+</responseheaders>
+
+</call>
+
+<endusertransaction id="Start" />
+<startusertransaction id="aboutus",snapshot="fc_snapshots\snapshot2.png"/>
+<call index=65 length"0">
+10:49:26.938: elapsed="703",channel="2",port="61639"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/about-us/company-overview/ HTTP/1.1
+<requestheaders>
+Accept: text/html, application/xhtml+xml, */*
+Referer: http://www.qualitestgroup.com/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792; _dc_gtm_UA-2374516-2=1; s_cc=true; s_sq=%5B%5BB%5D%5D
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Vary: User-Agent
+Content-Encoding: gzip
+Date: Fri, 19 Jun 2015 09:49:29 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.17
+Vary: Accept-Encoding,User-Agent
+Last-Modified: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+</responseheaders>
+<data name="\Responses\49dataFile.html" bytes=36351 size=469374/>
+
+</call>
+
+<call index=67 length"0">
+10:49:27.407: elapsed="1364",channel="3",port="61649"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/cache/minify/000000/fY5BCsMwEAM_FLP1k9yNGhtsb7E2gfy-JoVCD-1R0iAmClpIqjbWYp3faYlCpKE54MA4PZe-CT15UVFyjoF-VnC5ie50a8EzGmQe4CIe1p2hlf6T2KrdU_2LDPA5bcqBC4tzqXvrgdmGq62gJBLOt9SnfQE.css HTTP/1.1
+<requestheaders>
+Accept: text/css, */*
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.qualitestgroup.com
+If-Modified-Since: Wed, 10 Jun 2015 09:12:40 GMT
+DNT: 1
+Connection: Keep-Alive
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792; _dc_gtm_UA-2374516-2=1; s_cc=true; s_sq=%5B%5BB%5D%5D
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Fri, 19 Jun 2015 09:49:29 GMT
+Server: Apache
+Vary: Accept-Encoding
+Last-Modified: Thu, 18 Jun 2015 09:09:28 GMT
+Accept-Ranges: bytes
+Content-Length: 266985
+Content-Type: text/css
+Content-Encoding: gzip
+Expires: Fri, 19 Jun 2015 14:45:29 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\55dataFile.txt" bytes=266985 size=444960/>
+
+</call>
+
+<call index=69 length"0">
+10:49:27.469: elapsed="641",channel="4",port="61650"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/cache/minify/000000/jYxLEsIwDEMvFGOYnih1THGpY3CSBZyelM-CRWe6kjSS3oDzvbE_wvA1oDJ5rHxQyeGErBCJzJNYLv_p09Y4lp-GI1Ir1Xq6sDL2JeNcUC2xZ3n6G7oxugnV5nyWZYEx0nVyazlB_8K-1wp_AQ.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.qualitestgroup.com
+If-Modified-Since: Wed, 10 Jun 2015 09:09:15 GMT
+DNT: 1
+Connection: Keep-Alive
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792; _dc_gtm_UA-2374516-2=1; s_cc=true; s_sq=%5B%5BB%5D%5D
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Fri, 19 Jun 2015 09:49:29 GMT
+Server: Apache
+Vary: Accept-Encoding
+Last-Modified: Thu, 18 Jun 2015 09:09:30 GMT
+Accept-Ranges: bytes
+Content-Length: 44766
+Content-Type: application/x-javascript
+Content-Encoding: gzip
+Expires: Fri, 19 Jun 2015 14:45:28 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\51dataFile" bytes=44766 size=127940/>
+
+</call>
+
+<call index=70 length"0">
+10:49:27.485: elapsed="406",channel="5",port="61652"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/cache/minify/000000/M9BPLi0uyc_VLclIzU3VL04tiS_Jjy9JzMlJLS4BAA.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.qualitestgroup.com
+If-Modified-Since: Wed, 10 Jun 2015 09:09:16 GMT
+DNT: 1
+Connection: Keep-Alive
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792; _dc_gtm_UA-2374516-2=1; s_cc=true; s_sq=%5B%5BB%5D%5D
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Fri, 19 Jun 2015 09:49:29 GMT
+Server: Apache
+Vary: Accept-Encoding
+Last-Modified: Thu, 18 Jun 2015 09:09:29 GMT
+Accept-Ranges: bytes
+Content-Length: 810
+Content-Type: application/x-javascript
+Content-Encoding: gzip
+Expires: Fri, 19 Jun 2015 14:45:29 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\50dataFile" bytes=810 size=2014/>
+
+</call>
+
+<call index=71 length"0">
+10:49:27.485: elapsed="2130",channel="6",port="61651"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/assets/Qualitest-interior.jpg HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792; _dc_gtm_UA-2374516-2=1; s_cc=true; s_sq=%5B%5BB%5D%5D
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Fri, 19 Jun 2015 09:49:29 GMT
+Server: Apache
+Vary: Accept-Encoding,User-Agent
+Last-Modified: Tue, 09 Dec 2014 16:22:48 GMT
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Expires: Thu, 15 Apr 2030 20:00:00 GMT
+Content-Type: image/jpeg
+Transfer-Encoding: chunked
+</responseheaders>
+<data name="\Responses\65dataFile" bytes=413271 size=413206/>
+
+</call>
+
+<call index=72 length"0">
+10:49:27.704: elapsed="625",channel="5",port="61693"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/assets/qualitest-sign21.png HTTP/1.1
+<requestheaders>
+Accept: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792; _dc_gtm_UA-2374516-2=1; s_cc=true; s_sq=%5B%5BB%5D%5D
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Fri, 19 Jun 2015 09:49:29 GMT
+Server: Apache
+Vary: Accept-Encoding,User-Agent
+Last-Modified: Tue, 09 Dec 2014 16:22:49 GMT
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Expires: Thu, 15 Apr 2030 20:00:00 GMT
+Content-Type: image/png
+Transfer-Encoding: chunked
+</responseheaders>
+<data name="\Responses\52dataFile" bytes=109369 size=109544/>
+
+</call>
+
+<call index=73 length"0">
+10:49:28.157: elapsed="333",channel="4",port="61695"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/cache/minify/000000/M9BPLi0uyc_VLclIzU3VT84vStXPKtYvyClNz8wr1jHALp2ek5-UmKObm5mHS0VJUWJydmZeOkgNAA.js HTTP/1.1
+<requestheaders>
+Accept: application/javascript, */*;q=0.8
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.qualitestgroup.com
+If-Modified-Since: Wed, 10 Jun 2015 09:12:40 GMT
+DNT: 1
+Connection: Keep-Alive
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792; _dc_gtm_UA-2374516-2=1; s_cc=true; s_sq=%5B%5BB%5D%5D
+</requestheaders>
+<responseheaders>
+HTTP/1.1 200 200 OK
+Date: Fri, 19 Jun 2015 09:49:30 GMT
+Server: Apache
+Vary: Accept-Encoding
+Last-Modified: Thu, 18 Jun 2015 09:09:29 GMT
+Accept-Ranges: bytes
+Content-Length: 23659
+Content-Type: application/x-javascript
+Content-Encoding: gzip
+Expires: Fri, 19 Jun 2015 14:45:30 GMT
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\53dataFile" bytes=23659 size=72420/>
+
+</call>
+
+<call index=75 length"0">
+10:49:28.927: elapsed="203",channel="2",port="61693"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/themes/custom-theme/core/fonts/aller_it-webfont.eot? HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.qualitestgroup.com
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+If-Modified-Since: Fri, 27 Mar 2015 20:18:01 GMT
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792; _dc_gtm_UA-2374516-2=1; s_cc=true; s_sq=%5B%5BB%5D%5D
+</requestheaders>
+<responseheaders>
+HTTP/1.1 304 304 Not Modified
+Date: Fri, 19 Jun 2015 09:49:31 GMT
+Server: Apache
+Vary: Accept-Encoding,User-Agent
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\57dataFile.txt" bytes=0 size=0/>
+
+</call>
+
+<call index=78 length"0">
+10:49:29.83: elapsed="203",channel="4",port="61695"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/themes/custom-theme/core/fonts/aller_ltit-webfont.eot? HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.qualitestgroup.com
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+If-Modified-Since: Fri, 27 Mar 2015 20:18:06 GMT
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792; _dc_gtm_UA-2374516-2=1; s_cc=true; s_sq=%5B%5BB%5D%5D
+</requestheaders>
+<responseheaders>
+HTTP/1.1 304 304 Not Modified
+Date: Fri, 19 Jun 2015 09:49:31 GMT
+Server: Apache
+Vary: Accept-Encoding,User-Agent
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\60dataFile.txt" bytes=0 size=0/>
+
+</call>
+
+<call index=80 length"0">
+10:49:29.208: elapsed="172",channel="4",port="61649"
+http://www.qualitestgroup.com 80
+GET http://www.qualitestgroup.com/wp-content/themes/custom-theme/core/fonts/aller_rg-webfont.eot? HTTP/1.1
+<requestheaders>
+Accept: */*
+Referer: http://www.qualitestgroup.com/about-us/company-overview/
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: http://www.qualitestgroup.com
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+If-Modified-Since: Fri, 27 Mar 2015 20:18:09 GMT
+DNT: 1
+Host: www.qualitestgroup.com
+Cookie: s_fid=474C37540AA3F738-3496B73ED96122BE; _ga=GA1.2.888569700.1434013792; _dc_gtm_UA-2374516-2=1; s_cc=true; s_sq=%5B%5BB%5D%5D
+</requestheaders>
+<responseheaders>
+HTTP/1.1 304 304 Not Modified
+Date: Fri, 19 Jun 2015 09:49:31 GMT
+Server: Apache
+Vary: Accept-Encoding,User-Agent
+Connection: keep-alive
+</responseheaders>
+<data name="\Responses\63dataFile.txt" bytes=0 size=0/>
+
+</call>
+
+<endusertransaction id="aboutus" />

@@ -33,13 +33,22 @@ namespace com.testplant.testing
 
             //QM: Set log and data paths to the 'Files' folder on the injector
             WriteMessage("Loading QualitestMonitoring...");
-            string logPath = String.Format(@"{0}\logs", FilesDataPath);
-            bool logSet = Logging.SetLogDir(logPath);
-            string dataPath = String.Format(@"{0}\data", FilesDataPath);
-            bool dataSet = Counters.SetDataDir(dataPath);
-            //QM: Gather a list of performance counters for each machine
-            QMCounters = Counters.CreateCounters();
-            WriteMessage("...QualitestMonitoring loaded");
+            try
+            {
+                string logPath = String.Format(@"{0}\logs", FilesDataPath);
+                bool logSet = Logging.SetLogDir(logPath);
+                string dataPath = String.Format(@"{0}\data", FilesDataPath);
+                bool dataSet = Counters.SetDataDir(dataPath);
+                //QM: Gather a list of performance counters for each machine
+                QMCounters = Counters.CreateCounters();
+                WriteMessage("...QualitestMonitoring loaded");
+            }
+            catch
+            {
+                WriteMessage("...QualitestMonitoring failed to load. Check log file");
+            }
+
+            
             
 		}
 
