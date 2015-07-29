@@ -34,11 +34,9 @@ namespace com.testplant.testing
             //QM: this method replaces the built-in EndTransaction method
             //QM: first call the built-in method so that we record an accurate transaction time
             int retVal = base.EndTransaction(id);
+            string ePPCounterName = @"";
             
-            int objZ; 
-            QMCounter ictr; 
-            int CounterValue;
-
+            //QM: then update counters
             try
             {
                 MonitorUser.QMCounters = Counters.NextValue();
@@ -48,17 +46,21 @@ namespace com.testplant.testing
                 return retVal;
             }
 
-            for (objZ = 0; objZ < MonitorUser.QMCounters.Count; objZ++)
+            //QM: now update the ePP metrics
+            for (int objZ = 0; objZ < MonitorUser.QMCounters.Count; objZ++)
             {
-                ictr = MonitorUser.QMCounters[objZ];
-                CounterValue = Convert.ToInt32(ictr.CounterValue);                                
-                RecordMetric("QM:" + ictr.MachineName + "." + ictr.Name, CounterValue);
-                //QM: this is a horrible kludge to indicate the end of a metric in the event log but it works
-                //TODO: fix up the regex in start_test.py and remove this next line
-                WriteMessage("/QM " + ictr.MachineName + "." + ictr.Name.ToString() + CounterValue.ToString());
+                switch (MonitorUser.QMCounters[objZ].Name)
+                {
+                    case @"Transaction Response Time": // the only functioning ePP metric for now
+                        MonitorUser.QMCounters[objZ].CounterValue = retVal; // not used immediately but keep the counter up to date for later future use
+                        ePPCounterName = id + @": " + MonitorUser.QMCounters[objZ].Name;
+                        string metricString = String.Format(@"{0},{1},{2},{3}", RemoteConnect.machineName, ePPCounterName, MonitorUser.QMCounters[objZ].Threshold, retVal);
+                        Logging.WriteMetric(metricString);
+                        break;
+                }                                           
             }
 
-            //QM: Now return the  built-in method's return value
+            //QM: and finally return the built-in method's return value
             return retVal;
 
         }

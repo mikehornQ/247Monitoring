@@ -3863,6 +3863,13 @@
             
              <value>The value of the <c>"Content-Type"</c> HTTP header.</value>
         </member>
+        <member name="P:Facilita.Web.Request.ChunkSize">
+             <summary>
+             Gets or sets the size in bytes of each chunk when sending data using Transfer-Encoding: chunked
+             </summary>
+            
+             <value>The size in bytes of each chunk when sending data using Transfer-Encoding: chunked</value>
+        </member>
         <member name="P:Facilita.Web.Request.ID">
              <summary>
              Gets the unique ID that has been assigned to this Request.
@@ -8009,6 +8016,12 @@
             
              <seealso cref="M:Facilita.Web.WebBrowser.SaveCookie(System.String,System.String)"/>
              <seealso cref="M:Facilita.Web.WebBrowser.GetCookieValue(System.String,System.String,System.String)"/>
+        </member>
+        <member name="M:Facilita.Web.WebBrowser.RemoveCookie(System.String)">
+            <summary>
+            Removes all cookies with the given name from the cookie cache
+            </summary>
+            <param name="cookieName">The name of the cookies to remove</param>
         </member>
         <member name="M:Facilita.Web.WebBrowser.SetUserPassword(System.String,System.String)">
              <summary>

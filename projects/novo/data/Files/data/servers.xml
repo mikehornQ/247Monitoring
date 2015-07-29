@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <servers>
-  <group>
-    <groupname>Windows 2008 Servers</groupname>
+  <group>  
+  <groupname>Windows 8 computers</groupname>
     <server>
-      <machinename>WIN-NNLNJBSPGFL</machinename>
-      <description>VMWare VM Win 2008 Server R2 on QT-CON-LT200</description>
-      <location>C:\Users\Mike\Documents\Virtual Machines\Windows Server 2008 R2 x64</location>
+      <machinename></machinename>
+      <description>QT-LEN-MH</description>
+      <location>localhost</location>
     </server>	
-  </group> 
+  </group>   
 </servers>

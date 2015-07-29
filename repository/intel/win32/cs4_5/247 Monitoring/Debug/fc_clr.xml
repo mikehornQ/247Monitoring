@@ -3567,7 +3567,7 @@
             It provides the following features:
             <ul>
             <li>Data can saved in a common data store and read by other Virtual Users.</li>
-            <li>Data can be saved and retrieved as FIFO (first in first out) and LIFO (first in last out) lists against keys.</li>
+            <li>Data can be saved and retrieved as FIFO (first in, first out) and LIFO (last in, first out) lists against keys.</li>
             <li>Data can be saved as single key/value pairs.</li>
             <li>Virtual Users will optionally wait until the requested data becomes available.</li>
             <li>Access is locked between Virtual Users for atomic operations.</li>

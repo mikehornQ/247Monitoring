@@ -1,0 +1,41 @@
+Time,Server,Metric,Threshold,Value
+20/07/2015 11:33:35,,% Processor Time,60,0
+20/07/2015 11:33:35,,% User Time,40,0
+20/07/2015 11:33:35,,Available KBytes,75,4702556
+20/07/2015 11:33:35,,Transaction Response Time,11
+20/07/2015 11:33:37,,% Processor Time,60,0
+20/07/2015 11:33:37,,% User Time,40,0
+20/07/2015 11:33:37,,Available KBytes,75,4681164
+20/07/2015 11:33:37,,Transaction Response Time,5
+20/07/2015 11:33:38,,% Processor Time,60,0
+20/07/2015 11:33:38,,% User Time,40,0
+20/07/2015 11:33:38,,Available KBytes,75,4675104
+20/07/2015 11:33:38,,Transaction Response Time,9
+20/07/2015 11:33:39,,% Processor Time,60,0
+20/07/2015 11:33:39,,% User Time,40,0
+20/07/2015 11:33:39,,Available KBytes,75,4675336
+20/07/2015 11:33:39,,Transaction Response Time,4
+20/07/2015 11:33:39,,% Processor Time,60,0
+20/07/2015 11:33:39,,% User Time,40,0
+20/07/2015 11:33:39,,Available KBytes,75,4679428
+20/07/2015 11:33:39,,Transaction Response Time,5
+20/07/2015 11:33:39,,% Processor Time,60,0
+20/07/2015 11:33:39,,% User Time,40,0
+20/07/2015 11:33:39,,Available KBytes,75,4679436
+20/07/2015 11:33:39,,Transaction Response Time,8
+20/07/2015 11:33:40,,% Processor Time,60,0
+20/07/2015 11:33:40,,% User Time,40,0
+20/07/2015 11:33:40,,Available KBytes,75,4679436
+20/07/2015 11:33:40,,Transaction Response Time,3
+20/07/2015 11:33:40,,% Processor Time,60,0
+20/07/2015 11:33:40,,% User Time,40,0
+20/07/2015 11:33:40,,Available KBytes,75,4676088
+20/07/2015 11:33:40,,Transaction Response Time,5
+20/07/2015 11:33:40,,% Processor Time,60,0
+20/07/2015 11:33:40,,% User Time,40,0
+20/07/2015 11:33:40,,Available KBytes,75,4675944
+20/07/2015 11:33:40,,Transaction Response Time,11
+20/07/2015 11:33:41,,% Processor Time,60,0
+20/07/2015 11:33:41,,% User Time,40,0
+20/07/2015 11:33:41,,Available KBytes,75,4672532
+20/07/2015 11:33:41,,Transaction Response Time,1

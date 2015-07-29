@@ -30,26 +30,26 @@ namespace com.testplant.testing
 			base.Pre();
 			
 			//Put any code that needs to execute at the start of the test here
-
-            //QM: Set log and data paths to the 'Files' folder on the injector
-            WriteMessage("Loading QualitestMonitoring...");
+            
+            WriteMessage("Loading QualitestMonitoring...");            
             try
             {
-                string logPath = String.Format(@"{0}\logs", FilesDataPath);
+                //QM: Set log and data paths so they are returned by the Injector
+                WriteMessage("Setting log path to: " + RunPath);
+                WriteMessage("Setting data path to: " + FilesDataPath);
+
+                string logPath = String.Format(@"{0}", RunPath);
                 bool logSet = Logging.SetLogDir(logPath);
                 string dataPath = String.Format(@"{0}\data", FilesDataPath);
                 bool dataSet = Counters.SetDataDir(dataPath);
                 //QM: Gather a list of performance counters for each machine
-                QMCounters = Counters.CreateCounters();
+                QMCounters = Counters.CreateCounterList();
                 WriteMessage("...QualitestMonitoring loaded");
             }
             catch
             {
                 WriteMessage("...QualitestMonitoring failed to load. Check log file");
-            }
-
-            
-            
+            }                       
 		}
 
 		protected override void Post()

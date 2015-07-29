@@ -1,10 +1,2 @@
 description,metaKey,_credentialsId_,region,hostname,usePublicIP,deploymentName,_id_,serviceName,OS,name
 S,S,S,S,S,B,S,S,S,S,S
-'','MonitoringTarget',,,'WIN-NNLNJBSPGFL',,,'1ab5dbb4-6263-4a4f-8bfa-551b7aa1c6e6',,'Windows','VM1'
-'Web server','MonitoringTarget',,,'52.17.189.238',,,'2d0cff1c-03a6-4e38-b11f-a30dd03f3680',,'Windows','AW2SLCDD0009'
-'SOLR server','MonitoringTarget',,,'52.16.239.77',,,'5f27462f-a212-4a51-b2c4-c3a3bc043990',,'Linux','AW2SSLRD0006'
-'SOLR server','MonitoringTarget',,,'52.17.74.165',,,'64c50676-6f45-4de1-b118-6a98a16f922e',,'Linux','AW2SSLRD0004'
-'Database server','MonitoringTarget',,,'52.16.73.177',,,'7957801a-22fe-48ed-b0d1-6e8152ad356b',,'Windows','AW2SSQLD0007'
-'SOLR server','MonitoringTarget',,,'52.16.148.183',,,'b638f90d-de57-4da9-b523-b4c4b271811b',,'Linux','AW2SSLRD0005'
-'Database server','MonitoringTarget',,,'52.16.184.172',,,'c1acd882-132e-41f8-af96-72dfb364760e',,'Windows','AW2SSQLD0008'
-'Web server','MonitoringTarget',,,'52.16.181.116',,,'d3ad1411-eb37-4d86-81e4-a07c648cb4d7',,'Windows','AW2SLCDD0010'
