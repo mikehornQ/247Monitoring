@@ -9,4 +9,3 @@ C:\Workspaces\247 Monitoring\repository\intel\win32\cs4_5\247 Monitoring\Debug\f
 C:\Workspaces\247 Monitoring\repository\intel\win32\cs4_5\247 Monitoring\Debug\clrNativeWrapper.xml
 C:\Workspaces\247 Monitoring\repository\intel\win32\cs4_5\obj\Debug\247 Monitoring_cs4_5.dll
 C:\Workspaces\247 Monitoring\repository\intel\win32\cs4_5\obj\Debug\247 Monitoring_cs4_5.pdb
-C:\Workspaces\247 Monitoring\repository\intel\win32\cs4_5\obj\Debug\247 Monitoring.csprojResolveAssemblyReference.cache

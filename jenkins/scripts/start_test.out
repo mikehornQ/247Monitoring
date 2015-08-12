@@ -1,0 +1,16 @@
+
+
+---------- Start of output from start_test.py ----------
+
+start_test.py (34): WORKSPACE: 247 Monitoring
+start_test.py (35): PROJECT: novo
+start_test.py (36): TEST: scratch
+start_test.py (37): SERIES: S3auto
+start_test.py (38): RUN NUMBER: 62
+start_test.py (39): RUN PATH: C:\Workspaces\247 Monitoring\projects\novo\runs\S3auto\scratch.62
+
+----------- End of output from start_test.py -----------
+
+Starting TestMonitorThread
+Stopping TestMonitorThread
+TestMonitorThread stopped

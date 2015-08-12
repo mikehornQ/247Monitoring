@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/eggPlant Performance/lib/java/web.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Program Files (x86)/eggPlant Performance/lib/java/engine-javadoc-v6.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/eggPlant Performance/lib/java/exceptions.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/eggPlant Performance/lib/java/messaging.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/eggPlant Performance/lib/java/jtrace.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/eggPlant Performance/lib/java/native.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Program Files (x86)/eggPlant Performance/lib/java/engine-javadoc-v6.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/eggPlant Performance/lib/java/engine.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Program Files (x86)/eggPlant Performance/lib/java/engine-javadoc-v6.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

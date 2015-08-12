@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>ePP training (eggPlant Performance Workspace)</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.ui.externaltools.ExternalToolBuilder</name>
+			<arguments>
+				<dictionary>
+					<key>LaunchConfigHandle</key>
+					<value>&lt;project&gt;/.externalToolBuilders/ePP training (eggPlant Performance Workspace) build.xml [Builder].launch</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.facilita.core.eggPlantPerformanceProjectNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>build.xml</name>
+			<type>1</type>
+			<location>C:/Workspaces/ePP training/repository/intel/win32/java/build.xml</location>
+		</link>
+		<link>
+			<name>src</name>
+			<type>2</type>
+			<location>C:/Workspaces/ePP training/scripts/java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

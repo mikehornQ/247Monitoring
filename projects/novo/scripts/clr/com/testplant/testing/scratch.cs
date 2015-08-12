@@ -38,7 +38,7 @@ namespace com.testplant.testing
             // Place your iterated script code here.
             StartTransaction("one");
             WriteMessage("hello one");
-            QMEndTransaction("one");
+            EndTransaction("one");
 
             unilever = new IpEndPoint(GetString("unileverHost", "www.unilever.com"), GetInt("unileverPort", 80));
 
@@ -89,7 +89,7 @@ namespace com.testplant.testing
             // Rule: Verify that the result code matches what was recorded
             response22.VerifyResult(HttpStatus.OK, ActionType.ACT_WARNING);
 
-            QMEndTransaction("010_homepage");
+            EndTransaction("010_homepage");
 
             return 1;
         }

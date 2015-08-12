@@ -29,7 +29,7 @@ namespace com.testplant.testing
 			// put any code that needs to execute at the start of the test here
 		}
 
-        public int QMEndTransaction(string id)
+        public int EndTransaction(string id)
         {
             //QM: this method replaces the built-in EndTransaction method
             //QM: first call the built-in method so that we record an accurate transaction time
@@ -54,7 +54,7 @@ namespace com.testplant.testing
                     case @"Transaction Response Time": // the only functioning ePP metric for now
                         MonitorUser.QMCounters[objZ].CounterValue = retVal; // not used immediately but keep the counter up to date for later future use
                         ePPCounterName = id + @": " + MonitorUser.QMCounters[objZ].Name;
-                        string metricString = String.Format(@"{0},{1},{2},{3}", RemoteConnect.machineName, ePPCounterName, MonitorUser.QMCounters[objZ].Threshold, retVal);
+                        string metricString = String.Format(@"{0},{1},{2},{3},{4}", RemoteConnect.machineName, ePPCounterName, MonitorUser.QMCounters[objZ].Threshold, MonitorUser.QMCounters[objZ].Operator, retVal);
                         Logging.WriteMetric(metricString);
                         break;
                 }                                           

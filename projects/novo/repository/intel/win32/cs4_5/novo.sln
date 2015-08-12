@@ -1,11 +1,11 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "novo", "C:\Workspaces\247 Monitoring\projects\novo\repository\intel\win32\cs4_5\novo.csproj", "{A6457078-B4B4-486A-B546-8C37A83E1E2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "novo", "C:\Workspaces\247 Monitoring\projects\novo\repository\intel\win32\cs4_5\novo.csproj", "{4C8ED92F-066C-4568-A233-DDDA5FFF149B}"
 	ProjectSection(ProjectDependencies) = postProject
-		{B003CE95-E55B-4AA9-8817-342CF25AADF0} = {B003CE95-E55B-4AA9-8817-342CF25AADF0}
+		{C68CEE7D-C39E-458E-A05B-5D111CE26A53} = {C68CEE7D-C39E-458E-A05B-5D111CE26A53}
 	EndProjectSection
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "247 Monitoring", "C:\Workspaces\247 Monitoring\repository\intel\win32\cs4_5\247 Monitoring.csproj", "{B003CE95-E55B-4AA9-8817-342CF25AADF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "247 Monitoring", "C:\Workspaces\247 Monitoring\repository\intel\win32\cs4_5\247 Monitoring.csproj", "{C68CEE7D-C39E-458E-A05B-5D111CE26A53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A6457078-B4B4-486A-B546-8C37A83E1E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A6457078-B4B4-486A-B546-8C37A83E1E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A6457078-B4B4-486A-B546-8C37A83E1E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A6457078-B4B4-486A-B546-8C37A83E1E2C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B003CE95-E55B-4AA9-8817-342CF25AADF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B003CE95-E55B-4AA9-8817-342CF25AADF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B003CE95-E55B-4AA9-8817-342CF25AADF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B003CE95-E55B-4AA9-8817-342CF25AADF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C8ED92F-066C-4568-A233-DDDA5FFF149B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C8ED92F-066C-4568-A233-DDDA5FFF149B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C8ED92F-066C-4568-A233-DDDA5FFF149B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C8ED92F-066C-4568-A233-DDDA5FFF149B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C68CEE7D-C39E-458E-A05B-5D111CE26A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C68CEE7D-C39E-458E-A05B-5D111CE26A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C68CEE7D-C39E-458E-A05B-5D111CE26A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C68CEE7D-C39E-458E-A05B-5D111CE26A53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
