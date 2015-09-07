@@ -6,7 +6,8 @@ Created on 18 May 2015
 from    forecastAPI import Forecast, TestRunParameters, TestRunner
 import  sys, os, inspect, re, string, time
 from    datetime import timedelta
-import csv
+import  csv
+import  os.path
     
 if __name__ == "__main__":
 
@@ -16,7 +17,7 @@ if __name__ == "__main__":
     forecast = Forecast()
 
     forecast.initialise()
-
+	
     # Create a TestRunParameters Object that contains the details of the test to execute. 
     
     #Parameters are read in from the command line.   
@@ -26,7 +27,7 @@ if __name__ == "__main__":
     testRunner = forecast.createTestRunner(testRunParameters)
 
     # Label start of output from script   
-    if debugMode == False: 
+    if debugMode == True: 
         print
         print "\r\n---------- Start of output from %s ----------\r\n" % (os.path.basename(sys.argv[0]))
 
@@ -39,9 +40,9 @@ if __name__ == "__main__":
         print "%s (%s): %s: %s" % (os.path.basename(sys.argv[0]), inspect.getlineno(inspect.currentframe()) , 'RUN PATH', testRunner.getRunPath())
         print "\r\n----------- End of output from %s -----------\r\n" % (os.path.basename(sys.argv[0]))
         
-    # eventlogfile = testRunner.getRunPath() + "\\localhost\\intel.win32.clr4_5.0\\scratch\\1.event"
     eventlogfile = testRunner.getRunPath() + "\\localhost\\intel.win32.clr4_5.0\\scratch\\QMmetrics.txt"
-    
+    historyfile = os.getcwd() + "\\QMmetrics.csv"
+		
     if debugMode == True:
         print "%s" % (time.strftime("%c"))
         print "Event log file: %s\r" % (eventlogfile)
@@ -60,22 +61,30 @@ if __name__ == "__main__":
     # Test completed successfully
     rownum = 0
     errcount = 0
-    f = open(eventlogfile, 'rb') # opens the csv file
+    f = open(eventlogfile, 'rb') # opens the current metric file for reading	
+    j = open(historyfile, 'w') # opens the saved metrics file for writing
+	
+    if not os.path.isfile(historyfile):
+		print 'Time,Server,Metric,Threshold,Operator,Value' > j
+			
     try:
         reader = csv.reader(f)  # creates the reader object
         for row in reader:   # iterates the rows of the file in orders
-            if debugMode == True:
-				print row    # prints each row
-
+            
             if rownum == 0:
                 header = row
-            else:
-				if ((row[4] == "GT" and int(row[5]) > int(row[3])) or
-			       (row[4] == "LT" and int(row[5]) < int(row[3])) or
-				   (row[4] == "GE" and int(row[5]) >= int(row[3])) or 
-				   (row[4] == "LE" and int(row[5]) <= int(row[3])) or 
-				   (row[4] == "NE" and int(row[5]) <> int(row[3])) or 
-				   (row[4] == "EQ" and int(row[5]) == int(row[3]))):
+            else:				
+				if debugMode == True:
+					print '%s %s %s' % (row[5], row[4].strip(), row[3])    # prints each row
+					
+				print row >> j
+				
+				if ((row[4].strip() == "GT" and int(row[5]) > int(row[3])) or
+			       (row[4].strip() == "LT" and int(row[5]) < int(row[3])) or
+				   (row[4].strip() == "GE" and int(row[5]) >= int(row[3])) or 
+				   (row[4].strip() == "LE" and int(row[5]) <= int(row[3])) or 
+				   (row[4].strip() == "NE" and int(row[5]) <> int(row[3])) or 
+				   (row[4].strip() == "EQ" and int(row[5]) == int(row[3]))):
 				   
 					print 'ERROR: %s: %s threshold breached (Value: %s %s %s)' % (row[0], row[2], row[5], row[4], row[3])
 					errcount += 1
@@ -84,6 +93,7 @@ if __name__ == "__main__":
     
     finally:
         f.close()      # closing
+        j.close() 
 	
 	if errcount > 0:
 		sys.exit(1)

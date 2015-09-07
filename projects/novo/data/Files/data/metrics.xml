@@ -9,7 +9,7 @@
         <counters>
           <counter>
 		    <countername>Available KBytes</countername>
-            <operator>GT</operator>
+            <operator>LT</operator>
             <threshold>7500000</threshold>
           </counter>
         </counters>
